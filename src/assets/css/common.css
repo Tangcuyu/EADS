@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 26px;
+  font-style: normal;
+  font-family: "Microsoft Yahei", "Arial", "Simsun";
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:link {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Clear float */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+  /* IE/7/6 */
+}
+
+/* Overflow */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* scroll bar */
+.scroll-style::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 5px;
+  opacity: 0.64;
+}
+
+.scroll-style::-webkit-scrollbar-track {
+  width: 6px;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+  width: 6px;
+  height: 3px;
+  background: rgba(58, 250, 252, 0.2);
+  border-radius: 4px;
+}
+
+/* button */
+
+button {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 24px;
+  height: 40px;
+  text-align: center;
+  background: transparent;
+  font-style: italic;
+}
+
+div {
+  box-sizing: border-box
+}
