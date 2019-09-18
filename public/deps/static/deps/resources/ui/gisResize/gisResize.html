@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--使用试例：-->
+<div id="gis-eg1">
+    <div>调整对象的的内容~~</div>
+</div>
+
+<script>
+    var callback = function (width, height) {
+        console.log(width,height)   /*返回的宽，高为 #gis-eg1的大小；number类型，单位为：px*/
+    }
+    $('#gis-eg1').gisResize(callback);
+</script>
+</body>
+</html>

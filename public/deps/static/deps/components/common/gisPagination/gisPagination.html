@@ -1,0 +1,40 @@
+<!--tpl-->
+<div class="gs-pagination">
+    <div class="gs-pagination__total">共<span>7</span>条</div>
+    <ul class="gs-pagination__box">
+        <li class="gs-pagination__prev">
+            <a class="iconMap-pullWest"></a>
+        </li>
+        <li class="gs-pagination__number">
+            <a>1</a>
+        </li>
+        <li class="gs-pagination__number">
+            <a>2</a>
+        </li>
+        <li class="gs-pagination__number">
+            <a>3</a>
+        </li>
+        <li class="gs-pagination__next">
+            <a class="iconMap-pullRight"></a>
+        </li>
+    </ul>
+</div>
+
+<!--to use-->
+<div id="p1"></div>
+
+<script>
+    var p1 = new gisPagination({
+        el: '#p1',
+        data: {
+            currentPage: 1, /*默认值：1*/
+            pageSize: 4,    /*默认值：5*/
+            simple: true,   /*分页样式的选择，默认值：true；为简单模式，复杂模式尚未开发*/
+            showTotal: true,    /*是否显示总条数项，默认：false；为不显示*/
+            total: 37,      /*配合showTotal使用，如需使用，要先设置showTotal为true*/
+            clickCallback: function (obj) {     /*页码按钮的单击回调事件，obj参数为该组件实例对象*/
+                console.log(obj)
+            }
+        }
+    })
+</script>

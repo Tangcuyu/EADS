@@ -1,0 +1,293 @@
+<div id="list1"></div>
+<script src="./jquery-1.11.2.js"></script>
+<script>
+
+    /*
+    * 模板参数说明：
+    *   tpl模板可以是任意的，但在模板的最外层，需要添加类名：gis-list__item ，(注意 ！！！！！！)
+    *   来标识该模板是列表的对应项目
+    *   */
+    var tpl1 = '<li class="gis-list__item" id="{id}">\
+                    <div>\
+                        <span>电话: {phone}</span>\
+                    </div>\
+                    <div>\
+                        <span>地址: {address}</span>\
+                    </div>\
+                </li>';
+
+    // 前端分页 --试例
+    var listData1 = [
+        {
+            id: 'a1',
+            phone: '13512123232',
+            address: '北京永丰1'
+        },
+        {
+            id: 'a2',
+            phone: '13512123232',
+            address: '北京永丰2'
+        },
+        {
+            id: 'a3',
+            phone: '13512123232',
+            address: '北京永丰3'
+        },
+        {
+            id: 'a4',
+            phone: '13512123232',
+            address: '北京永丰4'
+        },
+        {
+            id: 'a5',
+            phone: '13512123232',
+            address: '北京永丰5'
+        },
+        {
+            id: 'a6',
+            phone: '13512123232',
+            address: '北京永丰6'
+        },
+        {
+            id: 'a7',
+            phone: '13512123232',
+            address: '北京永丰7'
+        },
+        {
+            id: 'a8',
+            phone: '13512123232',
+            address: '北京永丰8'
+        },
+        {
+            id: 'a9',
+            phone: '13512123232',
+            address: '北京永丰9'
+        },
+        {
+            id: 'a10',
+            phone: '13512123232',
+            address: '北京永丰10'
+        },
+        {
+            id: 'a11',
+            phone: '13512123232',
+            address: '北京永丰11'
+        },
+        {
+            id: 'a12',
+            phone: '13512123232',
+            address: '北京永丰12'
+        },
+        {
+            id: 'a13',
+            phone: '13512123232',
+            address: '北京永丰13'
+        },
+        {
+            id: 'a14',
+            phone: '13512123232',
+            address: '北京永丰14'
+        },
+        {
+            id: 'a15',
+            phone: '13512123232',
+            address: '北京永丰15'
+        },
+        {
+            id: 'a16',
+            phone: '13512123232',
+            address: '北京永丰16'
+        },
+        {
+            id: 'a17',
+            phone: '13512123232',
+            address: '北京永丰17'
+        },
+        {
+            id: 'a18',
+            phone: '13512123232',
+            address: '北京永丰18'
+        },
+        {
+            id: 'a19',
+            phone: '13512123232',
+            address: '北京永丰19'
+        }
+    ];
+
+    var listData2 = [
+        {
+            id: 'a1',
+            phone: '13512123232',
+            address: '北京海淀永丰1'
+        },
+        {
+            id: 'a2',
+            phone: '13512123232',
+            address: '北京海淀永丰2'
+        },
+        {
+            id: 'a3',
+            phone: '13512123232',
+            address: '北京海淀永丰3'
+        },
+        {
+            id: 'a4',
+            phone: '13512123232',
+            address: '北京海淀永丰4'
+        },
+        {
+            id: 'a5',
+            phone: '13512123232',
+            address: '北京海淀永丰5'
+        },
+        {
+            id: 'a6',
+            phone: '13512123232',
+            address: '北京海淀永丰6'
+        },
+        {
+            id: 'a7',
+            phone: '13512123232',
+            address: '北京海淀永丰7'
+        },
+        {
+            id: 'a8',
+            phone: '13512123232',
+            address: '北京海淀永丰8'
+        },
+        {
+            id: 'a9',
+            phone: '13512123232',
+            address: '北京海淀永丰9'
+        },
+        {
+            id: 'a10',
+            phone: '13512123232',
+            address: '北京海淀永丰10'
+        },
+        {
+            id: 'a11',
+            phone: '13512123232',
+            address: '北京海淀永丰11'
+        },
+        {
+            id: 'a12',
+            phone: '13512123232',
+            address: '北京海淀永丰12'
+        },
+        {
+            id: 'a13',
+            phone: '13512123232',
+            address: '北京海淀永丰13'
+        },
+        {
+            id: 'a14',
+            phone: '13512123232',
+            address: '北京海淀永丰14'
+        },
+        {
+            id: 'a15',
+            phone: '13512123232',
+            address: '北京海淀永丰15'
+        },
+        {
+            id: 'a16',
+            phone: '13512123232',
+            address: '北京海淀永丰16'
+        },
+        {
+            id: 'a17',
+            phone: '13512123232',
+            address: '北京海淀永丰17'
+        },
+        {
+            id: 'a18',
+            phone: '13512123232',
+            address: '北京海淀永丰18'
+        },
+        {
+            id: 'a19',
+            phone: '13512123232',
+            address: '北京海淀永丰19'
+        }
+    ];
+
+    var list1 = new gisList({
+        el: '#list1',   // 容器Id
+        data: {
+            listData: listData1,    //  前端分页数据数组
+            tpl: tpl1,              //  列表item 模板
+            showTotal: true,        //  是否需要显示总条数项目，默认为：true
+            simple: true,           //  是否为简单分页样式，默认：true；复杂分页样式尚未开发
+            pageSize: 4,            //  每页条目数；默认值：5
+            currentPage: 1,         //  设置当前页；默认值：1
+            clickCallback: function ($item,itemObj) {
+                console.log($item,itemObj)  //  列表item的回调事件;
+                                            // $item参数为当前item的jQuery对象；itemObj当前数据项对象；
+            },
+            pageClickCallback: function (obj) {
+                console.log(obj)    //  分页按钮的点击事件回调，obj参数为实例化的gisList对象；
+                                    //  可以通过obj.currentPage --获取当前页码；
+                                    //  obj.currentData --获取当前页的item数据数组
+            }
+        }
+    })
+
+    list1.updateListData(listData2);  //  通过该方法更新gisList的分页数据数组项
+
+
+
+    // 后端分页  --试例
+
+    var list2 = new gisList({
+        el: '#list2',
+        data: {
+            serverPaging: true, // 后端分页参数，默认值：false
+            tpl: tpl1,
+            showTotal: true,
+            total: 11,          //  数据总数，后端分页须配置；
+            simple: true,
+            pageSize: 4,
+            currentPage: 1,
+            clickCallback: function ($item) {
+                console.log($item)
+            },
+            pageClickCallback: function (obj) {     // 后端分页需调用：obj.createList(currentData)方法，参数为：当前页数据数组
+                $.ajax({
+                    url: 'http://172.17.10.238:3000/biz/weather/test?page='+ obj.currentPage,
+                    success: function (res) {
+                        obj.createList(res.result)
+                        console.log(obj)
+                        /*obj.currentData; obj.currentPage*/
+                    }
+                })
+            }
+        }
+    })
+
+    /* 对应于 tpl1的模板的 返回数据currentData 样例*/
+    var currentData1 = [
+        {
+            id: 'a1',
+            phone: '13512123232',
+            address: '北京永丰1'
+        },
+        {
+            id: 'a2',
+            phone: '13512123232',
+            address: '北京永丰2'
+        },
+        {
+            id: 'a3',
+            phone: '13512123232',
+            address: '北京永丰3'
+        },
+        {
+            id: 'a4',
+            phone: '13512123232',
+            address: '北京永丰4'
+        }
+    ];
+
+</script>

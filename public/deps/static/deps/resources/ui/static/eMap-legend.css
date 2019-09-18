@@ -1,0 +1,126 @@
+
+.eMap-aggregation-box{
+	position: fixed;
+	right: 20px;
+	bottom: 310px;
+	z-index: 20;
+}
+.eMap-aggregation{
+	display: none;
+	width: 30px;
+    height: 56px;
+    padding-top: 4px;
+    text-align: center;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.eMap-aggregation>a{
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
+	margin-top: 4px;
+}
+/*图例弹出框css样式*/
+.eMap-legend-dialog{
+	width: 128px;
+   /* height: 158px;*/
+	border-radius: 3px;
+	border: 1px solid #999999;
+}
+.eMap-legend-move-tit{
+	display: block;
+	width: 100%;
+	height: 29px;
+	line-height: 29px;
+	font-size: 16px;
+	color: #333333;
+    text-align: center;
+  /*  border-bottom: 1px solid #666666;*/
+}
+.eMap-legend-move-tit [class^='iconMap-']{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.eMap-legend-move-bd{
+	max-height: 305px;
+	overflow-y: auto;
+	padding-bottom: 7px;
+}
+.eMap-legend-move-bd>p{
+	margin-left: 8px;
+	margin-top: 6px;
+	font-size: 14px;
+	color: #333333;
+}
+.eMap-gis-legend{
+	display:inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 24px;
+	vertical-align: -7px;
+	margin-right: 9px;
+}
+.gis-legend-gb1{
+	background-color: #ea502c;
+}
+.gis-legend-gb2{
+	background-color: #7952da;
+}
+.gis-legend-gb3{
+	background-color: #1ea92e;
+}
+.gis-legend-gb4{
+	background-color: #1d8fea;
+}
+/*------------队伍与装备小窗口 CSS样式------------*/
+.eMap-equip-box{
+	position: absolute;
+	top: 480px;
+	left: 590px;
+	height: 57px;
+    z-index: 20;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 3px 6px 0px 6px;
+    background-color: rgba(0,0,0,.7);
+}
+.eMap-equip-box:after{
+	left: 50%;
+    bottom: -10px;
+    margin-left: -5px;
+    position: absolute;
+	content: "";
+	width: 0;
+	height:0;
+	border-top:5px solid #474743;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+}
+.eMap-equip-box>p{
+	line-height: 27px;
+}
+.eMap-equip-mr{
+	margin-left: 1px;
+}
+.eMap-legend-pic{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: -5px;
+	margin-right: 2px;
+	background: url(../imgs/eMap-legend/eMap-legend.png) no-repeat center center;
+}
+.eMap-equip1{
+	background-position: 0px 0px;
+}	
+.eMap-equip2{
+	background-position: -25px 0px;
+}
+.eMap-equip3{
+	background-position: -50px 0px;
+}
+.eMap-equip4{
+	background-position: -75px 0px;
+}	

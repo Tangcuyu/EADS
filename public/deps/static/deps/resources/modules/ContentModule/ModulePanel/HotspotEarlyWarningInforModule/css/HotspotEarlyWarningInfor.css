@@ -1,0 +1,207 @@
+/*
+可以自定义样式，位置，
+不定义走modulePanel-item样式
+*/
+.panel-HotspotEarlyWarningInforModule{
+    position: absolute;
+    /*top:670px;*/
+    height: 320px;
+    /*left:-40px;*/
+    background-size: 100% 180%;
+    background-position: 0px -12px;
+    right: 10px;
+    top: 360px;
+}
+/*.modulePanel-cont .EventType{*/
+    /*height: 250px;*/
+    /*margin-top: 6%;*/
+/*}*/
+.hotspot_early_warning_infor{
+    position: relative;
+    width: 100%;
+    height: 260px;
+    padding-left: 22px;
+    overflow: hidden;
+    padding: 15px 5px;
+}
+.hotspot_early_warning_infor>ul{
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+    overflow: auto;
+}
+.hotspot_early_warning_infor>ul>li{
+    float: left;
+    margin-top: 5px;
+    width: 220px;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hotspot_early_warning_infor>ul>.yujing_active{
+    background: url("../img/yujing_active.png") no-repeat;
+    background-size: 100%;
+}
+/*.hotspot_early_warning_infor>ul>li:nth-child(odd){*/
+    /*width: 240px;*/
+/*}*/
+.hotspot_early_warning_infor>ul>li>p{
+    float: left;
+    cursor: pointer;
+}
+.hotspot_early_warning_infor>ul>li>p:nth-child(1){
+    width: 81px;
+    height: 81px;
+    margin-right: 8px;
+}
+
+.hotspot_early_warning_infor>ul>li:nth-child(1)>p:nth-child(1){
+    background: url("../img/taifeng_01.png");
+    background-size: 100% 100%;
+}
+.hotspot_early_warning_infor>ul>li:nth-child(2)>p:nth-child(1){
+
+    background: url("../img/baoyu_01.png");
+    background-size: 100% 100%;
+}
+.hotspot_early_warning_infor>ul>li:nth-child(3)>p:nth-child(1){
+    background: url("../img/gaowen_01.png");
+    background-size: 100% 100%;
+}
+.hotspot_early_warning_infor>ul>li:nth-child(4)>p:nth-child(1){
+    background: url("../img/senlin_01.png");
+    background-size: 100% 100%;
+}
+.hotspot_early_warning_infor>ul>li:nth-child(5)>p:nth-child(1){
+    background: url("../img/dizhi_01.png");
+    background-size: 100% 100%;
+}
+.hotspot_early_warning_infor>ul>li>p:nth-child(2)>span{
+    display: block;
+}
+.hotspot_early_warning_infor>ul>li>p:nth-child(2)>span:first-child{
+     color: #3ef7fe;
+    font-weight: 600;
+     font-size: 34px;
+}
+.hotspot_early_warning_infor>ul>li>p:nth-child(2)>span:last-child{
+    color: #fff;
+    font-size: 26px;
+    display: inline-block;
+    width: 105px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*弹框*/
+.hotspot_early_warning_infor_popu{
+    position: absolute;
+    width: 480px;
+    /*max-width: 555px;*/
+    /*min-height: 480px;*/
+    height: 565px;
+    background: url("../img/yujing_list.png") no-repeat;
+    background-size: 100% 100%;
+    top: 215px;
+    left: 1100px;
+    z-index: 3;
+    display: none;
+}
+.hotspot_popu_title{
+    color: #fda100;
+    font-size: 30px;
+    line-height: 50px;
+    position: relative;
+    margin: 35px 0 0 75px;
+    width: 65%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.hotspot_popu_close{
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    right: 18px;
+    top: 27px;
+    display: inline-block;
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+}
+.hotspot_popu_cont{
+    width: calc(100% - 90px);
+    height: calc(74% - 18px);
+    margin-left: 37px;
+    margin-top: 35px;
+}
+.hotspot_popu_cont>ul{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.hotspot_popu_cont>ul>li{
+    height: 80px;
+    display: flex;
+}
+.hotspot_popu_cont>ul>li>img{
+    width: 67px;
+    height: 67px;
+    margin-right: 8px;
+}
+.hotspot_popu_cont>ul>li>p{
+    width: calc(100% - 92px);
+}
+.hotspot_popu_cont>ul>li>p>span{
+    display: inline-block;
+    font-size: 30px;
+    color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.hotspot_popu_cont>ul>li>p>span:last-child{
+    font-size: 20px;
+    color: #52728c;
+}
+.tubiaoxianshi{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    width: 54px;
+    height: 54px;
+}
+.alert_dialogStyle1 .detail-title-yujing {
+    background: url(../../commonImg/title.png) no-repeat;
+    background-size: 100% 100%;
+    height: 71px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+}
+.detail-title-yujing {
+    position: relative;
+    color: white;
+    font-size: 26px;
+    height: 61px;
+    line-height: 36px;
+    padding-left: 15px;
+}
+.detail-title-yujing span:first-of-type {
+    padding: 0 50px 0 2px;
+    color: #fff;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 24px;
+    white-space: nowrap;
+    min-width: 250px;
+    max-width: 350px;
+    font-weight: 600;
+    margin-left: 52px;
+}

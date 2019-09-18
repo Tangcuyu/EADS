@@ -1,0 +1,56 @@
+.eMap-venue-size{
+	width: 360px;
+	height: 220px;
+}
+.eMap-venue-position{
+	position: absolute;
+	top: 220px;
+	left: 620px;
+}
+
+.eMap-venue-table>tbody>tr>td{
+	padding: 0;
+	padding-left: 2px;
+	line-height: 38px;
+}
+.eMap-venue-table>tbody>tr>th{
+	text-align: right;
+	padding-left: 11px;
+	color: #333333;
+	font-size: 14px;
+}
+.venue-select,.eMap-venue-table .keywords-inp,.kilometre-box{
+	width: 218px;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 10px;
+	border: 1px solid #cccccc;
+}
+.kilometre-box{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.kilometre-box .kilometre-inp{
+	background: transparent;
+	width: 170px;
+	height: 25px;
+	border: 0;
+}
+.kilometre-txt{
+	font-size: 14px;
+	color: #333333;
+}
+.venue-select:focus,.eMap-venue-table .keywords-inp:focus,.eMap-venue-table .kilometre-box .kilometre-inp:focus{
+	outline: none;
+}
+.btn-size{
+	padding: 0;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	/*line-height: 30px;*/
+	margin-left: 110px;
+	margin-top: 10px;
+	transition: none;
+}

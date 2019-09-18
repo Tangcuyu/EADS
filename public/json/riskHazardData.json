@@ -1,0 +1,6507 @@
+{
+  "hazardous": [
+    {
+      "_id": "20595",
+      "tag": {
+        "title": "元江县蓝天林化有限公司",
+        "longitude": 101.85235,
+        "latitude": 23.40277,
+        "enBaseAdress": "云南省玉溪市元江县因远镇安定办事处土塘村",
+        "enBaseLevel": null,
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 15
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.85235,
+          23.40277
+        ]
+      },
+      "_distance": 52639.40948942657
+    },
+    {
+      "_id": "10054",
+      "tag": {
+        "title": "云南玉溪银河化工有限责任公司",
+        "longitude": 102.384,
+        "latitude": 24.1905,
+        "enBaseAdress": "云南省玉溪市峨山县石牌坊",
+        "enBaseLevel": "2",
+        "enBaseEnTel": "0877-4022172",
+        "enBaseStaffNum": 807
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.384,
+          24.1905
+        ]
+      },
+      "_distance": 52976.70999328104
+    },
+    {
+      "_id": "45255",
+      "tag": {
+        "title": "峨山天大工贸有限公司",
+        "longitude": 102.43378,
+        "latitude": 24.18959,
+        "enBaseAdress": "云南省玉溪市峨山县双江镇登云社区文碧村",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 340
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.43378,
+          24.18959
+        ]
+      },
+      "_distance": 56561.12555089732
+    },
+    {
+      "_id": "48811",
+      "tag": {
+        "title": "云南峨山滇中德昌工贸有限公司",
+        "longitude": 102.44202,
+        "latitude": 24.18413,
+        "enBaseAdress": "峨山县双江镇石花村",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 92
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.44202,
+          24.18413
+        ]
+      },
+      "_distance": 56787.82879607306
+    },
+    {
+      "_id": "6794",
+      "tag": {
+        "title": "云南鑫煌林化生物有限公司",
+        "longitude": 101.68419,
+        "latitude": 23.42375,
+        "enBaseAdress": "云南省普洱市墨江县联珠镇章差母鸡冲",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0879-4232190",
+        "enBaseStaffNum": 50
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.68419,
+          23.42375
+        ]
+      },
+      "_distance": 58516.9790527969
+    },
+    {
+      "_id": "7b5710f6c2f546b4915b79298a4eea9e",
+      "tag": {
+        "title": "玉溪瑞龙气体有限责任公司",
+        "longitude": 102.52263,
+        "latitude": 24.223869999999998,
+        "enBaseAdress": "云南省玉溪市红塔区研和街道后关山",
+        "enBaseLevel": "5",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.52263,
+          24.22387
+        ]
+      },
+      "_distance": 65903.97781729024
+    },
+    {
+      "_id": "2345",
+      "tag": {
+        "title": "云南梅塞尔气体产品有限公司玉溪分公司",
+        "longitude": 102.50011,
+        "latitude": 24.254179999999998,
+        "enBaseAdress": "云南省玉溪市研和镇",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0877-2992285",
+        "enBaseStaffNum": 43
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.50011,
+          24.25418
+        ]
+      },
+      "_distance": 66379.6555615989
+    },
+    {
+      "_id": "36488",
+      "tag": {
+        "title": "云南华云柱宇钒业有限公司",
+        "longitude": 102.50890000000001,
+        "latitude": 24.253429999999998,
+        "enBaseAdress": "云南省玉溪市红塔区研和工业园区",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-2683301",
+        "enBaseStaffNum": 196
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.5089,
+          24.25343
+        ]
+      },
+      "_distance": 66983.45162378285
+    },
+    {
+      "_id": "51931",
+      "tag": {
+        "title": "云南太标精工铸造有限公司",
+        "longitude": 102.51852,
+        "latitude": 24.2602,
+        "enBaseAdress": "云南省玉溪市红塔区研和工业园区数控产业园",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-2992099",
+        "enBaseStaffNum": 110
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.51852,
+          24.2602
+        ]
+      },
+      "_distance": 68213.35451067316
+    },
+    {
+      "_id": "c06c8f49ccb143a2afcd08630ffe360c",
+      "tag": {
+        "title": "云南中云物流有限公司",
+        "longitude": 102.52399,
+        "latitude": 24.25601,
+        "enBaseAdress": "云南省玉溪市红塔区研和大栗园白龙山21号",
+        "enBaseLevel": "3",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.52399,
+          24.25601
+        ]
+      },
+      "_distance": 68318.60103057395
+    },
+    {
+      "_id": "4fed5dd734b04d9191b7195ad9eb9a14",
+      "tag": {
+        "title": "云南省玉溪市滇中石油有限责任公司",
+        "longitude": 102.52284,
+        "latitude": 24.25773,
+        "enBaseAdress": "云南省玉溪市红塔区研和街道大栗园",
+        "enBaseLevel": "1",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.52284,
+          24.25773
+        ]
+      },
+      "_distance": 68357.70485732079
+    },
+    {
+      "_id": "cc88fdbb66e04cb385a8e2bb9f88191f",
+      "tag": {
+        "title": "玉溪市亚新工贸有限责任公司",
+        "longitude": 102.51189,
+        "latitude": 24.282149999999998,
+        "enBaseAdress": "云南省玉溪市红塔区研和工业园区",
+        "enBaseLevel": "5",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.51189,
+          24.28215
+        ]
+      },
+      "_distance": 69382.29599125581
+    },
+    {
+      "_id": "35742",
+      "tag": {
+        "title": "云南省红河糖业有限责任公司",
+        "longitude": 102.4454,
+        "latitude": 23.34481,
+        "enBaseAdress": "云南省红河州红河县迤萨镇齐心寨",
+        "enBaseLevel": null,
+        "enBaseEnTel": "0873-4561316",
+        "enBaseStaffNum": 175
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.4454,
+          23.34481
+        ]
+      },
+      "_distance": 71033.41521154997
+    },
+    {
+      "_id": "19713",
+      "tag": {
+        "title": "玉溪汇溪金属铸造制品有限公司",
+        "longitude": 102.48123,
+        "latitude": 24.35962,
+        "enBaseAdress": "云南省玉溪市红塔区大营街镇黑龙潭",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-2782868",
+        "enBaseStaffNum": 35
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.48123,
+          24.35962
+        ]
+      },
+      "_distance": 73585.08425917741
+    },
+    {
+      "_id": "2449",
+      "tag": {
+        "title": "云南新蓝景化学工业有限公司",
+        "longitude": 102.53253,
+        "latitude": 24.32173,
+        "enBaseAdress": "云南省玉溪市高新技术产业开发区",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0877-2076919",
+        "enBaseStaffNum": 65
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.53253,
+          24.32173
+        ]
+      },
+      "_distance": 73963.26649513772
+    },
+    {
+      "_id": "45248",
+      "tag": {
+        "title": "云南省玉溪化肥厂有限责任公司",
+        "longitude": 102.53721,
+        "latitude": 24.325889999999998,
+        "enBaseAdress": "玉溪红塔区研和镇东山村委会后关山",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-2072019",
+        "enBaseStaffNum": 240
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.53721,
+          24.32589
+        ]
+      },
+      "_distance": 74626.38114984894
+    },
+    {
+      "_id": "4bdd6be0890d44859b6e76de23183a24",
+      "tag": {
+        "title": "云南玉溪驰骋化工有限公司",
+        "longitude": 102.50331,
+        "latitude": 24.384500000000003,
+        "enBaseAdress": "云南省玉溪市红塔区春和街道黑村",
+        "enBaseLevel": "5",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.50331,
+          24.3845
+        ]
+      },
+      "_distance": 77146.19346639184
+    },
+    {
+      "_id": "33809",
+      "tag": {
+        "title": "云南玉溪滇豫化工科技有限公司",
+        "longitude": 102.52833,
+        "latitude": 24.376009999999997,
+        "enBaseAdress": "云南省玉溪市红塔区春和镇马桥村左家山",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-2686099",
+        "enBaseStaffNum": 13
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.52833,
+          24.37601
+        ]
+      },
+      "_distance": 78078.53458613761
+    },
+    {
+      "_id": "51448",
+      "tag": {
+        "title": "玉溪市康胤胶粘制品有限公司",
+        "longitude": 102.51514,
+        "latitude": 24.39069,
+        "enBaseAdress": "云南省玉溪市红塔区春和镇黑村办事处（火车道口旁）",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-2047719",
+        "enBaseStaffNum": 40
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.51514,
+          24.39069
+        ]
+      },
+      "_distance": 78443.43570199556
+    },
+    {
+      "_id": "45292",
+      "tag": {
+        "title": "建水县西庄碳素厂",
+        "longitude": 102.76675,
+        "latitude": 23.645300000000002,
+        "enBaseAdress": "云南省红河州建水县西庄镇黄龙寺",
+        "enBaseLevel": null,
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 29
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.76675,
+          23.6453
+        ]
+      },
+      "_distance": 79427.49274050527
+    },
+    {
+      "_id": "11139",
+      "tag": {
+        "title": "云南红塔油墨有限公司",
+        "longitude": 102.77434,
+        "latitude": 24.092219999999998,
+        "enBaseAdress": "云南省玉溪市通海县五金产业园区里山片区",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 68
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.77434,
+          24.09222
+        ]
+      },
+      "_distance": 81329.30107514301
+    },
+    {
+      "_id": "46559",
+      "tag": {
+        "title": "通海县海龙化工有限责任公司",
+        "longitude": 102.77625,
+        "latitude": 24.091289999999997,
+        "enBaseAdress": "云南省玉溪市通海五金产业园区里山片区",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0877-3030959",
+        "enBaseStaffNum": 27
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.77625,
+          24.09129
+        ]
+      },
+      "_distance": 81478.69392026153
+    },
+    {
+      "_id": "8775",
+      "tag": {
+        "title": "云南省通海化工有限责任公司",
+        "longitude": 102.78547,
+        "latitude": 24.09142,
+        "enBaseAdress": "云南省玉溪市通海县杨广镇马家湾",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-3667315",
+        "enBaseStaffNum": 280
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.78547,
+          24.09142
+        ]
+      },
+      "_distance": 82369.36823312586
+    },
+    {
+      "_id": "7097",
+      "tag": {
+        "title": "通海广文气体有限责任公司",
+        "longitude": 102.77968,
+        "latitude": 24.12736,
+        "enBaseAdress": "玉溪市通海县杨广镇杨广办事处",
+        "enBaseLevel": "2",
+        "enBaseEnTel": "0877-3095138",
+        "enBaseStaffNum": 32
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.77968,
+          24.12736
+        ]
+      },
+      "_distance": 83202.90208372753
+    },
+    {
+      "_id": "928374d96e6d433c8daac410e45f0202",
+      "tag": {
+        "title": "通海广文气体有限责任公司",
+        "longitude": 102.78775,
+        "latitude": 24.12649,
+        "enBaseAdress": "云南省玉溪市通海县杨广镇北村1809号",
+        "enBaseLevel": "3",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.78775,
+          24.12649
+        ]
+      },
+      "_distance": 83930.27953068784
+    },
+    {
+      "_id": "51769",
+      "tag": {
+        "title": "云南玉溪钢铁集团玉昆钢铁有限公司",
+        "longitude": 102.55077,
+        "latitude": 24.46452,
+        "enBaseAdress": "玉溪市红塔区北城镇梅园",
+        "enBaseLevel": "4",
+        "enBaseEnTel": "0877-2094111",
+        "enBaseStaffNum": 2800
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.55077,
+          24.46452
+        ]
+      },
+      "_distance": 87097.01724481696
+    },
+    {
+      "_id": "5497",
+      "tag": {
+        "title": "云南群星化工有限公司",
+        "longitude": 102.84088,
+        "latitude": 23.60239,
+        "enBaseAdress": "云南省红河州建水县临安镇陈官村",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 420
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.84088,
+          23.60239
+        ]
+      },
+      "_distance": 88079.67943239244
+    },
+    {
+      "_id": "37800",
+      "tag": {
+        "title": "建水合兴矿冶有限公司",
+        "longitude": 102.84509,
+        "latitude": 23.59708,
+        "enBaseAdress": "云南省红河哈尼族彝族自治州建水县临安镇陈官村白马冲",
+        "enBaseLevel": null,
+        "enBaseEnTel": "0873-7696888",
+        "enBaseStaffNum": 79
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.84509,
+          23.59708
+        ]
+      },
+      "_distance": 88674.79721257664
+    },
+    {
+      "_id": "eb2962dd1d0e4306ad92d6ba3fde2b77",
+      "tag": {
+        "title": "建水县曲燃工业燃气输配有限公司",
+        "longitude": 102.87962,
+        "latitude": 23.697989999999997,
+        "enBaseAdress": "建水县羊街工业园区",
+        "enBaseLevel": null,
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.87962,
+          23.69799
+        ]
+      },
+      "_distance": 89191.48513017164
+    },
+    {
+      "_id": "5161",
+      "tag": {
+        "title": "云南建水锰矿有限责任公司",
+        "longitude": 102.88821,
+        "latitude": 23.69099,
+        "enBaseAdress": "云南省红河州建水县临安镇南营寨",
+        "enBaseLevel": "4",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 605
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.88821,
+          23.69099
+        ]
+      },
+      "_distance": 90202.82976089751
+    },
+    {
+      "_id": "4b27356a353b47bdbc904d3557f54ee7",
+      "tag": {
+        "title": "云南易门云鼎钛化学工业有限公司",
+        "longitude": 102.21252,
+        "latitude": 24.682219999999997,
+        "enBaseAdress": "云南省玉溪市易门县龙泉镇双龙村",
+        "enBaseLevel": "5",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.21252,
+          24.68222
+        ]
+      },
+      "_distance": 94679.48046033434
+    },
+    {
+      "_id": "38464",
+      "tag": {
+        "title": "贵研资源（易门）有限公司",
+        "longitude": 102.20528,
+        "latitude": 24.690369999999998,
+        "enBaseAdress": "云南省玉溪市易门县大椿树工业聚集区内",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-4976427",
+        "enBaseStaffNum": 162
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.20528,
+          24.69037
+        ]
+      },
+      "_distance": 95419.77270808574
+    },
+    {
+      "_id": "b0551e129bf240919c38b8eae53db0ab",
+      "tag": {
+        "title": "易门新进气体有限公司",
+        "longitude": 102.17262,
+        "latitude": 24.69616,
+        "enBaseAdress": "云南省玉溪市易门县龙泉镇大椿树工业区",
+        "enBaseLevel": "5",
+        "enBaseEnTel": null,
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.17262,
+          24.69616
+        ]
+      },
+      "_distance": 95458.27804071551
+    },
+    {
+      "_id": "2402",
+      "tag": {
+        "title": "易门铜业有限公司",
+        "longitude": 102.17326,
+        "latitude": 24.6977,
+        "enBaseAdress": "云南省玉溪市易门县大椿树",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-4863461",
+        "enBaseStaffNum": 626
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.17326,
+          24.6977
+        ]
+      },
+      "_distance": 95637.96596781739
+    },
+    {
+      "_id": "20058",
+      "tag": {
+        "title": "建水县建新化工冶炼有限公司",
+        "longitude": 102.94154,
+        "latitude": 23.62794,
+        "enBaseAdress": "云南省红河州建水县临安镇五里冲清水塘四角坟",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 50
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.94154,
+          23.62794
+        ]
+      },
+      "_distance": 97103.79299742648
+    },
+    {
+      "_id": "52161",
+      "tag": {
+        "title": "云南新昊环保科技有限公司",
+        "longitude": 102.14615,
+        "latitude": 24.717319999999997,
+        "enBaseAdress": "云南省玉溪市易门县龙泉镇大椿树工业园区",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0877-4996118",
+        "enBaseStaffNum": 56
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.14615,
+          24.71732
+        ]
+      },
+      "_distance": 97393.86771687059
+    },
+    {
+      "_id": "49029",
+      "tag": {
+        "title": "云南森美达生物科技有限公司",
+        "longitude": 101.66194,
+        "latitude": 24.675539999999998,
+        "enBaseAdress": "云南省楚雄州双柏县双柏县城工业园区",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0878-7715967",
+        "enBaseStaffNum": 31
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.66194,
+          24.67554
+        ]
+      },
+      "_distance": 98821.51979775104
+    },
+    {
+      "_id": "45534",
+      "tag": {
+        "title": "云南美森源林产科技有限公司",
+        "longitude": 101.6217,
+        "latitude": 24.70141,
+        "enBaseAdress": "双柏县西城社区楚双公路边",
+        "enBaseLevel": "5",
+        "enBaseEnTel": "0878-7716295",
+        "enBaseStaffNum": 81
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.6217,
+          24.70141
+        ]
+      },
+      "_distance": 103035.98513168833
+    },
+    {
+      "_id": "45285",
+      "tag": {
+        "title": "元阳县红泰糖业有限责任公司",
+        "longitude": 102.82845,
+        "latitude": 23.22541,
+        "enBaseAdress": "云南省红河州元阳县南沙城郊",
+        "enBaseLevel": "3",
+        "enBaseEnTel": "0532-83889090",
+        "enBaseStaffNum": 80
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.82845,
+          23.22541
+        ]
+      },
+      "_distance": 107896.49059352401
+    }
+  ],
+  "coalMine": [
+    {
+      "_id": "530426007297",
+      "tag": {
+        "title": "峨山县煤炭公司棚租煤矿",
+        "enBaseAdress": "峨山县小街街道办事处棚租村委会小棚租",
+        "enBaseEnTel": "08774313398",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.465706,
+          24.158697
+        ]
+      },
+      "_distance": 56878.533051025646
+    },
+    {
+      "_id": "530825011565",
+      "tag": {
+        "title": "镇沅县三章田煤矿",
+        "enBaseAdress": "镇沅县者东镇新庒村岩莲箐",
+        "enBaseEnTel": "13577964666",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.226389,
+          24.086944
+        ]
+      },
+      "_distance": 84925.54746247745
+    },
+    {
+      "_id": "532524020461",
+      "tag": {
+        "title": "建水县青山煤业有限公司煤矿",
+        "enBaseAdress": "红河州建水县临安镇碗窑村",
+        "enBaseEnTel": "13526782693",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.817659,
+          23.626685
+        ]
+      },
+      "_distance": 84998.18665459027
+    },
+    {
+      "_id": "532322017606",
+      "tag": {
+        "title": "双柏县麻栗树煤矿一碗水矿井",
+        "enBaseAdress": "双柏县",
+        "enBaseEnTel": "08787816007",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.640322,
+          24.535545
+        ]
+      },
+      "_distance": 85499.47744424111
+    },
+    {
+      "_id": "532524020462",
+      "tag": {
+        "title": "建水县甸尾煤矿",
+        "enBaseAdress": "红河州建水县甸尾",
+        "enBaseEnTel": "13987385557",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.889674,
+          23.683914
+        ]
+      },
+      "_distance": 90509.05164903397
+    },
+    {
+      "_id": "532524017956",
+      "tag": {
+        "title": "云南省羊街农场红田煤矿",
+        "enBaseAdress": "红河州建水县面甸镇红田村",
+        "enBaseEnTel": "08737806135",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.992425,
+          23.718499
+        ]
+      },
+      "_distance": 100131.26342052426
+    },
+    {
+      "_id": "532524008489",
+      "tag": {
+        "title": "建水县福运煤业有限责任公司",
+        "enBaseAdress": "云南省红河州建水县面甸镇湾塘村委会葛根冲村",
+        "enBaseEnTel": "08737628388",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.988498,
+          23.665969
+        ]
+      },
+      "_distance": 100779.46485005059
+    },
+    {
+      "_id": "532524009873",
+      "tag": {
+        "title": "建水县面甸红星煤矿",
+        "enBaseAdress": "建水县面甸镇江红田村委会印王庄村",
+        "enBaseEnTel": "08737806026",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          103.0043,
+          23.728543
+        ]
+      },
+      "_distance": 101168.74510969741
+    },
+    {
+      "_id": "530823009987",
+      "tag": {
+        "title": "景东彝族自治县大街煤业有限责任公司",
+        "enBaseAdress": "景东县大街镇塘坊村",
+        "enBaseEnTel": "15758377519",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.055342,
+          24.325373
+        ]
+      },
+      "_distance": 111403.79455717017
+    },
+    {
+      "_id": "JYXXCOAL_00124",
+      "tag": {
+        "title": "景东彝族自治县大街煤业有限责任公司大街煤矿",
+        "enBaseAdress": "景东县大街镇塘坊村",
+        "enBaseEnTel": "--",
+        "enBaseStaffNum": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.054443,
+          24.326051
+        ]
+      },
+      "_distance": 111519.81368035085
+    }
+  ],
+  "reservoir": [
+    {
+      "_id": "1103",
+      "tag": {
+        "title": "棚租坝水库",
+        "CODE": "530426"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.2743014,
+          24.25149091
+        ]
+      },
+      "_distance": 51631.146499098584
+    },
+    {
+      "_id": "999",
+      "tag": {
+        "title": "海菜塘水库",
+        "CODE": "530428"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.83026356,
+          23.41822106
+        ]
+      },
+      "_distance": 51813.74628925636
+    },
+    {
+      "_id": "1131",
+      "tag": {
+        "title": "舍郎水库",
+        "CODE": "530426"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.44474392,
+          24.10791373
+        ]
+      },
+      "_distance": 51871.47035282568
+    },
+    {
+      "_id": "968",
+      "tag": {
+        "title": "须立水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.70366894,
+          23.47144059
+        ]
+      },
+      "_distance": 53067.19585535747
+    },
+    {
+      "_id": "1019",
+      "tag": {
+        "title": "欧比鲁沙水库",
+        "CODE": "530428"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.94607849,
+          23.37059152
+        ]
+      },
+      "_distance": 53897.210687130246
+    },
+    {
+      "_id": "998",
+      "tag": {
+        "title": "乌竜水库",
+        "CODE": "530428"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.86634906,
+          23.37951517
+        ]
+      },
+      "_distance": 54668.31802103664
+    },
+    {
+      "_id": "1152",
+      "tag": {
+        "title": "黄草坝水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.54549581,
+          23.96105635
+        ]
+      },
+      "_distance": 54889.644113935974
+    },
+    {
+      "_id": "966",
+      "tag": {
+        "title": "回回冲水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.71765413,
+          23.441279
+        ]
+      },
+      "_distance": 54960.43203128492
+    },
+    {
+      "_id": "1151",
+      "tag": {
+        "title": "大海科水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.54169123,
+          23.98026516
+        ]
+      },
+      "_distance": 55033.01601313354
+    },
+    {
+      "_id": "997",
+      "tag": {
+        "title": "沙浦水库",
+        "CODE": "530428"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.81689858,
+          23.39037826
+        ]
+      },
+      "_distance": 55198.86237455626
+    },
+    {
+      "_id": "965",
+      "tag": {
+        "title": "大黑箐水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.64221457,
+          23.49398816
+        ]
+      },
+      "_distance": 55263.77907750776
+    },
+    {
+      "_id": "1132",
+      "tag": {
+        "title": "回龙水库",
+        "CODE": "530426"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.43300666,
+          24.2050276
+        ]
+      },
+      "_distance": 57664.712229718774
+    },
+    {
+      "_id": "967",
+      "tag": {
+        "title": "小勐连水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.64106997,
+          23.46078685
+        ]
+      },
+      "_distance": 58052.31441047327
+    },
+    {
+      "_id": "439",
+      "tag": {
+        "title": "会亮水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.60602698,
+          23.47374682
+        ]
+      },
+      "_distance": 59462.982217202974
+    },
+    {
+      "_id": "1133",
+      "tag": {
+        "title": "石邑水库",
+        "CODE": "530426"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.49052677,
+          24.17821873
+        ]
+      },
+      "_distance": 60200.23771857119
+    },
+    {
+      "_id": "995",
+      "tag": {
+        "title": "老高冲水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.79747,
+          23.34600204
+        ]
+      },
+      "_distance": 60522.799191758044
+    },
+    {
+      "_id": "1018",
+      "tag": {
+        "title": "三棵桩水库",
+        "CODE": "532529"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.89313948,
+          23.31827457
+        ]
+      },
+      "_distance": 60589.48515158797
+    },
+    {
+      "_id": "1150",
+      "tag": {
+        "title": "白古水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.61935979,
+          23.90661176
+        ]
+      },
+      "_distance": 61333.85802435493
+    },
+    {
+      "_id": "1073",
+      "tag": {
+        "title": "麻栗树水库",
+        "CODE": "530426"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.13624795,
+          24.39502414
+        ]
+      },
+      "_distance": 61810.29685745718
+    },
+    {
+      "_id": "996",
+      "tag": {
+        "title": "萨车水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.77120122,
+          23.34253196
+        ]
+      },
+      "_distance": 61930.26945983827
+    },
+    {
+      "_id": "1135",
+      "tag": {
+        "title": "向阳水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.44229199,
+          24.25518316
+        ]
+      },
+      "_distance": 62266.85192956511
+    },
+    {
+      "_id": "1185",
+      "tag": {
+        "title": "黑泥田水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.63558563,
+          23.83745946
+        ]
+      },
+      "_distance": 62693.15439474164
+    },
+    {
+      "_id": "994",
+      "tag": {
+        "title": "勐里水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.83633647,
+          23.31065928
+        ]
+      },
+      "_distance": 62894.87913123331
+    },
+    {
+      "_id": "1104",
+      "tag": {
+        "title": "镜湖水库",
+        "CODE": "530426"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.27861353,
+          24.36757849
+        ]
+      },
+      "_distance": 63325.539322304154
+    },
+    {
+      "_id": "1017",
+      "tag": {
+        "title": "坡的水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.88706435,
+          23.29079709
+        ]
+      },
+      "_distance": 63710.35832116192
+    },
+    {
+      "_id": "1187",
+      "tag": {
+        "title": "桃园水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.64573045,
+          23.8859791
+        ]
+      },
+      "_distance": 63824.39348502825
+    },
+    {
+      "_id": "1105",
+      "tag": {
+        "title": "平滩箐水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.35904059,
+          24.33928465
+        ]
+      },
+      "_distance": 64448.633918186686
+    },
+    {
+      "_id": "1149",
+      "tag": {
+        "title": "红土坡水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.59938766,
+          23.60967811
+        ]
+      },
+      "_distance": 64821.61629464748
+    },
+    {
+      "_id": "1148",
+      "tag": {
+        "title": "黑白海水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.6142391,
+          23.6333008
+        ]
+      },
+      "_distance": 65179.80158475723
+    },
+    {
+      "_id": "1071",
+      "tag": {
+        "title": "车古后山水库",
+        "CODE": "532529"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.17482292,
+          23.28141169
+        ]
+      },
+      "_distance": 65236.18119600072
+    },
+    {
+      "_id": "993",
+      "tag": {
+        "title": "蚌海水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.83745642,
+          23.2846486
+        ]
+      },
+      "_distance": 65632.5455867816
+    },
+    {
+      "_id": "1031",
+      "tag": {
+        "title": "罗马水库",
+        "CODE": "532529"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.03358387,
+          23.25877091
+        ]
+      },
+      "_distance": 65829.53471912722
+    },
+    {
+      "_id": "1186",
+      "tag": {
+        "title": "石板井水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.67488668,
+          23.84008692
+        ]
+      },
+      "_distance": 66687.60696713044
+    },
+    {
+      "_id": "1134",
+      "tag": {
+        "title": "凤凰水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.48026709,
+          24.28870302
+        ]
+      },
+      "_distance": 67627.20036450124
+    },
+    {
+      "_id": "1155",
+      "tag": {
+        "title": "关箐水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.54295104,
+          24.2282441
+        ]
+      },
+      "_distance": 67818.966388625
+    },
+    {
+      "_id": "1156",
+      "tag": {
+        "title": "前进水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.53832462,
+          24.24134438
+        ]
+      },
+      "_distance": 68368.63919960686
+    },
+    {
+      "_id": "1182",
+      "tag": {
+        "title": "螃蟹冲水库",
+        "CODE": "532525"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.64956606,
+          23.62967666
+        ]
+      },
+      "_distance": 68680.74699392956
+    },
+    {
+      "_id": "1136",
+      "tag": {
+        "title": "合作水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.43618626,
+          24.34015513
+        ]
+      },
+      "_distance": 69034.96401311578
+    },
+    {
+      "_id": "1154",
+      "tag": {
+        "title": "甸苴坝水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.59067093,
+          24.19410135
+        ]
+      },
+      "_distance": 69527.49585283085
+    },
+    {
+      "_id": "1153",
+      "tag": {
+        "title": "白塔沟水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.62409967,
+          24.15394916
+        ]
+      },
+      "_distance": 70134.17704706384
+    },
+    {
+      "_id": "1097",
+      "tag": {
+        "title": "红星水库",
+        "CODE": "532529"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.28967162,
+          23.26729153
+        ]
+      },
+      "_distance": 70461.71834747297
+    },
+    {
+      "_id": "1184",
+      "tag": {
+        "title": "黑马箐水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.71254074,
+          23.81156905
+        ]
+      },
+      "_distance": 70649.68294055323
+    },
+    {
+      "_id": "1183",
+      "tag": {
+        "title": "大山水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.7077733,
+          23.70475835
+        ]
+      },
+      "_distance": 71904.67465304927
+    },
+    {
+      "_id": "1181",
+      "tag": {
+        "title": "塔冲水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.66284863,
+          23.58040816
+        ]
+      },
+      "_distance": 72064.27940698709
+    },
+    {
+      "_id": "1106",
+      "tag": {
+        "title": "打黑水库",
+        "CODE": "530122"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.34774518,
+          24.42964904
+        ]
+      },
+      "_distance": 72608.81479077574
+    },
+    {
+      "_id": "370",
+      "tag": {
+        "title": "八道河水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.33989337,
+          23.63531756
+        ]
+      },
+      "_distance": 73305.69892140281
+    },
+    {
+      "_id": "371",
+      "tag": {
+        "title": "窑房水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.34189861,
+          23.62521562
+        ]
+      },
+      "_distance": 73490.33868969607
+    },
+    {
+      "_id": "1180",
+      "tag": {
+        "title": "水草冲水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.68108099,
+          23.56690673
+        ]
+      },
+      "_distance": 74385.10106093751
+    },
+    {
+      "_id": "1190",
+      "tag": {
+        "title": "石膏箐水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.66181063,
+          24.21505929
+        ]
+      },
+      "_distance": 76871.83476350522
+    },
+    {
+      "_id": "964",
+      "tag": {
+        "title": "小龙潭水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.69351735,
+          23.22710245
+        ]
+      },
+      "_distance": 76930.12754014932
+    },
+    {
+      "_id": "830",
+      "tag": {
+        "title": "水沟水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.78188957,
+          23.84946358
+        ]
+      },
+      "_distance": 77570.36252654767
+    },
+    {
+      "_id": "372",
+      "tag": {
+        "title": "龙乌箐水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.26023587,
+          23.79793819
+        ]
+      },
+      "_distance": 77586.06229748252
+    },
+    {
+      "_id": "1179",
+      "tag": {
+        "title": "法依水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.69675206,
+          23.52094476
+        ]
+      },
+      "_distance": 78110.57406254426
+    },
+    {
+      "_id": "1188",
+      "tag": {
+        "title": "秀山水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.74260257,
+          24.09571126
+        ]
+      },
+      "_distance": 78424.72036403789
+    },
+    {
+      "_id": "1191",
+      "tag": {
+        "title": "黄谷田水库",
+        "CODE": "530421"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.65314655,
+          24.25266471
+        ]
+      },
+      "_distance": 78432.40034989438
+    },
+    {
+      "_id": "1189",
+      "tag": {
+        "title": "撒密鲊水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.69368495,
+          24.19710287
+        ]
+      },
+      "_distance": 78644.04859785287
+    },
+    {
+      "_id": "1107",
+      "tag": {
+        "title": "银厂箐水库",
+        "CODE": "530122"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.35236001,
+          24.48943222
+        ]
+      },
+      "_distance": 78778.58702570866
+    },
+    {
+      "_id": "1127",
+      "tag": {
+        "title": "后山水库",
+        "CODE": "532529"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.42486804,
+          23.22962766
+        ]
+      },
+      "_distance": 80476.00259412275
+    },
+    {
+      "_id": "1157",
+      "tag": {
+        "title": "飞井水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.51733872,
+          24.41307748
+        ]
+      },
+      "_distance": 80508.75119776384
+    },
+    {
+      "_id": "827",
+      "tag": {
+        "title": "天华山水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.76333745,
+          23.5921661
+        ]
+      },
+      "_distance": 81011.19110586596
+    },
+    {
+      "_id": "992",
+      "tag": {
+        "title": "备的水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.81360499,
+          23.14572656
+        ]
+      },
+      "_distance": 81180.91667241161
+    },
+    {
+      "_id": "832",
+      "tag": {
+        "title": "水沟桥水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.77615247,
+          24.0962957
+        ]
+      },
+      "_distance": 81653.32809379531
+    },
+    {
+      "_id": "1030",
+      "tag": {
+        "title": "洛竹巴水库",
+        "CODE": "532529"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.09086445,
+          23.11895815
+        ]
+      },
+      "_distance": 81699.7205163162
+    },
+    {
+      "_id": "828",
+      "tag": {
+        "title": "龙滩水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.81760295,
+          23.75459451
+        ]
+      },
+      "_distance": 81927.3908250762
+    },
+    {
+      "_id": "1011",
+      "tag": {
+        "title": "李方村水库",
+        "CODE": "532322"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.79128026,
+          24.55703512
+        ]
+      },
+      "_distance": 82060.76243625107
+    },
+    {
+      "_id": "829",
+      "tag": {
+        "title": "花箐水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.82830065,
+          23.84753208
+        ]
+      },
+      "_distance": 82296.65483830664
+    },
+    {
+      "_id": "1192",
+      "tag": {
+        "title": "天生桥水库",
+        "CODE": "530421"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.68279967,
+          24.27931196
+        ]
+      },
+      "_distance": 82598.57854605243
+    },
+    {
+      "_id": "826",
+      "tag": {
+        "title": "青云水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.82757896,
+          23.64692738
+        ]
+      },
+      "_distance": 85334.83571176691
+    },
+    {
+      "_id": "1178",
+      "tag": {
+        "title": "棕云桥水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.69378707,
+          23.38929585
+        ]
+      },
+      "_distance": 85748.32643070511
+    },
+    {
+      "_id": "438",
+      "tag": {
+        "title": "马鹿坑水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.51684907,
+          23.23214657
+        ]
+      },
+      "_distance": 85832.14731180677
+    },
+    {
+      "_id": "1012",
+      "tag": {
+        "title": "狮子口水库",
+        "CODE": "532322"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.84920194,
+          24.61511282
+        ]
+      },
+      "_distance": 86918.18274640384
+    },
+    {
+      "_id": "1047",
+      "tag": {
+        "title": "沙衣水库",
+        "CODE": "530425"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.03464882,
+          24.6317018
+        ]
+      },
+      "_distance": 87030.84392824266
+    },
+    {
+      "_id": "835",
+      "tag": {
+        "title": "捧寨河水库",
+        "CODE": "530421"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.75235205,
+          24.25943922
+        ]
+      },
+      "_distance": 87288.86757730394
+    },
+    {
+      "_id": "1074",
+      "tag": {
+        "title": "茶花水库",
+        "CODE": "530425"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.16874357,
+          24.62297291
+        ]
+      },
+      "_distance": 87361.04229325856
+    },
+    {
+      "_id": "1158",
+      "tag": {
+        "title": "红旗水库",
+        "CODE": "530402"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.57841695,
+          24.4473846
+        ]
+      },
+      "_distance": 87405.03962633765
+    },
+    {
+      "_id": "831",
+      "tag": {
+        "title": "姜家冲水库",
+        "CODE": "530423"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.8201209,
+          24.14038974
+        ]
+      },
+      "_distance": 87556.7888180907
+    },
+    {
+      "_id": "407",
+      "tag": {
+        "title": "草海水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.40028271,
+          23.3022752
+        ]
+      },
+      "_distance": 87836.82712843255
+    },
+    {
+      "_id": "369",
+      "tag": {
+        "title": "青沙水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.37590365,
+          23.32353406
+        ]
+      },
+      "_distance": 88047.42447716108
+    },
+    {
+      "_id": "975",
+      "tag": {
+        "title": "英雄水库",
+        "CODE": "532322"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.73376724,
+          24.59916865
+        ]
+      },
+      "_distance": 88313.65701666435
+    },
+    {
+      "_id": "834",
+      "tag": {
+        "title": "大寨水库",
+        "CODE": "530421"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.77480171,
+          24.2553019
+        ]
+      },
+      "_distance": 89009.78364059463
+    },
+    {
+      "_id": "1208",
+      "tag": {
+        "title": "云祥水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.75246613,
+          23.41217587
+        ]
+      },
+      "_distance": 89193.25015609137
+    },
+    {
+      "_id": "825",
+      "tag": {
+        "title": "合作水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.85583185,
+          23.60153047
+        ]
+      },
+      "_distance": 89557.92261229573
+    },
+    {
+      "_id": "1176",
+      "tag": {
+        "title": "过河处水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.72082887,
+          23.36022811
+        ]
+      },
+      "_distance": 89905.22908925374
+    },
+    {
+      "_id": "406",
+      "tag": {
+        "title": "三坎水库",
+        "CODE": "530822"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.49516461,
+          23.19920855
+        ]
+      },
+      "_distance": 90099.10122361459
+    },
+    {
+      "_id": "1075",
+      "tag": {
+        "title": "合作水库",
+        "CODE": "530425"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.16150657,
+          24.65716101
+        ]
+      },
+      "_distance": 90992.77275838068
+    },
+    {
+      "_id": "1177",
+      "tag": {
+        "title": "坎平寨水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.73923323,
+          23.35985957
+        ]
+      },
+      "_distance": 91429.60419876513
+    },
+    {
+      "_id": "1193",
+      "tag": {
+        "title": "石河水库",
+        "CODE": "530421"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.71891928,
+          24.36991781
+        ]
+      },
+      "_distance": 91612.54193322606
+    },
+    {
+      "_id": "1076",
+      "tag": {
+        "title": "龙泉水库",
+        "CODE": "530425"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.1469089,
+          24.66853267
+        ]
+      },
+      "_distance": 92023.88866363814
+    },
+    {
+      "_id": "1108",
+      "tag": {
+        "title": "车木河水库",
+        "CODE": "530181"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.3669046,
+          24.61385891
+        ]
+      },
+      "_distance": 92035.07899842713
+    },
+    {
+      "_id": "1209",
+      "tag": {
+        "title": "神仙洞水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.86417081,
+          23.55530144
+        ]
+      },
+      "_distance": 92086.35566359811
+    },
+    {
+      "_id": "1077",
+      "tag": {
+        "title": "南屯水库",
+        "CODE": "530425"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.15167903,
+          24.67305672
+        ]
+      },
+      "_distance": 92591.16766401147
+    },
+    {
+      "_id": "833",
+      "tag": {
+        "title": "大箐水库",
+        "CODE": "530424"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.86932484,
+          24.16675632
+        ]
+      },
+      "_distance": 93286.77418372373
+    },
+    {
+      "_id": "1160",
+      "tag": {
+        "title": "合作水库",
+        "CODE": "530122"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.53820667,
+          24.5425658
+        ]
+      },
+      "_distance": 93340.01357754508
+    },
+    {
+      "_id": "1138",
+      "tag": {
+        "title": "瑶冲水库",
+        "CODE": "530122"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.48855247,
+          24.58413179
+        ]
+      },
+      "_distance": 94558.57700614103
+    },
+    {
+      "_id": "1016",
+      "tag": {
+        "title": "朱马大箐水库",
+        "CODE": "532531"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.94917531,
+          22.99868028
+        ]
+      },
+      "_distance": 95043.64586965351
+    },
+    {
+      "_id": "1110",
+      "tag": {
+        "title": "杨兴庄水库",
+        "CODE": "530181"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.31610578,
+          24.66886894
+        ]
+      },
+      "_distance": 95981.22485861044
+    },
+    {
+      "_id": "408",
+      "tag": {
+        "title": "木老虎水库",
+        "CODE": "532322"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.45498643,
+          24.54924597
+        ]
+      },
+      "_distance": 96696.10228974672
+    },
+    {
+      "_id": "1048",
+      "tag": {
+        "title": "米茂水库",
+        "CODE": "530425"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.09205457,
+          24.72751324
+        ]
+      },
+      "_distance": 97956.96345904541
+    },
+    {
+      "_id": "1126",
+      "tag": {
+        "title": "戈奎水库",
+        "CODE": "532531"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.48073385,
+          23.05836817
+        ]
+      },
+      "_distance": 99897.36519591232
+    },
+    {
+      "_id": "896",
+      "tag": {
+        "title": "响水河水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          103.00392158,
+          23.69490128
+        ]
+      },
+      "_distance": 101711.72213218974
+    },
+    {
+      "_id": "861",
+      "tag": {
+        "title": "一碗水水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.97574814,
+          23.57673016
+        ]
+      },
+      "_distance": 102049.04712082139
+    },
+    {
+      "_id": "315",
+      "tag": {
+        "title": "会地河水库",
+        "CODE": "530823"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.06123986,
+          24.14666803
+        ]
+      },
+      "_distance": 102942.91346388026
+    },
+    {
+      "_id": "862",
+      "tag": {
+        "title": "尖山水库",
+        "CODE": "532524"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.98751871,
+          23.58310524
+        ]
+      },
+      "_distance": 102985.50955695217
+    },
+    {
+      "_id": "316",
+      "tag": {
+        "title": "豆地箐水库",
+        "CODE": "530823"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.07972702,
+          24.25012094
+        ]
+      },
+      "_distance": 105451.61920666779
+    },
+    {
+      "_id": "317",
+      "tag": {
+        "title": "大旱塘水库",
+        "CODE": "530823"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.04647344,
+          24.39429023
+        ]
+      },
+      "_distance": 115990.67785364139
+    },
+    {
+      "_id": "373",
+      "tag": {
+        "title": "峨地么水库",
+        "CODE": "532301"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.32537245,
+          24.68011456
+        ]
+      },
+      "_distance": 116225.4219987086
+    },
+    {
+      "_id": "339",
+      "tag": {
+        "title": "七街长龙潭水库",
+        "CODE": "532301"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.23498548,
+          24.6340686
+        ]
+      },
+      "_distance": 118181.95411489082
+    }
+  ],
+  "tunnel": [
+    {
+      "_id": "7219",
+      "tag": {
+        "title": "明溪桥",
+        "inBaseEnTel": null,
+        "inBaseAdress": "云南省玉溪市峨山彝族自治县",
+        "respper": null,
+        "BRIDGECATEGORYCODE": "1",
+        "DISTRICTCODE": "峨山彝族自治县"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.24347,
+          24.31374
+        ]
+      },
+      "_distance": 56397.97018761531
+    },
+    {
+      "_id": "90387",
+      "tag": {
+        "title": "通建东山立交桥",
+        "inBaseEnTel": null,
+        "inBaseAdress": "云南省红河哈尼族彝族自治州建水县",
+        "respper": null,
+        "BRIDGECATEGORYCODE": "1",
+        "DISTRICTCODE": "建水县"
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.85918,
+          23.93742
+        ]
+      },
+      "_distance": 85963.07032042624
+    }
+  ],
+  "historicalPoint": [],
+  "huapo": [
+    {
+      "_id": "yunnanyhd_000389",
+      "tag": {
+        "title": "新安镇新生村邓杆箐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县新安镇新生村邓杆箐",
+        "dsThreatenNum": 140,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.594444,
+          23.645556
+        ]
+      },
+      "_distance": 48970.81626608053
+    },
+    {
+      "_id": "yunnanyhd_000384",
+      "tag": {
+        "title": "孟弄乡胜利村里生组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县孟弄乡胜利村里生组",
+        "dsThreatenNum": 173,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.564167,
+          23.680278
+        ]
+      },
+      "_distance": 50136.12268714997
+    },
+    {
+      "_id": "yunjiang_0026",
+      "tag": {
+        "title": "乌补鲁初东公路滑坡",
+        "monitorType": "定期目视检查",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇卡腊村",
+        "dsThreatenNum": null,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.861089,
+          23.366967
+        ]
+      },
+      "_distance": 56160.67772372472
+    },
+    {
+      "_id": "yunnanyhd_000388",
+      "tag": {
+        "title": "新安镇竜凯村上南寨滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县新安镇竜凯村上南寨",
+        "dsThreatenNum": 261,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.537222,
+          23.601389
+        ]
+      },
+      "_distance": 56449.56381320017
+    },
+    {
+      "_id": "yunjiang_0036",
+      "tag": {
+        "title": "洛戈滑坡",
+        "monitorType": "安装简易监测设施",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇车垤村",
+        "dsThreatenNum": 165,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.76358,
+          23.398928
+        ]
+      },
+      "_distance": 56614.96682957751
+    },
+    {
+      "_id": "yunjiang_0037",
+      "tag": {
+        "title": "利当滑坡",
+        "monitorType": "定期目视检查",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇车垤村",
+        "dsThreatenNum": 12,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.76358,
+          23.398928
+        ]
+      },
+      "_distance": 56614.96682957751
+    },
+    {
+      "_id": "yunnanyhd_000182",
+      "tag": {
+        "title": "安龙堡乡说全村下点母滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县安龙堡乡说全村下点母",
+        "dsThreatenNum": 73,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 80
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.991227,
+          24.380346
+        ]
+      },
+      "_distance": 59109.84103228636
+    },
+    {
+      "_id": "yunnanyhd_000288",
+      "tag": {
+        "title": "和平镇那壮村烂泥塘滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县和平镇那壮村烂泥塘",
+        "dsThreatenNum": 186,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.429444,
+          23.902806
+        ]
+      },
+      "_distance": 60400.706793376965
+    },
+    {
+      "_id": "yunnanyhd_000289",
+      "tag": {
+        "title": "和平镇那壮村大树脚滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县和平镇那壮村大树脚",
+        "dsThreatenNum": 150,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.429492,
+          23.927714
+        ]
+      },
+      "_distance": 60722.71407535941
+    },
+    {
+      "_id": "yunnanyhd_000290",
+      "tag": {
+        "title": "和平镇丫口村田心小组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县和平镇丫口村田心小组",
+        "dsThreatenNum": 124,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.429436,
+          23.953036
+        ]
+      },
+      "_distance": 61187.7618114433
+    },
+    {
+      "_id": "yunnanyhd_000291",
+      "tag": {
+        "title": "和平乡集镇滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县和平乡集镇",
+        "dsThreatenNum": 557,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.427028,
+          23.967889
+        ]
+      },
+      "_distance": 61755.199716424504
+    },
+    {
+      "_id": "yunnanyhd_000176",
+      "tag": {
+        "title": "大麦地镇大麦地村老集镇滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大麦地镇大麦地村老集镇",
+        "dsThreatenNum": 118,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 1000
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.850466,
+          24.389504
+        ]
+      },
+      "_distance": 62478.18582013071
+    },
+    {
+      "_id": "yunnanyhd_000397",
+      "tag": {
+        "title": "龙坝镇勐里村娘埔组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇勐里村娘埔组",
+        "dsThreatenNum": 368,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.844167,
+          23.309722
+        ]
+      },
+      "_distance": 62761.50467918493
+    },
+    {
+      "_id": "yunnanyhd_000385",
+      "tag": {
+        "title": "新安镇会昌村大山家组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县新安镇会昌村大山家组",
+        "dsThreatenNum": 112,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.456667,
+          23.605
+        ]
+      },
+      "_distance": 63557.61784148784
+    },
+    {
+      "_id": "yunnanyhd_000396",
+      "tag": {
+        "title": "龙坝镇勐里村勐里三组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇勐里村勐里三组",
+        "dsThreatenNum": 124,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.835278,
+          23.300833
+        ]
+      },
+      "_distance": 63971.82389135481
+    },
+    {
+      "_id": "yunnanyhd_000183",
+      "tag": {
+        "title": "安龙堡乡他宜龙村啊上佐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县安龙堡乡他宜龙村啊上佐",
+        "dsThreatenNum": 73,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 190
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.990988,
+          24.431953
+        ]
+      },
+      "_distance": 64849.33681226909
+    },
+    {
+      "_id": "yunnanyhd_000184",
+      "tag": {
+        "title": "安龙堡乡他宜龙村本当母滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县安龙堡乡他宜龙村本当母",
+        "dsThreatenNum": 130,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 150
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.990988,
+          24.431953
+        ]
+      },
+      "_distance": 64849.33681226909
+    },
+    {
+      "_id": "yunnanyhd_000386",
+      "tag": {
+        "title": "新安镇会昌村下会昌组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县新安镇会昌村下会昌组",
+        "dsThreatenNum": 104,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.448333,
+          23.588056
+        ]
+      },
+      "_distance": 65151.2792236971
+    },
+    {
+      "_id": "yunnanyhd_000294",
+      "tag": {
+        "title": "者东镇麦地村大竹箐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇麦地村大竹箐",
+        "dsThreatenNum": 160,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.403778,
+          24.019972
+        ]
+      },
+      "_distance": 65490.930263140865
+    },
+    {
+      "_id": "yunnanyhd_000287",
+      "tag": {
+        "title": "和平镇那洛村橄榄寨滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县和平镇那洛村橄榄寨",
+        "dsThreatenNum": 110,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.374314,
+          23.848222
+        ]
+      },
+      "_distance": 65739.92891112222
+    },
+    {
+      "_id": "yunnanyhd_000398",
+      "tag": {
+        "title": "龙坝镇杩木村小寨滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇杩木村小寨",
+        "dsThreatenNum": 117,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.694722,
+          23.34
+        ]
+      },
+      "_distance": 65758.54999082223
+    },
+    {
+      "_id": "yunnanyhd_000387",
+      "tag": {
+        "title": "新安镇会昌村连地组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县新安镇会昌村连地组",
+        "dsThreatenNum": 120,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.451389,
+          23.570278
+        ]
+      },
+      "_distance": 65789.67771644708
+    },
+    {
+      "_id": "yunnanyhd_000392",
+      "tag": {
+        "title": "龙坝镇大也多村能枯组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇大也多村能枯组",
+        "dsThreatenNum": 283,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.792222,
+          23.292222
+        ]
+      },
+      "_distance": 66298.0132045317
+    },
+    {
+      "_id": "yunnanyhd_000395",
+      "tag": {
+        "title": "龙坝镇竜宾村路细组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇竜宾村路细组",
+        "dsThreatenNum": 364,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.866111,
+          23.269444
+        ]
+      },
+      "_distance": 66507.14783936742
+    },
+    {
+      "_id": "yunnanyhd_000393",
+      "tag": {
+        "title": "龙坝镇大也多村哈甫路组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇大也多村哈甫路组",
+        "dsThreatenNum": 230,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.804722,
+          23.285
+        ]
+      },
+      "_distance": 66620.42806005666
+    },
+    {
+      "_id": "yunnanyhd_000391",
+      "tag": {
+        "title": "龙坝镇大乜多村大乜多组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇大乜多村大乜多组",
+        "dsThreatenNum": 540,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.818889,
+          23.28
+        ]
+      },
+      "_distance": 66687.39413229092
+    },
+    {
+      "_id": "yunnanyhd_000394",
+      "tag": {
+        "title": "龙坝镇大也多村土树树字组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙坝镇大也多村土树树字组",
+        "dsThreatenNum": 210,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.795556,
+          23.286111
+        ]
+      },
+      "_distance": 66818.37755554025
+    },
+    {
+      "_id": "yunnanyhd_000295",
+      "tag": {
+        "title": "者东镇麦地村外麦地滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇麦地村外麦地",
+        "dsThreatenNum": 103,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.384722,
+          24.002667
+        ]
+      },
+      "_distance": 66838.02614717827
+    },
+    {
+      "_id": "yunnanyhd_000349",
+      "tag": {
+        "title": "景福镇赵芒山村中贯藤下贯藤滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县景福镇赵芒山村中贯藤下贯藤",
+        "dsThreatenNum": 134,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.603611,
+          24.338889
+        ]
+      },
+      "_distance": 68936.39210286246
+    },
+    {
+      "_id": "yunnanyhd_000293",
+      "tag": {
+        "title": "者东镇者整村文怕组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇者整村文怕组",
+        "dsThreatenNum": 132,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.33725,
+          23.948972
+        ]
+      },
+      "_distance": 70354.20428576527
+    },
+    {
+      "_id": "yunnanyhd_000368",
+      "tag": {
+        "title": "景星镇赛云村寨云一组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星镇赛云村寨云一组",
+        "dsThreatenNum": 110,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.404417,
+          23.562512
+        ]
+      },
+      "_distance": 70433.87719070578
+    },
+    {
+      "_id": "yunnanyhd_000296",
+      "tag": {
+        "title": "者东镇学堂村土主树滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇学堂村土主树",
+        "dsThreatenNum": 103,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.352083,
+          24.041222
+        ]
+      },
+      "_distance": 71208.35818743547
+    },
+    {
+      "_id": "yunnanyhd_000431",
+      "tag": {
+        "title": "雅邑镇徐卡村路能组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇徐卡村路能组",
+        "dsThreatenNum": 101,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.701667,
+          23.278056
+        ]
+      },
+      "_distance": 71474.95978921253
+    },
+    {
+      "_id": "yunnanyhd_000405",
+      "tag": {
+        "title": "雅邑镇坝利村坝埔组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇坝利村坝埔组",
+        "dsThreatenNum": 315,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.768333,
+          23.241944
+        ]
+      },
+      "_distance": 72396.61679875583
+    },
+    {
+      "_id": "yunnanyhd_000185",
+      "tag": {
+        "title": "爱尼山乡六合村大箐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县爱尼山乡六合村大箐",
+        "dsThreatenNum": 39,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 60
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.545183,
+          24.351448
+        ]
+      },
+      "_distance": 73782.37347043879
+    },
+    {
+      "_id": "yunnanyhd_000365",
+      "tag": {
+        "title": "景星乡过者村怕老滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星乡过者村怕老",
+        "dsThreatenNum": 110,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.453428,
+          23.428094
+        ]
+      },
+      "_distance": 74458.52303416337
+    },
+    {
+      "_id": "yunnanyhd_000279",
+      "tag": {
+        "title": "威远镇香盐村芒乃二小组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景谷县威远镇香盐村芒乃二小组",
+        "dsThreatenNum": 142,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.321944,
+          23.651389
+        ]
+      },
+      "_distance": 74482.46784184691
+    },
+    {
+      "_id": "yunnanyhd_000181",
+      "tag": {
+        "title": "大麦地镇野牛村老厂滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大麦地镇野牛村老厂",
+        "dsThreatenNum": 134,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 250
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.720846,
+          24.461079
+        ]
+      },
+      "_distance": 74502.43960181452
+    },
+    {
+      "_id": "yunnanyhd_000361",
+      "tag": {
+        "title": "新抚镇平掌村花椒树滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县新抚镇平掌村花椒树",
+        "dsThreatenNum": 121,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.28,
+          23.761667
+        ]
+      },
+      "_distance": 76005.94083857212
+    },
+    {
+      "_id": "yunnanyhd_000414",
+      "tag": {
+        "title": "那哈乡牛红村瓦落组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县那哈乡牛红村瓦落组",
+        "dsThreatenNum": 101,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.789167,
+          23.199722
+        ]
+      },
+      "_distance": 76125.77220528056
+    },
+    {
+      "_id": "yunnanyhd_000360",
+      "tag": {
+        "title": "团田镇那海村中山组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县团田镇那海村中山组",
+        "dsThreatenNum": 139,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.277272,
+          23.768733
+        ]
+      },
+      "_distance": 76182.01076515105
+    },
+    {
+      "_id": "yunnanyhd_000362",
+      "tag": {
+        "title": "景星乡官厅村厄里滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星乡官厅村厄里",
+        "dsThreatenNum": 105,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.416944,
+          23.444167
+        ]
+      },
+      "_distance": 76305.41157910068
+    },
+    {
+      "_id": "yunnanyhd_000410",
+      "tag": {
+        "title": "雅邑镇雅邑村大寨二组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇雅邑村大寨二组",
+        "dsThreatenNum": 125,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.688333,
+          23.235278
+        ]
+      },
+      "_distance": 76343.48518707711
+    },
+    {
+      "_id": "yunnanyhd_000406",
+      "tag": {
+        "title": "雅邑镇坝利村勐埔组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇坝利村勐埔组",
+        "dsThreatenNum": 202,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.762222,
+          23.205556
+        ]
+      },
+      "_distance": 76411.08547265695
+    },
+    {
+      "_id": "yunnanyhd_000411",
+      "tag": {
+        "title": "雅邑镇雅邑村大寨三组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇雅邑村大寨三组",
+        "dsThreatenNum": 115,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.688889,
+          23.233611
+        ]
+      },
+      "_distance": 76484.87210604263
+    },
+    {
+      "_id": "yunnanyhd_000428",
+      "tag": {
+        "title": "景星镇新华村洒次组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星镇新华村洒次组",
+        "dsThreatenNum": 175,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.368333,
+          23.507778
+        ]
+      },
+      "_distance": 76582.84335587393
+    },
+    {
+      "_id": "yunnanyhd_000407",
+      "tag": {
+        "title": "雅邑镇雅邑村大龙潭组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇雅邑村大龙潭组",
+        "dsThreatenNum": 110,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.688611,
+          23.228056
+        ]
+      },
+      "_distance": 77052.87038484542
+    },
+    {
+      "_id": "yunnanyhd_000408",
+      "tag": {
+        "title": "雅邑镇雅邑村小龙潭组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇雅邑村小龙潭组",
+        "dsThreatenNum": 130,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.688889,
+          23.226389
+        ]
+      },
+      "_distance": 77207.32322311298
+    },
+    {
+      "_id": "yunnanyhd_000409",
+      "tag": {
+        "title": "雅邑镇雅邑村坝心组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇雅邑村坝心组",
+        "dsThreatenNum": 133,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.6825,
+          23.228889
+        ]
+      },
+      "_distance": 77245.57626778554
+    },
+    {
+      "_id": "yunnanyhd_000404",
+      "tag": {
+        "title": "雅邑镇牙骨村托撒组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇牙骨村托撒组",
+        "dsThreatenNum": 142,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.622222,
+          23.2575
+        ]
+      },
+      "_distance": 77445.81827839125
+    },
+    {
+      "_id": "yunnanyhd_000369",
+      "tag": {
+        "title": "通关镇民兴村田房组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县通关镇民兴村田房组",
+        "dsThreatenNum": 110,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.493333,
+          23.348889
+        ]
+      },
+      "_distance": 77447.18164067954
+    },
+    {
+      "_id": "yunnanyhd_000168",
+      "tag": {
+        "title": "法脿镇铺司村洒资达滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇铺司村洒资达",
+        "dsThreatenNum": 165,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 239
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.840783,
+          24.533838
+        ]
+      },
+      "_distance": 78269.01419256181
+    },
+    {
+      "_id": "yunnanyhd_000363",
+      "tag": {
+        "title": "景星乡官厅村新寨滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星乡官厅村新寨",
+        "dsThreatenNum": 253,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.419444,
+          23.411944
+        ]
+      },
+      "_distance": 78288.6629975867
+    },
+    {
+      "_id": "yunnanyhd_000364",
+      "tag": {
+        "title": "景星乡官厅村赵三组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星乡官厅村赵三组",
+        "dsThreatenNum": 155,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.419858,
+          23.408446
+        ]
+      },
+      "_distance": 78499.50686816763
+    },
+    {
+      "_id": "yunnanyhd_000400",
+      "tag": {
+        "title": "雅邑镇下落甫村新寨组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇下落甫村新寨组",
+        "dsThreatenNum": 149,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.723056,
+          23.196667
+        ]
+      },
+      "_distance": 78790.7970818219
+    },
+    {
+      "_id": "yunnanyhd_000399",
+      "tag": {
+        "title": "雅邑镇下落甫村窑房组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇下落甫村窑房组",
+        "dsThreatenNum": 236,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.7325,
+          23.191667
+        ]
+      },
+      "_distance": 78941.699640598
+    },
+    {
+      "_id": "yunnanyhd_000416",
+      "tag": {
+        "title": "泗南江镇田房村田房组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇田房村田房组",
+        "dsThreatenNum": 130,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.773889,
+          23.164722
+        ]
+      },
+      "_distance": 80314.76282487254
+    },
+    {
+      "_id": "yunnanyhd_000413",
+      "tag": {
+        "title": "那哈乡那哈村那哈大寨滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县那哈乡那哈村那哈大寨",
+        "dsThreatenNum": 720,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.841389,
+          23.145556
+        ]
+      },
+      "_distance": 80509.86329814547
+    },
+    {
+      "_id": "yunnanyhd_000412",
+      "tag": {
+        "title": "那哈乡那哈村下雅竜组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县那哈乡那哈村下雅竜组",
+        "dsThreatenNum": 121,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.848611,
+          23.1375
+        ]
+      },
+      "_distance": 81221.70800780451
+    },
+    {
+      "_id": "yunnanyhd_000366",
+      "tag": {
+        "title": "景星镇路思村陈李组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星镇路思村陈李组",
+        "dsThreatenNum": 350,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.349167,
+          23.448056
+        ]
+      },
+      "_distance": 81738.78123611686
+    },
+    {
+      "_id": "yunnanyhd_000174",
+      "tag": {
+        "title": "法脿镇红栗村锅底塘滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇红栗村锅底塘",
+        "dsThreatenNum": 130,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 900
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.886514,
+          24.581222
+        ]
+      },
+      "_distance": 82519.1815811988
+    },
+    {
+      "_id": "yunnanyhd_000171",
+      "tag": {
+        "title": "法脿镇红栗村菜园箐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇红栗村菜园箐",
+        "dsThreatenNum": 27,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 20
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.886514,
+          24.581222
+        ]
+      },
+      "_distance": 82519.1815811988
+    },
+    {
+      "_id": "yunnanyhd_000165",
+      "tag": {
+        "title": "法脿镇雨龙村大转弯滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇雨龙村大转弯",
+        "dsThreatenNum": 162,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 2970
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.771214,
+          24.55605
+        ]
+      },
+      "_distance": 82556.0411466748
+    },
+    {
+      "_id": "yunnanyhd_000164",
+      "tag": {
+        "title": "法脿镇雨龙村碧庄滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇雨龙村碧庄",
+        "dsThreatenNum": 502,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 1050
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.771214,
+          24.55605
+        ]
+      },
+      "_distance": 82556.0411466748
+    },
+    {
+      "_id": "yunnanyhd_000367",
+      "tag": {
+        "title": "景星镇太和村挖墨大寨滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县景星镇太和村挖墨大寨",
+        "dsThreatenNum": 1430,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.291111,
+          23.525278
+        ]
+      },
+      "_distance": 82629.07154610743
+    },
+    {
+      "_id": "yunnanyhd_000425",
+      "tag": {
+        "title": "坝溜镇大掌村大掌组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇大掌村大掌组",
+        "dsThreatenNum": 340,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.903333,
+          23.1075
+        ]
+      },
+      "_distance": 83508.18105407541
+    },
+    {
+      "_id": "yunnanyhd_000297",
+      "tag": {
+        "title": "者东镇新文村集镇周边滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇新文村集镇周边",
+        "dsThreatenNum": 1350,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.227806,
+          24.060139
+        ]
+      },
+      "_distance": 83916.30790319249
+    },
+    {
+      "_id": "yunnanyhd_000417",
+      "tag": {
+        "title": "泗南江镇洛萨村大鱼洞一、二组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇洛萨村大鱼洞一、二组",
+        "dsThreatenNum": 298,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.719722,
+          23.145833
+        ]
+      },
+      "_distance": 84167.81788377403
+    },
+    {
+      "_id": "yunnanyhd_000301",
+      "tag": {
+        "title": "九甲镇勐真村下良子组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县九甲镇勐真村下良子组",
+        "dsThreatenNum": 112,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.225639,
+          24.081139
+        ]
+      },
+      "_distance": 84801.50204479473
+    },
+    {
+      "_id": "yunnanyhd_000186",
+      "tag": {
+        "title": "爱尼山乡海资底村大龙潭滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县爱尼山乡海资底村大龙潭",
+        "dsThreatenNum": 55,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 40
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.562043,
+          24.489941
+        ]
+      },
+      "_distance": 85076.0576008297
+    },
+    {
+      "_id": "yunnanyhd_000187",
+      "tag": {
+        "title": "爱尼山乡大箐村小尖山滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县爱尼山乡大箐村小尖山",
+        "dsThreatenNum": 89,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 99
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.561596,
+          24.489875
+        ]
+      },
+      "_distance": 85094.74041192241
+    },
+    {
+      "_id": "yunnanyhd_000188",
+      "tag": {
+        "title": "爱尼山乡大箐村上村滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县爱尼山乡大箐村上村",
+        "dsThreatenNum": 72,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 180
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.561596,
+          24.489875
+        ]
+      },
+      "_distance": 85094.74041192241
+    },
+    {
+      "_id": "yunnanyhd_000189",
+      "tag": {
+        "title": "爱尼山乡旧哨村凹子滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县爱尼山乡旧哨村凹子",
+        "dsThreatenNum": 37,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 60
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.561496,
+          24.489875
+        ]
+      },
+      "_distance": 85100.29711224616
+    },
+    {
+      "_id": "yunnanyhd_000173",
+      "tag": {
+        "title": "法脿镇石头村对门小村滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇石头村对门小村",
+        "dsThreatenNum": 54,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 130
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.848523,
+          24.600005
+        ]
+      },
+      "_distance": 85285.10658518376
+    },
+    {
+      "_id": "yunnanyhd_000163",
+      "tag": {
+        "title": "法脿镇雨龙中学滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇雨龙中学",
+        "dsThreatenNum": 537,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 5000
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.848523,
+          24.600005
+        ]
+      },
+      "_distance": 85285.10658518376
+    },
+    {
+      "_id": "yunnanyhd_000299",
+      "tag": {
+        "title": "者东镇新庄村半坡组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇新庄村半坡组",
+        "dsThreatenNum": 121,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.222417,
+          24.096472
+        ]
+      },
+      "_distance": 85640.71364547632
+    },
+    {
+      "_id": "yunnanyhd_000403",
+      "tag": {
+        "title": "雅邑镇密切地村密切地一组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇密切地村密切地一组",
+        "dsThreatenNum": 106,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.649444,
+          23.158889
+        ]
+      },
+      "_distance": 85730.21460444976
+    },
+    {
+      "_id": "yunnanyhd_000170",
+      "tag": {
+        "title": "法脿镇古木村岔河滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇古木村岔河",
+        "dsThreatenNum": 34,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 95
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.755535,
+          24.586869
+        ]
+      },
+      "_distance": 86309.56659055626
+    },
+    {
+      "_id": "yunnanyhd_000169",
+      "tag": {
+        "title": "法脿镇古木村妥武滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇古木村妥武",
+        "dsThreatenNum": 27,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 80
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.755535,
+          24.586869
+        ]
+      },
+      "_distance": 86309.56659055626
+    },
+    {
+      "_id": "yunnanyhd_000402",
+      "tag": {
+        "title": "雅邑镇密切地村格界组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇密切地村格界组",
+        "dsThreatenNum": 203,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.706111,
+          23.127222
+        ]
+      },
+      "_distance": 86605.8571339357
+    },
+    {
+      "_id": "yunnanyhd_000401",
+      "tag": {
+        "title": "雅邑镇螺蛳塘村地房组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县雅邑镇螺蛳塘村地房组",
+        "dsThreatenNum": 124,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.638889,
+          23.143611
+        ]
+      },
+      "_distance": 87733.11214728451
+    },
+    {
+      "_id": "yunnanyhd_000422",
+      "tag": {
+        "title": "坝溜镇哈布孔村小乜多组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇哈布孔村小乜多组",
+        "dsThreatenNum": 143,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.918889,
+          23.067222
+        ]
+      },
+      "_distance": 87747.53308187905
+    },
+    {
+      "_id": "yunnanyhd_000423",
+      "tag": {
+        "title": "坝溜镇哈而瓦村大乜多组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇哈而瓦村大乜多组",
+        "dsThreatenNum": 540,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.918333,
+          23.064722
+        ]
+      },
+      "_distance": 88030.59238109163
+    },
+    {
+      "_id": "yunnanyhd_000420",
+      "tag": {
+        "title": "坝溜镇联珠村联珠下组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇联珠村联珠下组",
+        "dsThreatenNum": 108,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.896944,
+          23.066944
+        ]
+      },
+      "_distance": 88069.98527253175
+    },
+    {
+      "_id": "yunnanyhd_000175",
+      "tag": {
+        "title": "嘉镇新树村旧笼山滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县嘉镇新树村旧笼山",
+        "dsThreatenNum": 105,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 758
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.338428,
+          24.341206
+        ]
+      },
+      "_distance": 88243.70436572406
+    },
+    {
+      "_id": "yunnanyhd_000421",
+      "tag": {
+        "title": "坝溜镇联珠村坝波组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇联珠村坝波组",
+        "dsThreatenNum": 132,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.899182,
+          23.065065
+        ]
+      },
+      "_distance": 88244.78839973615
+    },
+    {
+      "_id": "yunnanyhd_000424",
+      "tag": {
+        "title": "坝溜镇厄尼村厄尼组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇厄尼村厄尼组",
+        "dsThreatenNum": 225,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.991389,
+          23.046667
+        ]
+      },
+      "_distance": 89473.82364523222
+    },
+    {
+      "_id": "yunnanyhd_000374",
+      "tag": {
+        "title": "鱼塘镇树林村上坝干滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县鱼塘镇树林村上坝干",
+        "dsThreatenNum": 110,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.538056,
+          23.178333
+        ]
+      },
+      "_distance": 89501.30353130896
+    },
+    {
+      "_id": "yunnanyhd_000426",
+      "tag": {
+        "title": "坝溜镇老彭村老彭组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇老彭村老彭组",
+        "dsThreatenNum": 160,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.825278,
+          23.057778
+        ]
+      },
+      "_distance": 90403.3132915532
+    },
+    {
+      "_id": "yunnanyhd_000167",
+      "tag": {
+        "title": "法脿镇麦地村半坡滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇麦地村半坡",
+        "dsThreatenNum": 46,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 58
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.853553,
+          24.649313
+        ]
+      },
+      "_distance": 90568.11937199169
+    },
+    {
+      "_id": "yunnanyhd_000166",
+      "tag": {
+        "title": "法脿镇麦地村杜近村滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇麦地村杜近村",
+        "dsThreatenNum": 513,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 1870
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.854842,
+          24.650043
+        ]
+      },
+      "_distance": 90623.65777355456
+    },
+    {
+      "_id": "yunnanyhd_000465",
+      "tag": {
+        "title": "宁洱镇化良村大歇场滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市宁洱县宁洱镇化良村大歇场",
+        "dsThreatenNum": 278,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.965833,
+          23.036667
+        ]
+      },
+      "_distance": 90708.13676245819
+    },
+    {
+      "_id": "yunnanyhd_000298",
+      "tag": {
+        "title": "者东镇新光村骂外组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县者东镇新光村骂外组",
+        "dsThreatenNum": 159,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.163944,
+          24.078833
+        ]
+      },
+      "_distance": 90729.67045440269
+    },
+    {
+      "_id": "yunnanyhd_000427",
+      "tag": {
+        "title": "坝溜镇长寨村长寨组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县坝溜镇长寨村长寨组",
+        "dsThreatenNum": 360,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.935,
+          23.038056
+        ]
+      },
+      "_distance": 90800.58373581052
+    },
+    {
+      "_id": "yunnanyhd_000418",
+      "tag": {
+        "title": "泗南江镇苏卫村老卫寨一、二组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇苏卫村老卫寨一、二组",
+        "dsThreatenNum": 175,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.698333,
+          23.084167
+        ]
+      },
+      "_distance": 91360.12060960112
+    },
+    {
+      "_id": "yunnanyhd_000292",
+      "tag": {
+        "title": "古城镇古城村梅子丫口组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县古城镇古城村梅子丫口组",
+        "dsThreatenNum": 103,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.12825,
+          23.741944
+        ]
+      },
+      "_distance": 91622.41767615412
+    },
+    {
+      "_id": "yunnanyhd_000302",
+      "tag": {
+        "title": "九甲镇和平包王下滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县九甲镇和平包王下",
+        "dsThreatenNum": 233,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.21975,
+          24.243361
+        ]
+      },
+      "_distance": 92387.64911577263
+    },
+    {
+      "_id": "yunnanyhd_000154",
+      "tag": {
+        "title": "妥甸镇九石村张家滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县妥甸镇九石村张家",
+        "dsThreatenNum": 76,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 110
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.660161,
+          24.612888
+        ]
+      },
+      "_distance": 92446.15001420076
+    },
+    {
+      "_id": "yunnanyhd_000156",
+      "tag": {
+        "title": "妥甸镇九石村大箐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县妥甸镇九石村大箐",
+        "dsThreatenNum": 16,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 160
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.660161,
+          24.612888
+        ]
+      },
+      "_distance": 92446.15001420076
+    },
+    {
+      "_id": "yunnanyhd_000373",
+      "tag": {
+        "title": "鱼塘镇大山村大臭水滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县鱼塘镇大山村大臭水",
+        "dsThreatenNum": 421,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.537778,
+          23.140278
+        ]
+      },
+      "_distance": 93088.11419791642
+    },
+    {
+      "_id": "yunnanyhd_000377",
+      "tag": {
+        "title": "龙潭乡木化村布孔组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县龙潭乡木化村布孔组",
+        "dsThreatenNum": 136,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.596111,
+          23.109167
+        ]
+      },
+      "_distance": 93135.31297462671
+    },
+    {
+      "_id": "yunnanyhd_000348",
+      "tag": {
+        "title": "花山乡芦山村老虎洞滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县花山乡芦山村老虎洞",
+        "dsThreatenNum": 236,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.215,
+          24.258611
+        ]
+      },
+      "_distance": 93621.74045042395
+    },
+    {
+      "_id": "yunnanyhd_000305",
+      "tag": {
+        "title": "恩乐镇养老院滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县恩乐镇养老院",
+        "dsThreatenNum": 880,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.113028,
+          23.995361
+        ]
+      },
+      "_distance": 93697.32671098414
+    },
+    {
+      "_id": "yunnanyhd_000157",
+      "tag": {
+        "title": "大庄镇各三郎村大麦地滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大庄镇各三郎村大麦地",
+        "dsThreatenNum": 34,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 59
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.892013,
+          24.68495
+        ]
+      },
+      "_distance": 93848.77078098702
+    },
+    {
+      "_id": "yunnanyhd_000306",
+      "tag": {
+        "title": "恩乐镇团结村三家组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县恩乐镇团结村三家组",
+        "dsThreatenNum": 147,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.107944,
+          23.978639
+        ]
+      },
+      "_distance": 93911.03701284804
+    },
+    {
+      "_id": "yunnanyhd_000419",
+      "tag": {
+        "title": "泗南江镇干坝村普豆组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇干坝村普豆组",
+        "dsThreatenNum": 149,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.730833,
+          23.045278
+        ]
+      },
+      "_distance": 94322.85553358067
+    },
+    {
+      "_id": "yunnanyhd_000152",
+      "tag": {
+        "title": "妥甸镇丫口村山尾巴滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县妥甸镇丫口村山尾巴",
+        "dsThreatenNum": 45,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 100
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.612794,
+          24.611866
+        ]
+      },
+      "_distance": 94347.09569179971
+    },
+    {
+      "_id": "yunnanyhd_000459",
+      "tag": {
+        "title": "梅子乡民乐村胜利煤矿滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市宁洱县梅子乡民乐村胜利煤矿",
+        "dsThreatenNum": 330,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.168611,
+          23.511944
+        ]
+      },
+      "_distance": 94601.84876531635
+    },
+    {
+      "_id": "yunnanyhd_000304",
+      "tag": {
+        "title": "恩乐镇恩乐村娘娘庙组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县恩乐镇恩乐村娘娘庙组",
+        "dsThreatenNum": 425,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.101056,
+          24.006806
+        ]
+      },
+      "_distance": 95118.91789402645
+    },
+    {
+      "_id": "yunnanyhd_000344",
+      "tag": {
+        "title": "花山乡文岔村大梁子组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县花山乡文岔村大梁子组",
+        "dsThreatenNum": 154,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.1825,
+          24.240556
+        ]
+      },
+      "_distance": 95597.27423646406
+    },
+    {
+      "_id": "yunnanyhd_000303",
+      "tag": {
+        "title": "恩乐镇复兴村那本坝5、6组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市镇沅县恩乐镇复兴村那本坝5、6组",
+        "dsThreatenNum": 200,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.103417,
+          24.042583
+        ]
+      },
+      "_distance": 95682.94208250743
+    },
+    {
+      "_id": "yunnanyhd_000191",
+      "tag": {
+        "title": "独田乡独田社区芭蕉村滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县独田乡独田社区芭蕉村",
+        "dsThreatenNum": 136,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 385
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.467198,
+          24.551896
+        ]
+      },
+      "_distance": 96204.75899959874
+    },
+    {
+      "_id": "yunnanyhd_000192",
+      "tag": {
+        "title": "独田乡独田社区凹子滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县独田乡独田社区凹子",
+        "dsThreatenNum": 142,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 180
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.467198,
+          24.551896
+        ]
+      },
+      "_distance": 96204.75899959874
+    },
+    {
+      "_id": "yunnanyhd_000347",
+      "tag": {
+        "title": "花山乡坡头村大村组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县花山乡坡头村大村组",
+        "dsThreatenNum": 249,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.142222,
+          24.18
+        ]
+      },
+      "_distance": 96518.82358900912
+    },
+    {
+      "_id": "yunnanyhd_000430",
+      "tag": {
+        "title": "泗南江镇巴豆村四角田组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇巴豆村四角田组",
+        "dsThreatenNum": 128,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.796667,
+          23.0075
+        ]
+      },
+      "_distance": 96520.39827626685
+    },
+    {
+      "_id": "yunnanyhd_000158",
+      "tag": {
+        "title": "大庄镇普岩村龙箐滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大庄镇普岩村龙箐",
+        "dsThreatenNum": 48,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 80
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.734032,
+          24.686909
+        ]
+      },
+      "_distance": 97578.9267548752
+    },
+    {
+      "_id": "yunnanyhd_000415",
+      "tag": {
+        "title": "泗南江镇巴豆村克市组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇巴豆村克市组",
+        "dsThreatenNum": 240,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.801127,
+          22.991891
+        ]
+      },
+      "_distance": 98105.0993205802
+    },
+    {
+      "_id": "yunnanyhd_000190",
+      "tag": {
+        "title": "独田乡大水田村岔河滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县独田乡大水田村岔河",
+        "dsThreatenNum": 42,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 120
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.417301,
+          24.543194
+        ]
+      },
+      "_distance": 98486.35640186048
+    },
+    {
+      "_id": "yunnanyhd_000159",
+      "tag": {
+        "title": "大庄镇大庄社区麦地山滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大庄镇大庄社区麦地山",
+        "dsThreatenNum": 95,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 240
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.832086,
+          24.72301
+        ]
+      },
+      "_distance": 99035.21748233204
+    },
+    {
+      "_id": "yunnanyhd_000162",
+      "tag": {
+        "title": "大庄镇大庄中学滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大庄镇大庄中学",
+        "dsThreatenNum": 860,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 1200
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.839052,
+          24.732753
+        ]
+      },
+      "_distance": 99967.3703722039
+    },
+    {
+      "_id": "yunnanyhd_000345",
+      "tag": {
+        "title": "花山乡撇罗村团山组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县花山乡撇罗村团山组",
+        "dsThreatenNum": 121,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.157778,
+          24.283611
+        ]
+      },
+      "_distance": 100051.13197550068
+    },
+    {
+      "_id": "yunnanyhd_000429",
+      "tag": {
+        "title": "泗南江镇广丰村坝鲁冲滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市墨江县泗南江镇广丰村坝鲁冲",
+        "dsThreatenNum": 236,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.806111,
+          22.971667
+        ]
+      },
+      "_distance": 100186.59697023532
+    },
+    {
+      "_id": "yunnanyhd_000153",
+      "tag": {
+        "title": "妥甸镇桂花井村新村滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县妥甸镇桂花井村新村",
+        "dsThreatenNum": 72,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 250
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.639698,
+          24.687475
+        ]
+      },
+      "_distance": 100899.1866314447
+    },
+    {
+      "_id": "yunnanyhd_000155",
+      "tag": {
+        "title": "妥甸镇中山社区佐基拉滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县妥甸镇中山社区佐基拉",
+        "dsThreatenNum": 26,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 55
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.639698,
+          24.687475
+        ]
+      },
+      "_distance": 100899.1866314447
+    },
+    {
+      "_id": "yunnanyhd_000180",
+      "tag": {
+        "title": "大麦地镇邦三村三前田滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大麦地镇邦三村三前田",
+        "dsThreatenNum": 26,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 40
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.641937,
+          24.688875
+        ]
+      },
+      "_distance": 100956.55423897477
+    },
+    {
+      "_id": "yunnanyhd_000346",
+      "tag": {
+        "title": "花山镇文召村迤外湾子组滑坡滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县花山镇文召村迤外湾子组滑坡",
+        "dsThreatenNum": 106,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.118889,
+          24.236111
+        ]
+      },
+      "_distance": 101189.34568172549
+    },
+    {
+      "_id": "yunnanyhd_000161",
+      "tag": {
+        "title": "大庄镇麻栗树村甲地左滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "楚雄彝族自治州双柏县大庄镇麻栗树村甲地左",
+        "dsThreatenNum": 436,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 1430
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.924959,
+          24.796566
+        ]
+      },
+      "_distance": 105810.7320129424
+    },
+    {
+      "_id": "yunnanyhd_000342",
+      "tag": {
+        "title": "大街乡塘坊村上村组滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县大街乡塘坊村上村组",
+        "dsThreatenNum": 120,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.067222,
+          24.318611
+        ]
+      },
+      "_distance": 109986.13414165532
+    },
+    {
+      "_id": "yunnanyhd_000343",
+      "tag": {
+        "title": "大街镇塘坊村桂花树滑坡",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0100",
+        "dsBaseAdress": "普洱市景东县大街镇塘坊村桂花树",
+        "dsThreatenNum": 180,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.056944,
+          24.325556
+        ]
+      },
+      "_distance": 111270.1874672864
+    }
+  ],
+  "nishiliu": [
+    {
+      "_id": "yunjiang_0032",
+      "tag": {
+        "title": "小斑碧泥石流",
+        "monitorType": "雨情",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇安定村",
+        "dsThreatenNum": 64,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.814499,
+          23.425574
+        ]
+      },
+      "_distance": 51685.8418452079
+    },
+    {
+      "_id": "yunjiang_0035",
+      "tag": {
+        "title": "大斑碧对侧泥石流",
+        "monitorType": "雨情",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇安定村",
+        "dsThreatenNum": null,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.814499,
+          23.425574
+        ]
+      },
+      "_distance": 51685.8418452079
+    },
+    {
+      "_id": "yunjiang_0029",
+      "tag": {
+        "title": "龙潭泥石流",
+        "monitorType": "雨情",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇卡腊村",
+        "dsThreatenNum": 186,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.861089,
+          23.366967
+        ]
+      },
+      "_distance": 56160.67772372472
+    },
+    {
+      "_id": "yunjiang_0030",
+      "tag": {
+        "title": "罗马河泥石流",
+        "monitorType": "雨情",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇卡腊村",
+        "dsThreatenNum": null,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.861089,
+          23.366967
+        ]
+      },
+      "_distance": 56160.67772372472
+    },
+    {
+      "_id": "yunjiang_0031",
+      "tag": {
+        "title": "腊里河泥石流",
+        "monitorType": "雨情",
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "云南省玉溪市元江县因远镇卡腊村",
+        "dsThreatenNum": null,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.861089,
+          23.366967
+        ]
+      },
+      "_distance": 56160.67772372472
+    },
+    {
+      "_id": "yunnanyhd_000172",
+      "tag": {
+        "title": "法脿镇六街村贾左阱泥石流",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "楚雄彝族自治州双柏县法脿镇六街村贾左阱",
+        "dsThreatenNum": 72,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": 190
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.874532,
+          24.507451
+        ]
+      },
+      "_distance": 74662.71199566421
+    },
+    {
+      "_id": "yunnanyhd_000300",
+      "tag": {
+        "title": "者东镇者东镇集镇泥石流",
+        "monitorType": null,
+        "monitorTel": null,
+        "monitorMeasure": null,
+        "dsBaseLevel": null,
+        "dsBaseType": "20104.0200",
+        "dsBaseAdress": "普洱市镇沅县者东镇者东镇集镇",
+        "dsThreatenNum": 401,
+        "dsThreatenObj": null,
+        "dsThreatenProperty": null
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.171833,
+          24.006
+        ]
+      },
+      "_distance": 88032.04477113145
+    }
+  ],
+  "explosive": [
+    {
+      "_id": "QDW000000012058",
+      "tag": {
+        "title": "峨山银天长信商贸有限公司",
+        "enBaseEnTel": "13887728621",
+        "enBaseAdress": "云南省玉溪市峨山县双江街道西门建材市场A幢10号",
+        "longitude": 102.402738,
+        "latitude": 24.180813,
+        "enBaseStaffNum": 5
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.402738,
+          24.180813
+        ]
+      },
+      "_distance": 53579.1213280281
+    },
+    {
+      "_id": "QDW000000001934",
+      "tag": {
+        "title": "峨山恒瑞商贸有限公司",
+        "enBaseEnTel": "15187787569",
+        "enBaseAdress": "云南省玉溪市峨山彝族自治县双江镇峨峰街1号",
+        "longitude": 102.410909,
+        "latitude": 24.176033,
+        "enBaseStaffNum": 4
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.410909,
+          24.176033
+        ]
+      },
+      "_distance": 53825.95706653767
+    },
+    {
+      "_id": "QDW000000001944",
+      "tag": {
+        "title": "峨山县集力民用爆破器材物资有限公司",
+        "enBaseEnTel": "08774011266",
+        "enBaseAdress": "云南省玉溪市峨山县双江镇桂峰路四号",
+        "longitude": 102.412332,
+        "latitude": 24.177096,
+        "enBaseStaffNum": 5
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.412332,
+          24.177096
+        ]
+      },
+      "_distance": 54012.47969728801
+    },
+    {
+      "_id": "QDW000000001871",
+      "tag": {
+        "title": "墨江县日杂土产有限公司",
+        "enBaseEnTel": "08794236977",
+        "enBaseAdress": "墨江县新建路68号",
+        "longitude": 101.698485,
+        "latitude": 23.439138999999997,
+        "enBaseStaffNum": 5
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.698485,
+          23.439139
+        ]
+      },
+      "_distance": 56273.91810323388
+    },
+    {
+      "_id": "QDW000000002110",
+      "tag": {
+        "title": "红河县生资日杂公司",
+        "enBaseEnTel": "08734621563",
+        "enBaseAdress": "云南省红河州红河县迤萨镇东兴街8号",
+        "longitude": 102.429897,
+        "latitude": 23.371851,
+        "enBaseStaffNum": 15
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.429897,
+          23.371851
+        ]
+      },
+      "_distance": 67684.02716665584
+    },
+    {
+      "_id": "QDW000000011236",
+      "tag": {
+        "title": "通海县鼎丰烟花爆竹有限公司",
+        "enBaseEnTel": "13987757581",
+        "enBaseAdress": "通海县里环城西路万家路口14号",
+        "longitude": 102.653373,
+        "latitude": 24.147287,
+        "enBaseStaffNum": 8
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.653373,
+          24.147287
+        ]
+      },
+      "_distance": 72415.47181891203
+    },
+    {
+      "_id": "QDW000000000343",
+      "tag": {
+        "title": "玉溪市瑞兴烟花爆竹有限公司",
+        "enBaseEnTel": "08772077488",
+        "enBaseAdress": "玉溪市红塔区高仓镇",
+        "longitude": 102.525062,
+        "latitude": 24.32394,
+        "enBaseStaffNum": 7
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.525062,
+          24.32394
+        ]
+      },
+      "_distance": 73606.60091322723
+    },
+    {
+      "_id": "QDW000000000024",
+      "tag": {
+        "title": "云南省江川大庄星云湖畔烟花火炮厂",
+        "enBaseEnTel": "08778076089",
+        "enBaseAdress": "云南省玉溪市",
+        "longitude": 102.545068,
+        "latitude": 24.370447,
+        "enBaseStaffNum": 100
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.545068,
+          24.370447
+        ]
+      },
+      "_distance": 78757.91449221026
+    },
+    {
+      "_id": "QDW000000004422",
+      "tag": {
+        "title": "云南江川大庄寿翁花炮厂",
+        "enBaseEnTel": "13608772710",
+        "enBaseAdress": "江川县大街镇土官田村小煤窑",
+        "longitude": 102.701649,
+        "latitude": 24.282276,
+        "enBaseStaffNum": 150
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.701649,
+          24.282276
+        ]
+      },
+      "_distance": 84355.65041244235
+    },
+    {
+      "_id": "QDW000000000414",
+      "tag": {
+        "title": "建水县供销合作社联合社土产公司(新)",
+        "enBaseEnTel": "08737627656",
+        "enBaseAdress": "建水县东正路117号",
+        "longitude": 102.838067,
+        "latitude": 23.624713,
+        "enBaseStaffNum": 10
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.838067,
+          23.624713
+        ]
+      },
+      "_distance": 87052.5505862396
+    },
+    {
+      "_id": "QDW000000010260",
+      "tag": {
+        "title": "江川久禄烟花爆竹有限责任公司",
+        "enBaseEnTel": "13887781598",
+        "enBaseAdress": "云南省江川县大街镇白龙潭汪字坡",
+        "longitude": 102.740214,
+        "latitude": 24.279705999999997,
+        "enBaseStaffNum": 280
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.740214,
+          24.279706
+        ]
+      },
+      "_distance": 87447.46567079485
+    },
+    {
+      "_id": "QDW000000004229",
+      "tag": {
+        "title": "江川县文星阁烟花火炮厂",
+        "enBaseEnTel": "08778032808",
+        "enBaseAdress": "江川县大街镇三街村花果山",
+        "longitude": 102.740256,
+        "latitude": 24.305571,
+        "enBaseStaffNum": 200
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.740256,
+          24.305571
+        ]
+      },
+      "_distance": 89052.47951800446
+    },
+    {
+      "_id": "QDW000000010284",
+      "tag": {
+        "title": "云南江川王牌烟花火炮厂",
+        "enBaseEnTel": "15987714066",
+        "enBaseAdress": "云南省玉溪市江川县大街镇三街村枕头山",
+        "longitude": 102.740256,
+        "latitude": 24.305571,
+        "enBaseStaffNum": 180
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.740256,
+          24.305571
+        ]
+      },
+      "_distance": 89052.47951800446
+    },
+    {
+      "_id": "QDW000000002067",
+      "tag": {
+        "title": "江川元吉烟花爆竹销售有限公司",
+        "enBaseEnTel": "13987787343",
+        "enBaseAdress": "江川县大街镇三街村九组",
+        "longitude": 102.740256,
+        "latitude": 24.305571,
+        "enBaseStaffNum": 4
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.740256,
+          24.305571
+        ]
+      },
+      "_distance": 89052.47951800446
+    },
+    {
+      "_id": "QDW000000001945",
+      "tag": {
+        "title": "江川恒丰烟花爆竹有限公司",
+        "enBaseEnTel": "13988461123",
+        "enBaseAdress": "江川县大街镇玉泉路",
+        "longitude": 102.752109,
+        "latitude": 24.300390999999998,
+        "enBaseStaffNum": 8
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.752109,
+          24.300391
+        ]
+      },
+      "_distance": 89723.07892439919
+    },
+    {
+      "_id": "QDW000000012336",
+      "tag": {
+        "title": "云南绿竹烟花集团江川江源花炮有限公司",
+        "enBaseEnTel": "13987731494",
+        "enBaseAdress": "云南省玉溪市江川县大街镇",
+        "longitude": 102.756076,
+        "latitude": 24.295996,
+        "enBaseStaffNum": 44
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.756076,
+          24.295996
+        ]
+      },
+      "_distance": 89787.3425697486
+    },
+    {
+      "_id": "QDW000000010253",
+      "tag": {
+        "title": "江川县星兴烟花火炮厂",
+        "enBaseEnTel": "13987743678",
+        "enBaseAdress": "江川县大街镇紫红坝",
+        "longitude": 102.756076,
+        "latitude": 24.295996,
+        "enBaseStaffNum": 80
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.756076,
+          24.295996
+        ]
+      },
+      "_distance": 89787.3425697486
+    },
+    {
+      "_id": "QDW000000010293",
+      "tag": {
+        "title": "云南江川三街金甲烟花火炮厂",
+        "enBaseEnTel": "08778028181",
+        "enBaseAdress": "江川县大街镇三街仙水",
+        "longitude": 102.756076,
+        "latitude": 24.295996,
+        "enBaseStaffNum": 260
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.756076,
+          24.295996
+        ]
+      },
+      "_distance": 89787.3425697486
+    },
+    {
+      "_id": "QDW000000010258",
+      "tag": {
+        "title": "江川伏家营金桥烟花火炮厂",
+        "enBaseEnTel": "08778069091",
+        "enBaseAdress": "江川县大街镇捧寨村",
+        "longitude": 102.756076,
+        "latitude": 24.295996,
+        "enBaseStaffNum": 130
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.756076,
+          24.295996
+        ]
+      },
+      "_distance": 89787.3425697486
+    },
+    {
+      "_id": "QDW000000010310",
+      "tag": {
+        "title": "云南江川龙登烟花香炮厂",
+        "enBaseEnTel": "13608892404",
+        "enBaseAdress": "云南省江川县大街镇大寨村旁",
+        "longitude": 102.756076,
+        "latitude": 24.295996,
+        "enBaseStaffNum": 85
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.756076,
+          24.295996
+        ]
+      },
+      "_distance": 89787.3425697486
+    },
+    {
+      "_id": "QDW000000000007",
+      "tag": {
+        "title": "云南江川河咀金龙烟花火炮厂",
+        "enBaseEnTel": "08778076328",
+        "enBaseAdress": "云南省玉溪市江川县大街镇土官田黄瓜山",
+        "longitude": 102.756076,
+        "latitude": 24.295996,
+        "enBaseStaffNum": 200
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.756076,
+          24.295996
+        ]
+      },
+      "_distance": 89787.3425697486
+    },
+    {
+      "_id": "QDW000000012456",
+      "tag": {
+        "title": "江川皇壮烟花爆竹有限公司",
+        "enBaseEnTel": "08778026789",
+        "enBaseAdress": "云南省玉溪市江川县大街镇仁和街79号（玉泉花园）",
+        "longitude": 102.751815,
+        "latitude": 24.301918,
+        "enBaseStaffNum": 10
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.751815,
+          24.301918
+        ]
+      },
+      "_distance": 89793.05523186819
+    },
+    {
+      "_id": "QDW000000010299",
+      "tag": {
+        "title": "云南江川瑞丰花炮有限责任公司",
+        "enBaseEnTel": "08778088188",
+        "enBaseAdress": "江川县雄关乡知青林场",
+        "longitude": 102.80639,
+        "latitude": 24.22674,
+        "enBaseStaffNum": 119
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.80639,
+          24.22674
+        ]
+      },
+      "_distance": 90279.76550768885
+    },
+    {
+      "_id": "QDW000000012514",
+      "tag": {
+        "title": "云南绿竹烟花集团江川后鑫花炮有限公司",
+        "enBaseEnTel": "13887738416",
+        "enBaseAdress": "云南省玉溪市江川县前卫镇后卫村委会黄草坝",
+        "longitude": 102.739144,
+        "latitude": 24.341648,
+        "enBaseStaffNum": 50
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.739144,
+          24.341648
+        ]
+      },
+      "_distance": 91300.41514372491
+    },
+    {
+      "_id": "QDW000000010289",
+      "tag": {
+        "title": "云南江川前卫双龙花炮厂",
+        "enBaseEnTel": "08778331316",
+        "enBaseAdress": "云南省江川县前卫镇沿前山",
+        "longitude": 102.739144,
+        "latitude": 24.341648,
+        "enBaseStaffNum": 180
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.739144,
+          24.341648
+        ]
+      },
+      "_distance": 91300.41514372491
+    },
+    {
+      "_id": "QDW000000004285",
+      "tag": {
+        "title": "云南江川后鑫烟花火炮厂",
+        "enBaseEnTel": "13887728788",
+        "enBaseAdress": "云南省玉溪市江川县前卫镇后卫红草坝",
+        "longitude": 102.739144,
+        "latitude": 24.341648,
+        "enBaseStaffNum": 80
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.739144,
+          24.341648
+        ]
+      },
+      "_distance": 91300.41514372491
+    },
+    {
+      "_id": "QDW000000001351",
+      "tag": {
+        "title": "易门东劲商贸有限公司",
+        "enBaseEnTel": "08774966046",
+        "enBaseAdress": "易门县龙泉镇象山路过89号",
+        "longitude": 102.108255,
+        "latitude": 24.678735999999997,
+        "enBaseStaffNum": 4
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.108255,
+          24.678736
+        ]
+      },
+      "_distance": 92687.67891104655
+    },
+    {
+      "_id": "QDW000000012633",
+      "tag": {
+        "title": "镇沅稼杰烟花爆竹批发有限公司",
+        "enBaseEnTel": "13759000087",
+        "enBaseAdress": "云南省普洱市镇沅彝族哈尼族拉祜族自治县绿海路尚居佳宛19-1，19-2号门面",
+        "longitude": 101.12021,
+        "latitude": 24.010482,
+        "enBaseStaffNum": 6
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.12021,
+          24.010482
+        ]
+      },
+      "_distance": 93279.99054371894
+    },
+    {
+      "_id": "QDW000000001616",
+      "tag": {
+        "title": "镇沅哈尼族拉祜族自治县供销明达烟花爆竹有限责任公司",
+        "enBaseEnTel": "08795816926",
+        "enBaseAdress": "镇沅县人民路",
+        "longitude": 101.114132,
+        "latitude": 24.011051,
+        "enBaseStaffNum": 5
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.114132,
+          24.011051
+        ]
+      },
+      "_distance": 93898.923138899
+    },
+    {
+      "_id": "QDW000000000357",
+      "tag": {
+        "title": "双柏县胜源保安服务有限责任公司",
+        "enBaseEnTel": "08787712005",
+        "enBaseAdress": "云南省楚雄州双柏县城永兴路2号",
+        "longitude": 101.644761,
+        "latitude": 24.690465999999997,
+        "enBaseStaffNum": 5
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.644761,
+          24.690466
+        ]
+      },
+      "_distance": 101011.92643840813
+    },
+    {
+      "_id": "QDW000000001403",
+      "tag": {
+        "title": "元阳县供销社综合批发公司",
+        "enBaseEnTel": "08735643648",
+        "enBaseAdress": "云南省红河州元阳县南沙镇花园街102号",
+        "longitude": 102.844374,
+        "latitude": 23.223207,
+        "enBaseStaffNum": 7
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.844374,
+          23.223207
+        ]
+      },
+      "_distance": 109301.16002161008
+    },
+    {
+      "_id": "QDW000000013330",
+      "tag": {
+        "title": "元阳县锦龙烟花爆竹经营有限公司",
+        "enBaseEnTel": "08735769321",
+        "enBaseAdress": "云南省红河州元阳县南沙镇人民路201",
+        "longitude": 102.84847,
+        "latitude": 23.2204,
+        "enBaseStaffNum": 5
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.84847,
+          23.2204
+        ]
+      },
+      "_distance": 109823.09105759254
+    },
+    {
+      "_id": "QDW000000000484",
+      "tag": {
+        "title": "绿春县供销社农资日杂有限责任公司",
+        "enBaseEnTel": "08734222389",
+        "enBaseAdress": "绿春县城正街中段",
+        "longitude": 102.245327,
+        "latitude": 22.879206,
+        "enBaseStaffNum": 12
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.245327,
+          22.879206
+        ]
+      },
+      "_distance": 110493.49340311918
+    }
+  ],
+  "mine": [
+    {
+      "_id": "8616",
+      "tag": {
+        "title": "玉溪市合兴矿石洗选厂尾矿库",
+        "enBaseEnTel": "13577768119",
+        "enBaseAdress": "云南省玉溪市红塔区",
+        "longitude": 102.416667,
+        "latitude": 24.233333,
+        "respper": "郭发进",
+        "enBaseStaffNum": 3
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.416667,
+          24.233333
+        ]
+      },
+      "_distance": 58711.87064614392
+    },
+    {
+      "_id": "3814",
+      "tag": {
+        "title": "2000吨日采选班毛沟尾矿库",
+        "enBaseEnTel": "13628791768",
+        "enBaseAdress": "云南省普洱市镇沅彝族哈尼族拉祜族自治县",
+        "longitude": 101.398333,
+        "latitude": 23.833333,
+        "respper": "王军平",
+        "enBaseStaffNum": 90
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          101.398333,
+          23.833333
+        ]
+      },
+      "_distance": 63324.99396913586
+    },
+    {
+      "_id": "3694",
+      "tag": {
+        "title": "建水县健梁多金属洗选厂",
+        "enBaseEnTel": "13987356189",
+        "enBaseAdress": "云南省红河哈尼族彝族自治州建水县",
+        "longitude": 102.705167,
+        "latitude": 23.537667,
+        "respper": "李·健梁",
+        "enBaseStaffNum": 2
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.705167,
+          23.537667
+        ]
+      },
+      "_distance": 78018.12907039677
+    },
+    {
+      "_id": "3888",
+      "tag": {
+        "title": "建水县白龙潭洗选厂",
+        "enBaseEnTel": "13577315762",
+        "enBaseAdress": "云南省红河哈尼族彝族自治州建水县",
+        "longitude": 102.833333,
+        "latitude": 23.583333,
+        "respper": "尹保成",
+        "enBaseStaffNum": 2
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.833333,
+          23.583333
+        ]
+      },
+      "_distance": 88047.6550690774
+    },
+    {
+      "_id": "3811",
+      "tag": {
+        "title": "建水县鸿泰选矿有限责任公司尾矿库",
+        "enBaseEnTel": "13769485329",
+        "enBaseAdress": "云南省红河哈尼族彝族自治州建水县",
+        "longitude": 102.866667,
+        "latitude": 23.583333,
+        "respper": "李绍和",
+        "enBaseStaffNum": 3
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.866667,
+          23.583333
+        ]
+      },
+      "_distance": 91253.23603069308
+    },
+    {
+      "_id": "3897",
+      "tag": {
+        "title": "建水县泰合矿业有限公司尾矿坝",
+        "enBaseEnTel": "15912807272",
+        "enBaseAdress": "云南省红河哈尼族彝族自治州建水县",
+        "longitude": 102.883333,
+        "latitude": 23.566667,
+        "respper": "白红石",
+        "enBaseStaffNum": 4
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.883333,
+          23.566667
+        ]
+      },
+      "_distance": 93475.91757385651
+    },
+    {
+      "_id": "3434",
+      "tag": {
+        "title": "元阳县山鼎矿业有限公司大皮甲选厂尾矿库",
+        "enBaseEnTel": "13769401199",
+        "enBaseAdress": "云南省红河哈尼族彝族自治州元阳县",
+        "longitude": 102.716667,
+        "latitude": 23.216666999999998,
+        "respper": "尹国忠",
+        "enBaseStaffNum": 2
+      },
+      "geom": {
+        "type": "Point",
+        "coordinates": [
+          102.716667,
+          23.216667
+        ]
+      },
+      "_distance": 100129.517174808
+    }
+  ]
+}

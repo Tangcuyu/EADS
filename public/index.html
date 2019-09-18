@@ -1,17 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>eads</title>
-  </head>
-  <body>
+    <title>comp-engines</title>
+    <!--egis sdk 引入 暂时放这里--->
+    <!--<link rel="stylesheet" type="text/css" href="deps/egis/ol.css">-->
+    <!--<script src="deps/egis/proj4.js"></script>-->
+    <!--<script src="deps/egis/ol.js"></script>-->
+    <!--<script src="deps/egis/turf.min.js"></script>-->
+    <!--<script src="deps/egis/Cesium/Cesium.js"></script>-->
+    <!--<script src="deps/egis/olms.js"></script>-->
+    <!--<script src="deps/egis/egis.umd.js"></script>-->
+    <!--<script src="deps/clamp/clamp.min.js"></script>-->
+
+    <!-- ts-gis & tsemap -->
+    <script src="deps/static/deps/jquery-1.11.2.js"></script>
+    <script src="deps/static/deps/javascript.util.js"></script>
+    <script src="deps/static/deps/Cesium/Cesium.js"></script>
+    <script src="deps/static/deps/html2canvas/html2canvas.min.js"></script>
+    <script src="deps/static/deps/html2canvas/html2canvas.minX.js"></script>
+    <script src="deps/static/deps/ol/ol.js"></script>
+    <script src="deps/static/deps/proj4.js"></script>
+    <script src="deps/static/deps/echarts.js"></script>
+    <script src="deps/static/deps/lodash/lodash.js"></script>
+    <script src="deps/static/deps/jsts.js"></script>
+    <script src="deps/static/deps/ts-gis/g2-2d.umd.js"></script>
+    <script src="deps/static/deps/ts-emap/tsemap.js"></script>
+
+    <!--例子配置文件和实例数据-->
+    <script src="deps/static/deps/data/demoMapOptions.js"></script>
+    <script src="deps/static/deps/data/mapConfig.js"></script>
+    <script src="deps/static/deps/data/demoDataFzjc.js"></script>
+    <script src="deps/static/deps/data/demoDataFzjc.js"></script>
+    <!--上传-->
+
+    <script src="deps/static/deps/data/demoDataFzjcDemo.js"></script>
+    <script src="deps/static/deps/data/demoFzjcOptions.js"></script>
+
+    <link rel="stylesheet" href="deps/static/deps/resources/theme/src/css/index.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/theme/src/css/reset.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/theme/tsemap/default/emap.index.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/static/tsemap/tsemap.css">
+
+    <link rel="stylesheet" href="deps/static/deps/resources/theme/cfw/default/base_emap.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/modules/legendControlModule/theme/css/legendControl.css">
+
+    <link rel="stylesheet" href="deps/static/deps/resources/ui/gisPanel/gisPanel.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/modules/ContentModule/ModulePanel/ModulePanel.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/modules/ContentModule/ModulePanel/EventMessageModule/css/EventMessage.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/modules/ContentModule/ModulePanel/HotspotEarlyWarningInforModule/css/HotspotEarlyWarningInfor.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/modules/ContentModule/ModulePanel/RiskAndResourceModule/css/RiskAndResource.css">
+
+    <!--demoo辅助决策项目入口js 原生翻页+表格组件-->
+    <link rel="stylesheet" href="deps/static/deps/components/common/gisPagination/gisPagination.css">
+    <link rel="stylesheet" href="deps/static/deps/components/common/simpleTable/table.css">
+    <link rel="stylesheet" href="deps/static/deps/resources/modules/GisPureModule/css/detail.css">
+
+    <script src="deps/static/deps/components/common/gisPagination/gisPagination.js"></script>
+    <script src="deps/static/deps/components/common/simpleTable/simpletable.js"></script>
+    <script src="deps/static/deps/components/common/CommonService.js"></script>
+    <script src="deps/static/deps/components/common/EmerSourceService.js"></script>
+
+</head>
+
+<body>
     <noscript>
-      <strong>We're sorry but eads doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but comp-engines doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-  </body>
+</body>
+
 </html>

@@ -1,0 +1,73 @@
+.self-defined-size{
+	width: 360px;
+	height: 201px;
+}
+.self-defined-position{
+	position: absolute;
+	left: 15px;
+	top: 85px;
+}
+.pl-ml{
+	margin-right: 10px;
+	font-size: 16px;
+}
+.self-defined-table > tbody > tr > th{
+	text-align: right;
+}
+.self-defined-table > tbody > tr >td{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.self-defined-table select{
+	width: 250px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.self-defined-table select:focus{
+	outline: none;
+}
+.self-defined-table input{
+	padding-left: 3px;
+}
+/*.box-default{
+	width: 250px;
+	height: 51px;
+}
+.link-block > .imgMap-plot-type{
+	height: 39px;
+}
+.box-default > .link-box{
+	min-width: 37px;
+	margin-left: 1px;
+}*/
+
+.plot-box .link-block{
+	padding-left: 1px;
+	padding-right: 1px;
+	vertical-align: middle;
+}
+.imgMa-hand-plot{
+	display: block;
+    width: 34px;
+    height:32px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 0px;
+    line-height: 1;
+    background: url(../img/emap/freehand.png) no-repeat 50% 50%;
+}
+.imgMap-hand-plot1{
+	background-position: 0 -1px ;
+}
+.imgMap-hand-plot2{
+	background-position: -41px 0 ;
+}
+.imgMap-hand-plot3{
+	background-position: -86px -0px ;
+}
+.imgMap-hand-plot4{
+	background-position: -130px 0 ;
+}
+.imgMap-hand-plot5{
+	background-position: -171px 0 ;
+}

@@ -1,0 +1,272 @@
+{
+  "RescueTeam※03":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "ANJIAN_REPERTORY※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "JC_WARBASE※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "Expert※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "姓名",
+      "width": "40%"
+    },
+    {
+      "name": "DESC",
+      "label": "职位",
+      "width": "40%"
+    }
+  ],
+  "Shelter※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "ANJIAN_DANGER※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "School※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "Hospital※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "Airport※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "Station※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "Resrrvoir※01":[
+  {
+    "name": "$num",
+    "label": "序号",
+    "width": "10%",
+    "class":"ta-center"
+  },
+  {
+    "name": "NAME",
+    "label": "名称",
+    "width": "40%"
+  },
+  {
+    "name": "ADDRESS",
+    "label": "地址",
+    "width": "40%"
+  }
+],
+  "Nuclearinfo※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "Portwharf※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "BAS_COALMINE※01":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ],
+  "ANJIAN_DAGCHEMENT※DangerousChemical":[
+    {
+      "name": "$num",
+      "label": "序号",
+      "width": "10%",
+      "class":"ta-center"
+    },
+    {
+      "name": "NAME",
+      "label": "名称",
+      "width": "40%"
+    },
+    {
+      "name": "ADDRESS",
+      "label": "地址",
+      "width": "40%"
+    }
+  ]
+}

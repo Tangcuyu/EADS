@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>canvas转</title>
+
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+        }
+
+        #map {
+            width: 50%;
+            height: 50%;
+            border: 1px solid red;
+        }
+
+    </style>
+
+
+    <!--本组件的js及css文件 -->
+    <script src="html2canvas.minX.js"></script>
+
+
+
+</head>
+<body>
+<div id="map" style="height:50%">1111111</div>
+<button ignore onclick="convert()">转成图片</button>
+
+</body>
+<script type="text/javascript">
+
+    function convert(){
+        html2canvas.download(map);
+    }
+
+</script>
+</html>

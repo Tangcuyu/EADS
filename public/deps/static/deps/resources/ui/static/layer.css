@@ -1,0 +1,133 @@
+/*
+*2016-12-21  lixy
+��ͼ�Ϲ�������Ĳ���ʽ��
+*/
+
+/*
+*ͼ��༭ҳ�����ʽ
+*/
+.eMap-floor-edit-size{
+    width: 330px;
+    min-height: 255px;
+}
+.eMap-floor-edit-sel{
+    width: 55px;
+    height: 24px;
+}
+/*
+*ͼ�����ҳ�����ʽ
+*/
+.eMap-floor-size{
+    width: 386px;
+    height: 574px;
+}
+.eMap-floor-m {
+    margin: 9px 18px;
+}
+.eMap-floor-list{
+    margin-left: 18px;
+    margin-right: 5px;
+    padding-right: 13px;
+
+}
+.eMap-floor-list-h{
+    max-height:473px;
+    overflow-y: scroll;
+}
+.eMap-floor-list-item{
+    border: 1px solid transparent;
+    border-top-color: #dddddd;
+    border-bottom-color: #dddddd;
+    padding: 13px 10px;
+    line-height: 1;
+    font-size: 14px;
+    color: #767676;
+    vertical-align: middle;
+}
+.eMap-floor-list-item-icon{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 14px;
+    vertical-align: middle;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.text-success{
+    color: #00b734;
+}
+.text-default{
+    color: #666;
+
+}
+.eMap-floor-list-item+.eMap-floor-list-item{
+    margin-top: 4px;
+}
+/*
+.eMap-floor-list-item input[type='text']{
+    display: inline-block;
+    max-width:225px;
+    border:0;
+    color: #767676;
+    background-color: transparent;
+    cursor: default;
+}
+.eMap-floor-list-item input[type='text']:hover,
+.eMap-floor-list-item input[type='text']:focus{
+    cursor: default;
+}
+*/
+
+.eMap-floor-list-item-opation{
+    display: none;
+    float: right;
+}
+
+.eMap-floor-list-item-opation>a{
+    display: inline-block;
+    font-size: 14px;
+    color: #2499ee;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.eMap-floor-list-item-opation>a:hover{
+    color: #097cd1;
+}
+.eMap-floor-list-item:hover,
+.eMap-floor-list-item-cur{
+    background-color: #f0f1fc;
+}
+.eMap-floor-list-item-cur input[type='text']{
+    cursor: text;
+}
+.eMap-floor-list-item:hover .eMap-floor-list-item-opation,
+.eMap-floor-list-item-cur .eMap-floor-list-item-opation{
+    display: inline-block;
+}
+
+.eMap-floor-list-sort .eMap-floor-list-item{
+    border-style:dashed;
+    border-left-color: #dddddd;
+    border-right-color: #dddddd;
+}
+.eMap-floor-list-sort .eMap-floor-list-item-cur{
+    position: relative;
+    cursor: pointer;
+}
+.eMap-floor-list-sort .eMap-floor-list-item-cur:before{
+    position: absolute;
+    content: '';
+    margin-left: -10px;
+    margin-top: -14px;
+    margin-bottom: -14px;
+    height: 46px;
+    border-left: 7px solid #537de7;
+}
+
+.eMap-floor-list-sort .eMap-floor-list-item:hover .eMap-floor-list-item-opation,
+.eMap-floor-list-sort .eMap-floor-list-item-opation{
+    display: none;
+}
+.eMap-floor-list-sort-drag{
+    background: #dadada; position: absolute; top: 0; right: 0;
+    left:0;bottom: 0;margin: -1px; ;
+}

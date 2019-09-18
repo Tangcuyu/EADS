@@ -1,0 +1,241 @@
+
+.tool-content{
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	top: 70px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.tool-box{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 14px;
+	background-color: #FFFFFF;
+	text-align: center;
+	color: rgb(51, 51, 51);
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.5);
+}
+.tool-box>i{
+	font-size:20px;
+	line-height: 33px;
+}
+.tool-box>p{
+	font-size: 12px;
+	line-height: 11px;
+}
+.search-box{
+	float: left;
+	width: 210px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.search-box>input{
+	width: 170px;
+	height: 40px;
+	margin-top: 3px;
+	font-size: 14px;
+	padding-left: 10px;
+	border: 0;
+}
+.search-box>input:focus{
+	outline: none;
+}
+.search-box>a{
+	color: #666666;
+	font-size: 22px;
+}
+.search-box>a>i{
+	vertical-align: -7px;
+}
+.search-box>input::-moz-placeholder {
+    color: #999999;
+    opacity: 1;
+    font-family: "microsoft yahei";
+}
+
+.search-box>input::-ms-input-placeholder {
+    color: #999999;
+    opacity: 1;
+    font-family: "microsoft yahei";
+}
+
+.search-box>input::-webkit-input-placeholder {
+    color: #999999;
+    opacity: 1;
+    font-family: "microsoft yahei";
+}
+/*---------矢量  影像   CSS样式------*/
+.phasor-con,.video-con{
+	clear: both;
+	float: right;
+	width: 58px;
+	height: 48px;
+	margin-top: 10px;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.phasor-img,.video-img{
+	position: relative;
+	margin: 0 auto;
+	width: 54px;
+	height: 44px;
+	margin-top: 2px;
+	border-radius: 1px;
+}
+.phasor-img{
+	background-image: url(../imgs/phasor.png);
+}
+.video-img{
+	background-image: url(../imgs/video-img.png);
+}
+.phasor-img>p,.video-img>p{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 16px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 16px;
+	text-align: center;
+	background-color: rgba(0, 0, 0,.52);
+}
+/*------收起的小工具的css样式---------*/
+.toolbar{
+	float: left;
+	position: relative; 
+	/*width: 512px;*/
+	/*修改width为auto*/
+	width: auto;
+	height: 50px;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.toolbar:before,.toolbar:after{
+	position: absolute;
+	top:50%;
+	content: " ";
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+    right: -4px;
+	overflow: hidden;
+	pointer-events: none;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.toolbar:before{
+	background: #fff;
+	box-shadow:  1px -1px 2px 0px rgba(0, 0, 0, 0.5);
+	
+}
+.toolbar:after{
+	background: #fff;
+	
+}
+.fewer-box{
+	float: left;
+	width: 12px;
+	height: 100%;
+	line-height: 50px;
+	background-color: #e7e8f4;
+	cursor: pointer;
+}
+.fewer-box>i{
+	font-size: 10px;
+	color: #8990af;
+}
+.toolbar-box{
+	float: left;
+	/*修改长度*/
+	/*width: 500px;*/
+	height: 36px;
+}
+.toolbar-ul{
+	list-style: none;
+	margin-top: 8px;
+	font-size: 0;
+}
+.toolbar-ul>li{
+	position: relative;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 61px;
+	height: 36px;
+	text-align: center;
+	cursor: pointer;
+	border-right: 1px solid #dddddd;
+}
+.toolbar-ul>li:last-of-type{
+	border-right: 0;
+}
+.toolbar-ul [class^='iconMap-']
+{
+	font-size:20px;
+	color:#666666;
+}
+.toolbar-ul>li>p,.toolbar-ul>li>.messure-ul>li>p{
+	font-size: 12px;
+	color: #333333;
+	line-height: 20px;
+}
+[class^='iconMap-'].trangle{
+	color: #666666;
+	font-size: 12px;
+	vertical-align: middle;
+	margin-left: 1px;
+}
+.messure-ul{
+	/*display: none;*/
+	position: absolute;
+	top: 41px;
+    left: 0;
+	list-style: none;
+	width: 61px;
+	height: 100px;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.toolbar{
+	/*display: none;*/
+}
+.toolbar-ul>li>.messure-ul>li{
+	height: 50px;
+	padding-top: 7px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.toolbar-split{
+	display: block;
+	margin: 0 auto;
+	width: 40px;
+	height: 1px;
+	margin-top: 3px;
+	background-color: #dddddd;
+}
+.toolbar-ul>li:hover i,.toolbar-ul-cur,.toolbar-ul>li:hover p,.toolbar-ul-cur,
+.toolbar-ul>li>.messure-ul>li:hover b,.toolbar-ul-cur,.toolbar-ul>li>.messure-ul>li:hover p,
+.toolbar-ul-cur,.toolbar-ul>li:active i,.toolbar-ul-cur{
+	color: #2ca0f7;
+}
+.toolbar-ul-cur{
+	color: #2ca0f7;
+}
+.tool-box:hover,.tool-box:active{
+	color: #2ca0f7;
+}
+

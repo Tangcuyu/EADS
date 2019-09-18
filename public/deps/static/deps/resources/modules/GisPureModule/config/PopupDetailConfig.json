@@ -1,0 +1,788 @@
+{
+  "RescuePower_arrive":{
+    "//":"救援力量-已抵达",
+    "TABLE": "ANJIAN_TEA_RESCUE//JC_FIRETEAMSTA",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "ADDRESS":"驻地位置",
+      "TEAMNUM":"队伍人数",
+      "RESPPER":"队长",
+      "RESPOTEL":"队长电话"
+    }
+  },
+  "RescuePower_move":{
+    "//":"救援力量-行进中",
+    "TABLE": "ANJIAN_TEA_RESCUE//JC_FIRETEAMSTA",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "ADDRESS":"驻地位置",
+      "TEAMNUM":"队伍人数",
+      "RESPPER":"队长",
+      "RESPOTEL":"队长电话"
+    }
+  },
+  "landslideY": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "崩塌",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "huapoY": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "滑坡",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "nishiliuY": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "泥石流",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "collapseY": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "地面塌陷",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "landslideW": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "崩塌",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "huapoW": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "滑坡",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "nishiliuW": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "泥石流",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "collapseW": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "地面塌陷",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果"
+    }
+  },
+  "landslideac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "崩塌",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "huapoac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "滑坡",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "nishiliuac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "泥石流",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "collapseac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "地面塌陷",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "unstableslopeac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "不稳定斜坡",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "quakelakeac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "堰塞湖",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "CoalMineAcciac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "煤矿事故",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "NonCoalMineac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "非煤矿山事故",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "DangerousChemicalac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "危化品和工贸事故",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "FireAccidentac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "火灾事故",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "TrafficAcciac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "交通事故",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "FloodDisasterac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "洪涝事故",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+  "ForestFireac": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "森林火灾",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "typeName":"事故类型",
+      "shiguinfo":"事故信息",
+      "sendPower":"是否调派力量"
+    }
+  },
+
+  "historyEarth":{
+    "//":"常态地震",
+    "TABLE": "",
+    "FIELDMAP": {
+      "depth": "地震深度",
+      "magnitude": "地震级别",
+      "time": "发生时间"
+    }
+  },
+
+  "hazardous": {
+    "TABLE": "ANJIAN_DAGCHEMENT",
+    "//": "危化品企业",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "name": "企业名称",
+      "address": "地址",
+      "level":"安全风险等级",
+      "respper": "企业主要责任人",
+      "phone": "企业主要责任人电话",
+      "SAFETYMAGER": "分管安全负责人",
+      "SAFETYMAGERTEL": "分管安全负责人电话",
+      "INDUSTRYCODE1NAME": "行业分类及行业代码",
+      "SAFETYPRODUCTIONLEVELNAME": "安全风险等级",
+      "MAINPROTANDSCALESTR": "主要产品及生产规模",
+      "SUMOUTPUT": "总生产量（万吨）",
+      "TOTALSTORCAP": "总存储量（万吨）",
+      "EMPNUM":"职工人数",
+      "more":"周边查询"
+    }
+  },
+
+  "nuclear":{
+    "TABLE": "BAS_NUCLEARINFO",
+    "//": "核电站",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "more":"周边查询"
+    }
+  },
+  "collapse": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "崩塌",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果",
+      "more":"周边查询"
+    }
+  },
+  "landslide": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "滑坡",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "hazardlevelcode":"危险等级",
+      "maxperson":"影响人数",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果",
+      "more":"周边查询"
+    }
+  },
+  "derivativerisk": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "滑坡",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "hazardlevelcode":"危险等级",
+      "maxperson":"影响人数",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果",
+      "more":"周边查询"
+    }
+  },
+  "mudslide": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "泥石流",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "hazardlevelcode":"危险等级",
+      "maxperson":"影响人数",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果",
+      "more":"周边查询"
+    }
+  },
+  "falldown": {
+    "TABLE": "BAS_GEOLOGICHAZARD",
+    "//": "地面塌陷",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address":"地址",
+      "conncter":"联系人",
+      "phone":"联系电话",
+      "hazardlevelcode":"危险等级",
+      "maxperson":"影响人数",
+      "paicha":"排查单位",
+      "time":"排查时间",
+      "result":"排查结果",
+      "more":"周边查询"
+    }
+  },
+  "disinfoper":{
+    "//":"灾情信息员",
+    "TABLE": "",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "post":"职务",
+      "districtname": "行政区划"
+    }
+  },
+  "rescueteam": {
+    "TABLE": "BAS_PARTYGOVT",
+    "CLASSNAME": "救援队伍",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "name": "队伍名称",
+      "ADDRESS": "地址",
+      "CONCATE":"联系人",
+      "RESCUETYPECODE":"类型"
+    }
+  },
+  "railwaystation":
+  {
+    "//":"火车站",
+    "TABLE": "",
+    "FIELDMAP": {
+      "distance": "距离",
+      "address": "地址",
+      "phone":"电话",
+      "more":"周边查询"
+    }
+  },
+
+  "explosive": {
+    "TABLE": "ANJIAN_FIREWORKENT",
+    "//": "烟花爆竹企业",
+    "FIELDMAP": {
+      "name": "名称",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "责任人",
+      "depttypecode":"单位类型",
+      "workernum":"作业人数（人）",
+      "qualityinfo":"产品质量检验信息",
+      "more":"周边查询"
+    }
+  },
+  "mine": {
+    "TABLE": "ANJIAN_TAILINGPOND",
+    "//": "非煤矿山企业",
+    "FIELDMAP": {
+      "name": "名称",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "责任人",
+      "more":"周边查询"
+    }
+  },
+  "coalMine": {
+    "TABLE": "ANJIAN_COAL",
+    "//": "煤矿企业",
+    "FIELDMAP": {
+      "name": "名称",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "责任人",
+      "DESIGN_OUTPUT":"设计生产能力",
+      "WORERNUM":"职工人数",
+      "PARENTNAME":"上级企业",
+      "PRODUCT_DATE":"投产时间",
+      "more":"周边查询"
+    }
+  },
+  "industry": {
+    "TABLE": "ANJIAN_ENT_WHSMYHBZ",
+    "//": "工贸企业",
+    "FIELDMAP": {
+      "name": "名称",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "责任人",
+      "EMPNUM":"员工总数",
+      "SPECIALNUM":"特种作业人员数",
+      "FULLGADMINNUM":"专职安全管理人",
+      "more":"周边查询"
+    }
+  },
+  "tunnel": {
+    "TABLE": "BAS_BRIDGE",
+    "//": "隧道",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "name": "名称",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "负责人",
+      "more":"周边查询"
+    }
+  },
+  "portwharf":
+  {
+    "TABLE": "BAS_PORTWHARF",
+    "//": "港口码头",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "负责人",
+      "more":"周边查询"
+    }
+  },
+  "airport":
+  {
+    "TABLE": "BAS_AIRPORT",
+    "//": "飞机场",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "respper": "负责人",
+      "more":"周边查询"
+    }
+  },
+  "school": {
+    "TABLE": "BAS_SCHOOL",
+    "CLASSNAME": "学校",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "DISTRICTCODE":"行政区划",
+      "more":"周边查询"
+    }
+  },
+  "hospital": {
+    "TABLE": "BAS_HEALTHORG",
+    "CLASSNAME": "综合医院",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "reapper": "责任人",
+      "BEDNUM":"病床数",
+      "MEDSTAFF":"医护人数",
+      "DISTRICTCODE":"行政区划",
+      "more":"周边查询"
+    }
+  },
+  "government": {
+    "TABLE": "BAS_PARTYGOVT",
+    "CLASSNAME": "政府机关",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "phone": "电话",
+      "address": "地址",
+      "DISTRICTCODE":"行政区划",
+      "more":"周边查询"
+    }
+  },
+  "gymnasium": {
+    "TABLE": "BAS_GYMNASIUM",
+    "CLASSNAME": "体育场馆",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "name": "名称",
+      "phone": "电话",
+      "address": "地址",
+      "reapper": "责任人",
+      "more":"周边查询"
+    }
+  },
+  "development": {
+    "TABLE": "BAS_DEVELOPMENT",
+    "CLASSNAME": "住宅区",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "reapper": "责任人",
+      "respmtel":"移动电话",
+      "more":"周边查询"
+    }
+  },
+  "developmentAff": {
+    "TABLE": "BAS_DEVELOPMENT",
+    "CLASSNAME": "住宅区",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "reapper": "责任人",
+      "respmtel":"移动电话",
+      "more":"周边查询"
+    }
+  },
+  "schoolAff": {
+    "TABLE": "BAS_SCHOOL",
+    "CLASSNAME": "学校",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "DISTRICTCODE":"行政区划",
+      "more":"周边查询"
+    }
+  },
+  "hospitalAff": {
+    "TABLE": "BAS_HEALTHORG",
+    "CLASSNAME": "综合医院",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "reapper": "责任人",
+      "BEDNUM":"病床数",
+      "MEDSTAFF":"医护人数",
+      "DISTRICTCODE":"行政区划",
+      "more":"周边查询"
+    }
+  },
+
+  "reservoir":{
+    "TABLE": "BAS_RESERVOIR",
+    "//": "水库大坝",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "CODE": "行政区划",
+      "more":"周边查询"
+    }
+  },
+  "rescueteam": {
+    "TABLE": "BAS_PARTYGOVT",
+    "CLASSNAME": "救援队伍",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "name": "队伍名称",
+      "ADDRESS": "地址",
+      "CONCATE":"联系人",
+      "RESCUETYPECODE":"类型"
+    }
+  },
+
+  "keyWaterConservancy": {
+    "TABLE": "BAS_RESERVOIR",
+    "//": "水库大坝",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "CODE": "行政区划"
+    }
+  },
+  "keyWaterConservancy1": {
+    "TABLE": "BAS_RESERVOIR",
+    "//": "水库大坝",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "address": "地址",
+      "CODE": "行政区划"
+    }
+  },
+  "nuclearFacility": {
+    "TABLE": "BAS_NUCLEARINFO",
+    "//": "核电站",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "superior": "主管单位",
+      "DISTRICTCODE":"行政区划",
+      "DATAFLAG":"类型",
+      "OPERATOR":"运营方",
+      "LEGALPERSON":"法人代表",
+      "OWNER":"业主",
+      "SUPERIOR":"主管单位"
+    }
+  },
+  "powerplant": {
+    "TABLE": "BAS_HYDSTATION",
+    "//": "变电站",
+    "FIELDMAP": {
+      "RESPOTEL": "电话",
+      "ADDRESS": "地址",
+      "RESPPER": "联系人"
+    }
+  },
+  "nuclearFacility1": {
+    "TABLE": "BAS_NUCLEARINFO",
+    "//": "核电站",
+    "CLASSNAME": "",
+    "TITLENAME": "标题名称",
+    "FIELDMAP": {
+      "superior": "主管单位",
+      "DISTRICTCODE":"行政区划",
+      "DATAFLAG":"类型",
+      "OPERATOR":"运营方",
+      "LEGALPERSON":"法人代表",
+      "OWNER":"业主",
+      "SUPERIOR":"主管单位"
+    }
+  },
+  "powerplant1": {
+    "TABLE": "BAS_HYDSTATION",
+    "//": "变电站",
+    "FIELDMAP": {
+      "RESPOTEL": "电话",
+      "ADDRESS": "地址",
+      "RESPPER": "联系人"
+    }
+  },
+  "warmInfo":{
+    "//": "预警信息",
+    "CLASSNAME":"warmPopup",
+    "FIELDMAP": {
+      "vSender": "发布单位",
+      "dDatetime": "发布时间",
+      "vIssuecontent": "发布内容"
+    }
+  },
+  "disinfoperAround":{
+    "//":"灾情信息员",
+    "TABLE": "",
+    "FIELDMAP": {
+      "distance": "距离",
+      "phone": "电话",
+      "post":"职务",
+      "districtname": "行政区划"
+    }
+  },
+  "rescueteamAround": {
+    "TABLE": "BAS_PARTYGOVT",
+    "CLASSNAME": "救援队伍",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "name": "队伍名称",
+      "ADDRESS": "地址",
+      "CONCATE":"联系人",
+      "RESCUETYPECODE":"类型"
+    }
+  },
+  "realship": {
+    "TABLE": "realship",
+    "CLASSNAME": "船舶信息",
+    "//": "下面字段大小写根据查出的数据字段大小写而定",
+    "FIELDMAP": {
+      "name": "名称",
+      "shipType": "类型",
+      "callsign":"呼号",
+      "stateSpeed":"状态"
+    }
+  }
+}

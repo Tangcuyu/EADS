@@ -1,0 +1,463 @@
+
+.YJ-gisPanel{
+    height: 60px;
+    line-height:60px;
+    width: 100%;
+    position: relative;
+}
+.YJ-gisPanel:hover{
+    background: url(./img/iconact.png) no-repeat center center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.curMapPanel{
+    background: url(./img/iconact.png) no-repeat center center;
+    background-size: 100%;
+}
+.YJ-gisTitle{
+    font-size: 18px;
+    color: #00e1fd;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.YJ-navIcon{
+    display: inline-block;
+    width: 36px;
+    height:36px;
+    line-height: 1;
+    background-image: url("./img/icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.YJ-navIcon:hover{
+    background-image: url("./img/iconactall.png");
+}
+.curMapPanel .YJ-navIcon{
+    background-image: url("./img/iconactall.png");
+}
+.YJ-gisPanel p{
+display: none;
+    /*background: rgba(1,235,245,0.5);*/
+    /*border: 1px #01ebf5 solid;*/
+    background: url("./img/dituhoverbg.png") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 2px;
+    position: absolute;
+    top: 7px;
+    right: 65px;
+    height: 45px;
+    line-height: 41px;
+    min-width: 151px;
+    text-align: center;
+    font-size: 28px;
+}
+.YJ-gisPanel:hover p{
+    display: block;
+}
+
+.YJ-navIcon-rowA1{
+    background-position: 0 0 ;
+}
+.YJ-navIcon-rowA2{
+    background-position: -36px 0 ;
+}
+.YJ-navIcon-rowA3{
+    background-position: -72px 0 ;
+}
+.YJ-navIcon-rowA4{
+    background-position:-108px 0 ;
+}
+.YJ-navIcon-rowA5{
+    background-position: -144px 0 ;
+}
+.YJ-navIcon-rowA6{
+    background-position: -180px 0 ;
+}
+.YJ-navIcon-rowA7{
+    background-position:-216px 0 ;
+}
+.YJ-navIcon-rowA8{
+    background-position: -251px 0 ;
+}
+.YJ-navIcon-rowA9{
+    background-position:-288px 0 ;
+}
+.YJ-navIcon-rowA10{
+    background-position: -324px 0 ;
+}
+.YJ-navIcon-rowA11{
+    background-position:-359px 0 ;
+    font-size: 20px;
+}
+.YJ-navIcon-rowB1{
+    background-position:0 -36px;
+}
+.YJ-navIcon-rowB2{
+    background-position: -36px  -36px;
+}
+.YJ-navIcon-rowB3{
+    background-position: -72px  -36px;
+}
+.YJ-navIcon-rowB4{
+    background-position: -108px  -36px;
+}
+.YJ-navIcon-rowB5{
+    background-position:-144px  -36px;
+}
+.YJ-navIcon-rowB6{
+    background-position:  -180px -36px;
+}
+.YJ-navIcon-rowB7{
+    background-position:-216px -36px;
+}
+.YJ-navIcon-rowB8{
+    background-position:-251px -36px;
+}
+.YJ-navIcon-rowB9{
+    background-position:-288px -36px;
+}
+.YJ-navIcon-rowB10{
+    background-position: -324px -36px;
+}
+.YJ-navIcon-rowB11{
+    background-position: -359px  -36px;
+}
+.YJ-navIcon-rowB12{
+    background: url("./img/Deployment.png") no-repeat center center !important;;
+    /*background-image: url("./img/iconactall.png");*/
+}
+.curMapPanel .YJ-navIcon-rowB12
+{
+    background: url("./img/Deploymenthover.png") no-repeat center center !important;;
+}
+
+.YJ-navIcon-rowB13{
+    background: url("./img/_MaterialAllot.png") no-repeat center center !important;;
+    /*background-image: url("./img/iconactall.png");*/
+}
+.curMapPanel .YJ-navIcon-rowB13
+{
+    background: url("./img/_MaterialAllothover.png") no-repeat center center !important;;
+}
+
+/*.Deployment*/
+/*{*/
+    /*background: url("./img/Deployment.png") no-repeat center center;;*/
+/*}*/
+/*.Deployment:hover*/
+/*{*/
+    /*background: url("./img/Deploymenthover.png") no-repeat center center;;*/
+/*}*/
+
+
+.YJ-navIcon-more{
+    background-position:-394px 0 ;
+}
+.YJ-navIcon-back{
+    display: none;
+    margin-left:6px;
+    background-position:-394px  -36px ;
+}
+.derivativerisk p{
+    width: 240px;
+}
+
+/*ljm-0713-新增按钮图标*/
+.YJ-navIcon-chemistry{
+    background-image:url("./img/iconchemistry.png")
+}
+.YJ-navIcon-chemistry:hover,
+.curMapPanel .YJ-navIcon-chemistry{
+    background-image:url("./img/iconchemistryact.png")
+}
+
+
+.YJ-navIcon-DisasterJudge{
+    background-image:url("./img/DisasterJudge.png")
+}
+.YJ-navIcon-DisasterJudge:hover,
+.curMapPanel .YJ-navIcon-DisasterJudge{
+    background-image:url("./img/DisasterJudgehover.png")
+}
+
+.YJ-navIcon-RealShip{
+    background-image:url("./img/RealShip.png")
+}
+.YJ-navIcon-RealShip:hover,
+.curMapPanel .YJ-navIcon-RealShip{
+    background-image:url("./img/Realshiphover.png")
+}
+
+.YJ-navIcon-coal{
+    background-image:url("./img/iconcoal.png")
+}
+.YJ-navIcon-coal:hover,
+.curMapPanel .YJ-navIcon-coal{
+    background-image:url("./img/iconcoalact.png")
+}
+.YJ-navIcon-noncoal{
+    background-image:url("./img/iconnoncoal.png")
+}
+.YJ-navIcon-noncoal:hover,
+.curMapPanel .YJ-navIcon-noncoal{
+    background-image:url("./img/iconnoncoalact.png")
+}
+.YJ-navIcon-fwc{
+    background-image:url("./img/iconfwc.png")
+}
+.YJ-navIcon-fwc:hover,
+.curMapPanel .YJ-navIcon-fwc{
+    background-image:url("./img/iconfwcact.png")
+}
+
+
+
+.map_list_icon_left{
+    width: 124px;
+    height: 870px;
+    background: url("./map_list_icon/map_list_icon_left.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 9999;
+    top: 48px;
+    left: 17px;
+    display: none;
+}
+.map_list_icon_right{
+    width: 124px;
+    height: 870px;
+    background: url("./map_list_icon/map_list_icon_right.png") no-repeat;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 9999;
+    top: 50px;
+    right: 34px;
+    display: none;
+}
+.YJ-navIcon_list{
+    display: inline-block;
+    width: 103px;
+    height: 103px;
+    line-height: 1;
+}
+
+
+.YJ-gisListPanel.active .YJ-navIcon-listB1{
+    background: url("./map_list_icon/listB9_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB2{
+    background: url("./map_list_icon/listB2_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB3{
+    background: url("./map_list_icon/listB7_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB4{
+    background: url("./map_list_icon/listB4_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB5{
+    background: url("./map_list_icon/listB6_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB6{
+    background: url("./map_list_icon/listB5_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB7{
+    background: url("./map_list_icon/listB10_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB8{
+    background: url("./map_list_icon/listB1_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB9{
+    background: url("./map_list_icon/listB8_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB10{
+    background: url("./map_list_icon/listB3_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB11{
+    background: url("./map_list_icon/listB11_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel.active .YJ-navIcon-listB12{
+    background: url("./map_list_icon/listB12_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.YJ-navIcon-listB1{
+    background: url("./map_list_icon/listB9.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB1:hover{
+    background: url("./map_list_icon/listB9_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB2{
+    background: url("./map_list_icon/listB2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB2:hover{
+    background: url("./map_list_icon/listB2_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB3{
+    background: url("./map_list_icon/listB7.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB3:hover{
+    background: url("./map_list_icon/listB7_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB4{
+    background: url("./map_list_icon/listB4.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB4:hover{
+    background: url("./map_list_icon/listB4_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB5{
+    background: url("./map_list_icon/listB6.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB5:hover{
+    background: url("./map_list_icon/listB6_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB6{
+    background: url("./map_list_icon/listB5.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB6:hover{
+    background: url("./map_list_icon/listB5_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB7{
+    background: url("./map_list_icon/listB10.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB7:hover{
+    background: url("./map_list_icon/listB10_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB8{
+    background: url("./map_list_icon/listB1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB8:hover{
+    background: url("./map_list_icon/listB1_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB9{
+    background: url("./map_list_icon/listB8.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB9:hover{
+    background: url("./map_list_icon/listB8_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB10{
+    background: url("./map_list_icon/listB3.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB10:hover{
+    background: url("./map_list_icon/listB3_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB11{
+    background: url("./map_list_icon/listB11.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB11:hover{
+    background: url("./map_list_icon/listB11_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB12{
+    background: url("./map_list_icon/listB12.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-navIcon-listB12:hover{
+    background: url("./map_list_icon/listB12_active.png") no-repeat;
+    background-size: 100% 100%;
+}
+.YJ-gisListPanel{
+    height: 103px;
+    line-height: 103px;
+    width: 100%;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.YJ-gisListPanel p{
+    display: none;
+    background: rgba(255,255,30,0.5);
+    border: 1px #ffff00 solid;
+    border-radius: 2px;
+    position: absolute;
+    top: 30px;
+    left: 108px;
+    height: 45px;
+    line-height: 41px;
+    min-width: 145px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+
+
+.YJ-gisListPanel:hover p{
+    display: block;
+}
+.map_list_icon_right .YJ-gisListPanel{
+    margin-left: -10px;
+}
+
+.map_font_tishi{
+   /* width: 200px;自适应宽度*/
+    height: 100px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 90px;
+    bottom: 14%;
+    z-index: 9999;
+    display: none;
+    font-size: 40px;
+    line-height: 100px;
+    color: #fff6b0;
+    text-align: center;
+
+}
+
+/**
+天气预报雨水和云图提示信息
+ */
+.map_font_tishitq{
+    /* width: 200px;自适应宽度*/
+    height: 100px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 90px;
+    bottom: 14%;
+    z-index: 9999;
+    display: none;
+    font-size: 40px;
+    line-height: 100px;
+    color: #fff6b0;
+    text-align: center;
+
+}

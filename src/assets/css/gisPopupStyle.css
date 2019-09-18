@@ -1,0 +1,59 @@
+.message_jiantou {
+  position: absolute;
+  width: 7px;
+  height: 45px;
+  border-right: 5px dashed #ff0000;
+  bottom: -12px;
+  right:  94px;
+}
+
+.alert_dialogStyle1 .detail-title-yujing {
+  background: url(../../../public/deps/static/deps/resources/modules/ContentModule/ModulePanel/commonImg/title.png) no-repeat;
+  background-size: 100% 100%;
+  height: 71px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.detail-title-yujing {
+  position: relative;
+  color: white;
+  font-size: 26px;
+  height: 61px;
+  line-height: 36px;
+  padding-left: 15px;
+}
+
+.tubiaoxianshi {
+  position: absolute;
+  left: 5px;
+  top:10px;
+  width: 54px;
+  height: 54px;
+}
+
+.detail-title-yujing span:first-of-type {
+  color: #fff;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 24px;
+  white-space: nowrap;
+  width: 250px;
+  font-weight: 600;
+  margin-left: 52px;
+}
+
+.message_wrap .popup-detail-div ul {
+  position: relative;
+}
+
+.jiantou_yujing {
+  position: absolute;
+  width: 70px;
+  height: 5px;
+  border-bottom: 5px dashed #ff0000;
+  top: 195px;
+  right: -150px;
+}

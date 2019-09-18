@@ -1,0 +1,615 @@
+
+.title-title-title{
+    height: 65px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: url("../img/header.png") no-repeat -1px bottom ;
+    box-sizing: border-box;
+    padding-left: 68px;
+    background-size: 100.2% 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 13px;
+    margin-left: 1px;
+}
+.common-detailContent{
+    background: url('../img/new_content.png') no-repeat;
+    background-size: 99.27% 100%;
+    min-width: 480px;
+    min-height: 300px;
+    padding: 10px 38px 26px 38px;
+}
+
+.detail-detail-detail{
+    position: relative;
+}
+.detail-detail-detail:after{
+    content: "";
+    width: 100%;
+    height: 96px;
+    background: url("../img/bottom.png") no-repeat;
+    background-size: 97.85% 100%;
+    position: absolute;
+    left: 11px;
+    bottom: -95.5px;
+    z-index: -1;//for lower
+}
+.sy-repersity-detaileContainer:after{
+    content: "";
+    width: 100%;
+    height: 96px;
+    background: url("../img/bottom.png") no-repeat;
+    background-size: 97.85% 100%;
+    position: absolute;
+    left: 11px;
+    bottom: -95.5px;
+}
+.popup_self_class_Z:after{
+    content: "";
+    width: 100%;
+    height: 96px;
+    background: url("../img/bottom.png") no-repeat;
+    background-size: 97.85% 100%;
+    position: absolute;
+    left: 9.1px;
+    bottom: -95.5px;
+}
+/*常态-救援*/
+.sy-fireTeam-detailContent{
+    width: 800px;
+    height:500px;
+}
+/*常态-物资*/
+.sy-reposity-content{
+    width: 800px;
+    height:550px;
+}
+/*常态-战保基地*/
+.sy-warbase-content{
+    width: 800px;
+    height:500px
+}
+/*常态-风险隐患*/
+.bj-jywz-detaileContent{
+    width:800px;
+}
+
+/*非常态-应急资源相关*/
+.attributes_content_div {
+    width: 680px;
+}
+/*灾情信息员*/
+.yjzxdetail .attributes_content_div{
+    width:460px;
+}
+.yjzxdetail .attributes_content_div>div{
+    border:none;
+}
+/*常态救援队*/
+.sy-rescueForces-detailListBox {
+    border: 1px solid #0184a5;
+    margin-bottom: 10px;
+}
+.box-box-box ul >li{
+    color:#00e4ff;
+}
+
+.box-box-box ul>li span {
+     color: #00e4ff;
+    padding-left: 10px;
+}
+.box-box-box ul>li #sy_expert_detailListLeft_uls_span{
+    padding-left: 0px;
+}
+.box-box-box ul >li span>b{
+    color:#ffffff;
+    font-weight:normal;
+    margin-left:10px;
+}
+
+.sy-repersity-detailListPhone {
+    margin-left:44px;
+}
+/*.common-detailContainer{
+    width: 833px;
+    height: 645px;
+    background: url(../img/detail.png) no-repeat;
+    box-sizing: border-box;
+    padding-left: 17px;
+    padding-right: 10px;
+    background-size: 100% 100%;
+}*/
+.common-detailContainer i{
+    position: absolute;
+    right:12px;
+    top:12px;
+    width:13px;
+    height:13px;
+    background:url("../img/close.png") no-repeat;
+    cursor:pointer;
+    display:none;
+}
+
+.content-content-content ul>li {
+    line-height: 32px;
+}
+
+.content-content-content ul>li span:last-child{
+    margin-left: 68px;
+}
+
+.content-content-content  ul>li span{
+    color: #00e4ff;
+    display: inline-block;
+    width: 230px;
+    padding-left: 10px;
+}
+
+.content-content-content  ul>li span b {
+    font-weight: normal;
+    color:#fff;
+}
+
+th ,td{
+    font-weight:900;
+    color:#00e4ff;
+    text-align:center;
+    font-size:20px;
+    height:24px;
+    line-height: 24px;
+}
+
+td {
+    color:#fff;
+    font-size:18px;
+}
+
+.detail-detail-detail ul li {
+    height:24px;
+    line-height: 24px;
+}
+
+#sy-fireTeam-detail-container .sy-fireTeam-peopleListBox ul li:nth-child(2),
+#sy-warbase-detail-container .sy-warbase-peopleListBox ul li:nth-child(3) {
+    height:44px;
+    line-height:44px;
+    border-top: none;
+}
+#sy-fireTeam-detail-container .sy-fireTeam-peopleListBox ul li:nth-child(1) span:first-child,
+#sy-warbase-detail-container  .sy-warbase-peopleListBox ul li:nth-child(1) span:first-child {
+    margin-right:20px;
+}
+#sy-fireTeam-detail-container ul li{
+    height:44px;
+    line-height: 44px;
+    border: 1px solid #0184a5;
+    padding-left: 12px;
+}
+
+#sy-fireTeam-detail-container .gis-pagination__box{
+    float: right;
+}
+#sy-fireTeam-detail-container .gis-pagination__box li{
+    height: 27px;
+    line-height: 27px;
+    border: none;
+    padding: 0;
+}
+#sy-fireTeam-detail-container ul li label{
+    display: inline-block;
+    width: 49.2%;
+}
+
+#sy-fireTeam-detail-container ul li label:nth-of-type(2){
+    border-left: 1px solid #0184a5;
+    padding-left: 12px;
+}
+
+.detail-detail-detail td:nth-child(2) span{
+    display:inline-block;
+    width:126px !important;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.riskTrouble {
+    width:100%;
+    height:230px;
+    overflow-y:auto;
+}
+
+.sy-allphone {
+    position: relative;
+    top: 0px;
+    left: 13px;
+}
+
+#sy-fireTeam-detail-container .box-box-box li span,#sy-warbase-detail-container .box-box-box li span {
+    color:#fff;
+    margin-left:10px;
+}
+
+#sy-warbase-detail-container .box-box-box li a.address {
+    color:#fff;
+    display:inline-block;
+    width:calc(100% - 100px );
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-left:10px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+
+}
+
+#sy-fireTeam-detail-container .box-box-box .sy-fireTeam-detailListLeft li{
+    height: 44px;
+    border:1px solid #0184a5;
+    border-bottom: none;
+    line-height: 44px;
+    padding-left: 12px;
+}
+#sy-warbase-detail-container .box-box-box .sy-warbase-detailListLeft li{
+    height: 44px;
+    border: 1px solid #0184a5;
+    line-height: 28px;
+    padding-left: 12px;
+}
+#sy-warbase-detail-container .box-box-box .sy-warbase-detailListLeft li:nth-of-type(2),
+#sy-warbase-detail-container .box-box-box .sy-warbase-detailListLeft li:nth-of-type(4) {
+  border-top: none;
+}
+#sy-warbase-detail-container .box-box-box .sy-warbase-detailListLeft li:nth-of-type(3){
+    border-top: none;
+}
+#sy-fireTeam-detail-container .box-box-box .sy-fireTeam-detailListLeft li label,
+#sy-warbase-detail-container .box-box-box .sy-warbase-detailListLeft li label{
+    display: inline-block;
+    width: 42%;
+    height: 44px;
+    line-height: 44px;
+}
+
+#sy-fireTeam-detail-container .box-box-box .sy-fireTeam-detailListLeft li label:nth-of-type(2),
+#sy-warbase-detail-container .box-box-box .sy-warbase-detailListLeft li label:nth-of-type(2){
+    border-left: 1px solid #0184a5;
+    padding-left: 10px;
+}
+
+#sy-fireTeam-detail-container .box-box-box li span.address {
+    color:#fff;
+    display:inline-block;
+    width:calc(100% - 100px );
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-left:10px;
+    position: relative;
+}
+
+#sy-fireTeam-personlist li:nth-child(2){
+    margin-left:0 !important;
+}
+
+.sy-fireTeam-equipmentTableBox {
+// padding-top:10px;
+}
+
+#sy-fireTeam-equipmentlist_page_container {
+    margin-top:10px;
+}
+
+.sy-warbase-peopleListBox li{
+    color:#00e4ff;
+}
+
+.sy-warbase-peopleListBox li span{
+    color:#fff;
+}
+
+.sy-Allpersonnum {
+    margin-right:20px;
+}
+
+.sy-fireTeam-equipmentNum,.sy-warbase-equipmentNum {
+    padding-top:10px;
+}
+
+#sy-expert-detail-container .sy-expert-detailList li{
+    color:#00e4ff;
+}
+
+#sy-expert-detail-container .sy-expert-detailList .sy-expert-detailListLeft li span {
+    color: #fff;
+    margin-left: 20px;
+    width: 100%;
+    line-height: 35px;    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#sy-expert-detail-container .sy-expert-detailList li,
+#sy-expert-detail-container .sy-expert-detailListBox li,
+#sy-expert-detail-container  .sy-expert-detaileContent li{
+    /*height:32px;*/
+    /*line-height: 32px;    */
+    /*width: 100%;*/
+}
+
+#sy-expert-detail-container .sy-expert-detailList li span,
+#sy-expert-detail-container .sy-expert-detailListBox li span,
+#sy-expert-detail-container  .sy-expert-detaileContent li span{
+    color: #00e4ff;
+    display: inline-block;
+    width: 100%;
+}
+
+#sy-expert-detail-container .sy-expert-detailList li span b,
+#sy-expert-detail-container .sy-expert-detailListBox li span b,
+#sy-expert-detail-container  .sy-expert-detaileContent li span b{
+    font-weight: normal;
+    color: #fff;
+    margin-left: 20px;
+    width: 81%;
+    display: inline-block;    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detail-detail-detail{
+    /*background: url("../img/newDialog.png") no-repeat1111111111111111111111111111111111111111111111111111111111111111;*/
+}
+.detail-detail-detail .gis-pagination {
+    padding-right:20px;
+}
+.sy-fireTeam-equipmentTableBox .pt-table,
+.sy-warbase-equipmentTableBox .pt-table,
+.sy-rescueForces-equipmentTableBox .pt-table{
+    height: 100%;
+    border: 1px solid #0184a5;
+}
+.sy-fireTeam-equipmentTableBox .pt-table thead,
+.sy-warbase-equipmentTableBox .pt-table thead,
+.sy-rescueForces-equipmentTableBox .pt-table thead{
+    background: #07325c;
+}
+.sy-fireTeam-equipmentTableBox .pt-table thead tr,
+.sy-warbase-equipmentTableBox .pt-table thead tr,
+.sy-rescueForces-equipmentTableBox .pt-table thead tr{
+    height: 48px;
+    line-height: 48px;
+}
+.sy-fireTeam-equipmentTableBox .pt-table tbody tr,
+.sy-warbase-equipmentTableBox .pt-table tbody tr,
+.sy-rescueForces-equipmentTableBox .pt-table tbody tr{
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #0184a5;
+}
+.sy-warbase-equipmentTableBox .pt-table,
+.sy-warbase-equipmentTableBox .pt-table,
+.sy-rescueForces-equipmentTableBox .pt-table{
+    height: 100%;
+}
+.detail-container-close{
+    position: absolute;
+    right: 28px;
+    top: 35px;
+    width:30px;
+    height:30px;
+    /*background:url("../img/close.png") no-repeat;*/
+    cursor:pointer;
+}
+#sy-warbase-equipmentlist_page_container ul li {
+    height: 27px;
+    line-height: 27px;
+}
+
+
+.popup_self_class{
+    box-sizing:border-box;
+    padding-left:17px;
+}
+.popup_self_class .inf_box .attributes_content_div .singlelines{
+    height: 44px;
+    line-height: 44px;
+    border: 1px solid #0184a5;
+    color: #01c3df;
+    border-top: none;
+    padding-left: 12px;
+}
+.popup_self_class .inf_box .attributes_content_div .singlelines label{
+    display: inline-block;
+}
+.popup_self_class .inf_box .attributes_content_div .singlelines label span:nth-of-type(2){
+    margin-left: 12px;
+}
+.popup_self_class .inf_box .attributes_content_div .singlelines label span:nth-of-type(2):before{
+    content: "";
+    display: inline-block;
+}
+.popup_self_class .inf_box .attributes_content_div .singlelines label:nth-of-type(2){
+    border-left: 1px solid #0184a5;
+}
+.popup_self_class .inf_box .attributes_content_div .singlelines:nth-of-type(1){
+    border-top: 1px solid #0184a5;
+}
+.popup_self_class .inf_box .attributes_content_div div span{
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#sy-warbase-detail-container #sy-war-base-persons .sy-warbase-personName {
+    border: 1px solid #0184a5;
+    height: 44px;
+    line-height: 44px;
+    border-top: none;
+    padding-left: 10px;
+}
+.popup_self_class .inf_box .attributes_content_div .sy-fireTeam-equipmentNum div{
+    color: #fff;
+    font-size: 18px;
+}
+
+.sy-fireTeam-detail-container .sy-fireTeam-detailTitle>span {
+    position: absolute;
+    top: 8px;
+}
+.sy-repersity-detaileContent,.sy-repersity-detailListLeft {
+    width: 96%;
+    margin-left: 2%;
+}
+.sy-repersity-detaileContent ul li:nth-child(1){
+    border-top:0px ;
+}
+.sy-repersity-detailListBox .sy-repersity-detailListLeft li,
+.sy-repersity-detaileContent ul li{
+    border: 1px solid #0184a5;
+    height: 44px !important;
+    line-height: 44px !important;
+    border-bottom: none;
+}
+
+.sy-repersity-detaileContent ul li:last-child,
+.sy-repersity-detailListBox .sy-repersity-detailListLeft li:last-child{
+    border-bottom:1px solid #0184a5;
+}
+
+.sy-fireTeam-detailListRight,
+.sy-repersity-detailListRight,
+.sy-warbase-detailListRight{
+    position: absolute;
+    right: 70px;
+    top: 140px;
+}
+.sy-rescueForces-peopleListBox ul li {
+    color: #00a2d4;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 10px;
+}
+.sy-rescueForces-peopleListBox ul li> span {
+    color: #fff;
+}
+
+.sy-rescueForces-detailListLeft ul li {
+    color: #00a2d4;
+    border-bottom: 1px solid #096990;
+    line-height: 44px;
+    height: 44px;
+    padding-left: 10px;
+
+}
+
+.sy-rescueForces-detailListLeft ul li>span {
+    color: #fff;
+    width: 440px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+}
+.sy-rescueForces-detailListLeft ul li>label>span {
+    color: #fff;
+}
+.sy-rescueForces-detailListRight {
+    position: absolute;
+    top:0;
+    left: 340px;
+    width: 320px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+.rescueForces_detail_container_botton {
+    background: url("../img/xq-bg.png") no-repeat;
+    width: 56px;
+    height: 31px;
+    border-style: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+#sy-warbase-equipmentlist_page_container {
+    position: absolute;
+    right: 20px;
+}
+.sy_expert_detailListLeft_uls{
+    /*margin-left: 10px;*/
+}
+.sy-rescueForces-equipmentTableBox {
+    margin-top: -10px;
+}
+.sy-rescueForces-detailContent {
+    margin-top: 20px;
+    width: 650px;
+}
+.sy-rescueForces-detailList {
+    position: relative;
+}
+.sy-rescueForces-detailContent .gis-pagination__box {
+    text-align: right;
+}
+
+#baidumap{
+	z-index:10;
+    width: 1582px;
+    height: 809px;
+    position: absolute;
+    left: 1123px;
+    top: 174px;
+}
+#baidushjing{
+    z-index:10;
+    width: 1582px;
+    height: 809px;
+    /*position: absolute;*/
+    /*left: 1123px;*/
+    /*top: 174px;*/
+}
+#baidushjing .close-baidushjing{
+    color:#fff;
+    font-size:26px;
+    top: -40px;
+    right: 0;
+    position: absolute;
+}
+#baidushjing iframe{
+    width: 1582px;
+    height: 809px;
+}
+#baidushjing iframe body{
+    overflow:hidden;
+}
+#baidushjing p{
+    margin-left:5px;
+    font-size:18px;
+}
+
+
+#baidumap .close-baidumap{
+    color:#fff;
+    font-size:26px;
+    top: -40px;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+}
+#baidumap .close-baidumap:hover{
+    cursor: pointer;
+}
+.bankimgbg{
+    width: 280px;
+    height: 48px;
+    background: url("../img/d3bg.png") no-repeat;
+    background-size: 100% 100%;
+}

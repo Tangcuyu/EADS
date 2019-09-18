@@ -1,29 +1,45 @@
+<!-- This is App component -->
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <component :is="layout">
+    <router-view :layout.sync="layout"></router-view>
+  </component>
 </template>
 
-<style lang="less">
+<script lang='ts'>
+import { Component, Vue } from 'vue-property-decorator';
+import baseMapComponent from './components/common/gisMethodNew';
+import router from './router/router';
+import socket from './util/socket';
+import SocketLayout from './util/SocketLayout';
+
+@Component({
+  router
+})
+export default class App extends Vue {
+  private socket: string = '';
+  private layout: string = 'div';
+
+  private created() {
+    /* 切换专题布局 */
+    // SocketLayout.earthquake(() => {
+    //   router.push('/');
+    // });
+    // SocketLayout.typhoon(() => {
+    //   router.push('/typhoon');
+    // });
+    // SocketLayout.flood(() => {
+    //   router.push('/flood');
+    // });
+  }
+
+}
+</script>
+<style lang='less' scoped>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  color: #2c3e50
 }
 </style>

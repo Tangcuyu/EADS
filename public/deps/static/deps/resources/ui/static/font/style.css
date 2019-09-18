@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'iconMap';
+  src:  url('fonts/iconMap.eot?oidfzx');
+  src:  url('fonts/iconMap.eot?oidfzx#iefix') format('embedded-opentype'),
+    url('fonts/iconMap.ttf?oidfzx') format('truetype'),
+    url('fonts/iconMap.woff?oidfzx') format('woff'),
+    url('fonts/iconMap.svg?oidfzx#iconMap') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="iconMap-"], [class*=" iconMap-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconMap' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconMap-drawerLeft:before {
+  content: "\e960";
+}
+.iconMap-drawerRight:before {
+  content: "\e961";
+}
+.iconMap-dataAggregation:before {
+  content: "\e95b";
+}
+.iconMap-allAnalysis:before {
+  content: "\e95c";
+}
+.iconMap-dataSharing:before {
+  content: "\e95d";
+}
+.iconMap-auxiliaryDecision:before {
+  content: "\e95e";
+}
+.iconMap-demoApplication:before {
+  content: "\e95f";
+}
+.iconMap-doubleMapLink:before {
+  content: "\e95a";
+}
+.iconMap-analysisReport:before {
+  content: "\e956";
+}
+.iconMap-backtrack:before {
+  content: "\e957";
+}
+.iconMap-location:before {
+  content: "\e958";
+}
+.iconMap-water:before {
+  content: "\e959";
+  color: #2879bf;
+}
+.iconMap-removeUser:before {
+  content: "\e94e";
+}
+.iconMap-invited:before {
+  content: "\e94d";
+}
+.iconMap-SynergyConsultation:before {
+  content: "\e954";
+}
+.iconMap-addAround:before {
+  content: "\e947";
+}
+.iconMap-addCircle:before {
+  content: "\e948";
+}
+.iconMap-conference:before {
+  content: "\e949";
+}
+.iconMap-dialogue:before {
+  content: "\e94a";
+}
+.iconMap-folder:before {
+  content: "\e94b";
+}
+.iconMap-invitation:before {
+  content: "\e94c";
+}
+.iconMap-minusAround:before {
+  content: "\e94f";
+}
+.iconMap-modelAnalysis:before {
+  content: "\e950";
+}
+.iconMap-notice:before {
+  content: "\e951";
+}
+.iconMap-pdf:before {
+  content: "\e952";
+}
+.iconMap-searchRecord:before {
+  content: "\e953";
+}
+.iconMap-visionSynchronization:before {
+  content: "\e955";
+}
+.iconMap-pavilion:before {
+  content: "\e944";
+}
+.iconMap-typhon:before {
+  content: "\e945";
+}
+.iconMap-vedio:before {
+  content: "\e946";
+}
+.iconMap-pause:before {
+  content: "\e941";
+}
+.iconMap-set:before {
+  content: "\e942";
+}
+.iconMap-play:before {
+  content: "\e943";
+}
+.iconMap-calendar:before {
+  content: "\e93d";
+}
+.iconMap-diagram:before {
+  content: "\e93e";
+}
+.iconMap-pullNorth:before {
+  content: "\e93f";
+}
+.iconMap-infoSend:before {
+  content: "\e940";
+}
+.iconMap-self-definedSearch:before {
+  content: "\e937";
+}
+.iconMap-fasttips:before {
+  content: "\e939";
+}
+.iconMap-reliefArea:before {
+  content: "\e93a";
+}
+.iconMap-administrativeDivision:before {
+  content: "\e93b";
+}
+.iconMap-sure:before {
+  content: "\e938";
+}
+.iconMap-desRemove:before {
+  content: "\e936";
+}
+.iconMap-ok:before {
+  content: "\e926";
+}
+.iconMap-edit:before {
+  content: "\e927";
+}
+.iconMap-delete:before {
+  content: "\e928";
+}
+.iconMap-back:before {
+  content: "\e929";
+}
+.iconMap-shinClose:before {
+  content: "\e92a";
+}
+.iconMap-tabDelete:before {
+  content: "\e93c";
+}
+.iconMap-eyeOpen:before {
+  content: "\e92b";
+}
+.iconMap-eyeClose:before {
+  content: "\e92c";
+}
+.iconMap-more:before {
+  content: "\e92d";
+}
+.iconMap-info:before {
+  content: "\e92e";
+}
+.iconMap-infoSearch:before {
+  content: "\e92f";
+}
+.iconMap-download:before {
+  content: "\e930";
+}
+.iconMap-circleClose:before {
+  content: "\e931";
+}
+.iconMap-telphone:before {
+  content: "\e932";
+}
+.iconMap-message:before {
+  content: "\e933";
+}
+.iconMap-trangleRight:before {
+  content: "\e934";
+}
+.iconMap-sureAround:before {
+  content: "\e935";
+}
+.iconMap-close:before {
+  content: "\e91e";
+}
+.iconMap-dataVisualization:before {
+  content: "\e915";
+}
+.iconMap-search:before {
+  content: "\e924";
+}
+.iconMap-emergencyDisposal:before {
+  content: "\e91c";
+}
+.iconMap-dataCollection:before {
+  content: "\e914";
+}
+.iconMap-serviceManagement:before {
+  content: "\e909";
+}
+.iconMap-thematicPavilion:before {
+  content: "\e922";
+}
+.iconMap-trangleSouth:before {
+  content: "\e91b";
+}
+.iconMap-pullSouth:before {
+  content: "\e91a";
+}
+.iconMap-measure:before {
+  content: "\e906";
+}
+.iconMap-plotting:before {
+  content: "\e905";
+}
+.iconMap-layerManager:before {
+  content: "\e919";
+}
+.iconMap-thematicCharting:before {
+  content: "\e923";
+}
+.iconMap-printscreen:before {
+  content: "\e907";
+}
+.iconMap-pathPlanning:before {
+  content: "\e90c";
+}
+.iconMap-clear:before {
+  content: "\e90e";
+}
+.iconMap-fullScreen:before {
+  content: "\e910";
+}
+.iconMap-toolbox:before {
+  content: "\e90a";
+}
+.iconMap-rangeMeasurement:before {
+  content: "\e90b";
+}
+.iconMap-planimetering:before {
+  content: "\e90d";
+}
+.iconMap-add:before {
+  content: "\e902";
+}
+.iconMap-minus:before {
+  content: "\e901";
+}
+.iconMap-pullLeft:before {
+  content: "\e917";
+}
+.iconMap-pullWest:before {
+  content: "\e925";
+}
+.iconMap-TeamEquipment:before {
+  content: "\e908";
+}
+.iconMap-specialist:before {
+  content: "\e900";
+}
+.iconMap-dangerousSource:before {
+  content: "\e918";
+}
+.iconMap-keyLine:before {
+  content: "\e921";
+}
+.iconMap-keyArea:before {
+  content: "\e920";
+}
+.iconMap-channelInfo:before {
+  content: "\e90f";
+}
+.iconMap-peopleHeat:before {
+  content: "\e911";
+}
+.iconMap-weather:before {
+  content: "\e916";
+}
+.iconMap-realTimeMonitor:before {
+  content: "\e912";
+}
+.iconMap-GPS:before {
+  content: "\e903";
+}
+.iconMap-warnInfo:before {
+  content: "\e91f";
+}
+.iconMap-videoMonitor:before {
+  content: "\e913";
+}
+.iconMap-eagle:before {
+  content: "\e904";
+}
+.iconMap-pullRight:before {
+  content: "\e91d";
+}

@@ -1,0 +1,45 @@
+<div class="gis-panel">
+    <div class="gis-panel__title">
+        <span class="gis-panel__title_name">行政区划</span>
+        <span class="gis-panel__title_btns">
+            <a class="gis-panel__title_hide">
+                <b class="iconMap-pullLeft2"></b>
+            </a>
+            <a class="gis-panel__title_close">
+                <b class="iconMap-pullLeft2"></b>
+            </a>
+        </span>
+    </div>
+    <div class="gis-panel__content"></div>
+</div>
+
+
+<script>
+    var gisPanel1 = new gisPanel({
+        el :'#nearbyAnalysisLeft',  // 容器id
+        data: {
+            title: '行政区划',
+            draggable: true,    /* 默认值：false，当设置为true，表示面板可拖动*/
+            resizable: true,    /* 默认值：false，当设置为true，表示面板可调整大小*/
+            defaultContent:'<div style="width: 300px; height: 300px">some thing in here..</div>',
+            //  设置面板内容，可选项，数据类型：String,Element,jQuery; 并通过style样式设置宽、高；
+            hideIcon: 'iconMap-pullRight', // 是否需要隐藏按钮，如果需要则要设置Icon值；
+            destroyIcon: 'iconSZXF-close',  //  是否需要销毁关闭按钮，如果需要则要设置Icon值；
+            popupCenter: true,  // 弹窗是否居中显示，默认：true，居中显示；若为false，需要手动设置el弹窗的css位置；
+            closeCallback: function (obj) {
+                console.log(obj,"are closed!");
+            },
+            resizeCallback: function (width, height) {
+                console.log(width,height)
+            }
+        }
+    })
+
+    gisPanel1.el; // 通过el属性，可以获取容器id
+    gisPanel1.$el; // 通过$el属性，可以获取整个DOM结构
+    gisPanel1.setContent(content); // 重置 面板内容的方法；
+    gisPanel1.addContent(content); // 追加 面板内容的方法
+    gisPanel1.destroyPanel();
+    gisPanel1.hidePanel();
+    gisPanel1.showPanel();
+</script>

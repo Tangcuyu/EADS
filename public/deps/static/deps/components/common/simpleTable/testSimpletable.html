@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../gisPagination/gisPagination.css">
+    <script src="../../../node_modules/jquery/jquery-1.11.2.js"></script>
+    <script src="../../../node_modules/require/require.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+  require.config({
+    paths: {
+      'jquery': '../../../node_modules/jquery/jquery-1.11.2',
+      'gisPagination': '../gisPagination/gisPagination',
+      'simpleTable': './simpletable'
+    },
+    shim: {
+      'simpleTable': {
+        deps: ['gisPagination']
+      }
+    }
+  });
+  require(['simpleTable'], function (SimpleTable) {
+    var opts = {};
+    opts.containerId = 'tableCt';
+    opts.isPaging = true;//是否分页
+    opts.pageSize = 5;//每页数目
+    opts.total = 34;//总数
+    opts.fields = [
+      //序号
+      {
+        label : '',
+        name: "$btn",
+        width: '10%',
+        template: '<input type="checkbox" class="gs_class_table">'
+      },
+      {
+        name: 'name',
+        label: '名称',
+        width: '20%'
+      },
+      {
+        name: 'address',
+        label: '地址',
+        width: '20%'
+      },
+      {
+        name: 'count',
+        label: '总数',
+        width: '20%',
+        type: 'Number'
+      },
+      {
+        name: 'tel',
+        label: '电话',
+        width: '20%',
+        suffix: '<a>【图标】</a>'
+      },
+    ];//字段
+    //获取数据
+    opts.pageChangeCallback = function (pageIndex, pageSize, cb) {
+      //获取当页数据
+      var list = [];
+      for (var i = pageIndex * pageSize; i < (pageIndex + 1) * pageSize; i++) {
+        var item = {};
+        item.id = 'id_' + i;
+        item.name = '名称' + i;
+        item.address = '地址' + i;
+        item.count = i % 3 === 0 ? '' : Math.random();
+        item.tel = i % 2 == 0 ? '112313211' : null;
+        list.push(item);
+      }
+      //通过回调传回数据
+      cb(list);
+    };
+    opts.rowClickCallback = function (data) {
+      console.log('行点击：' + JSON.stringify(data))
+    }
+    //操作按钮点击
+    opts.btnColClickCallback = function (field, data, event) {
+      var value = data[field];
+      //$('.gs_class_table:checked')
+      console.log('按钮点击： ' + jQuery(event.target).html() + ',' + field + ',' + JSON.stringify(data))
+    }
+    //单元格图标点击
+    opts.suffixClickCallback = function (field, data) {
+      var value = data[field];
+      console.log('图标点击： ' + value + ',' + JSON.stringify(data))
+    }
+
+    var table = new SimpleTable(opts);
+  });
+</script>
+<div id="tableCt">
+
+</div>
+</body>
+</html>

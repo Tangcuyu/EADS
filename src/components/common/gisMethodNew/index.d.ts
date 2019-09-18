@@ -1,0 +1,17 @@
+export as namespace gisMethodNew;
+export function init(): any;
+export function loadEventDemoData(a: any): any;
+export function initEventCmp(): any;
+export function showEventDemoData(a: any): any;
+export function clearEventAll(): any;
+export function initWarningTyphoonCmp(): any;
+export function loadWarningTyphoonDemoData(): any;
+export function clickWarningOne(): any;
+export function clickWarningAll(): any;
+export function initMarkCmp(): any;
+export function loadMarkDemoData(): any;
+export function showMarkDemoData(): any;
+export function markInfo(): any;
+export function initEmergencyResourcesCmp(): any;
+export function clearResourcesTeam(): any;
+export function clearMarkAll(): any;

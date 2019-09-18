@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="aj-gisTabContainer-container" id="aj-gisTabContainer-container">
+			<dl>
+				<dd class="aj-gisTabContainer-col3">
+					<div class="aj-gisTabContainer-item">
+						<p class="aj-gisTabContainer-itemName">急救资源<span class="aj-gisTabContainer-itemNumber">(20)</span></p>
+					</div>
+				</dd>
+				<dd class="aj-gisTabContainer-col3">
+					<div class="aj-gisTabContainer-item">
+						<p class="aj-gisTabContainer-itemName">急救资源<span class="aj-gisTabContainer-itemNumber">(20)</span></p>
+					</div>
+				</dd>
+				<dd class="aj-gisTabContainer-col3">
+					<div class="aj-gisTabContainer-item">
+						<p class="aj-gisTabContainer-itemName">急救资源<span class="aj-gisTabContainer-itemNumber">(20)</span></p>
+					</div>
+				</dd>
+			</dl>
+		</div>
+	</body>
+	<script>
+		var tabPanel1 = new gisTabPanel({
+        	contentId: '#panelContainer',//内容id
+        	ifClick:true,//false 禁止点击，true 可以点击,不传默认可以点击
+			tabData:[
+						{
+    						'codeKey':'01',
+							'tabTitle':'救援力量',
+							'tabNumber':''
+						},
+						{
+							'codeKey':'02',
+							'tabTitle':'现场力量',
+							'tabNumber':''
+						},
+						{
+							'codeKey':'03',
+							'tabTitle':'增援力量',
+							'tabNumber':''
+						},
+						{
+							'codeKey':'04',
+							'tabTitle':'其它力量',
+							'tabNumber':''
+						}
+					],
+	    	clickNumCallback: function (returnData) {
+        		console.log("click num item",returnData);
+	    	},
+	    	clickTitleCallback:function(returnData){
+	    		console.log("click title item",returnData);
+	    	}
+    	});
+    	var tabPanelData2 = [
+		    					{
+		    						'codeKey':'01',
+									'tabTitle':'救援力量',
+									'tabNumber':'20'
+								},
+								{
+									'codeKey':'02',
+									'tabTitle':'现场力量',
+									'tabNumber':'10'
+								},
+								{
+									'codeKey':'03',
+									'tabTitle':'增援力量',
+									'tabNumber':'8'
+								},
+								{
+									'codeKey':'04',
+									'tabTitle':'其它力量',
+									'tabNumber':'6'
+								}
+							];
+    	tabPanel1.updateTabPanelData(tabPanelData2,ifClick);//更新tab数据,是否可以点击
+    	tabPanel1.selectGisTabItem(0);//控制当前选中哪一个tab，传入当前tab的index索引
+	</script>
+</html>

@@ -1,0 +1,101 @@
+/*全屏 临时*/
+.BigBox {
+    z-index: 3;
+    top: 0px;
+    left: 0;
+    position: absolute;
+    width: 3840px;
+    height: 1080px;
+    background: none;
+}
+
+#map {
+    width: 3840px;
+    height: 1005px;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #081634;
+}
+
+#map-masking {
+    width: 3840px;
+    height: 1005px;
+    top: 0px;
+    left: 0;
+    background: none;
+}
+
+.close_map_list_icon_left {
+    display: none;
+    background: rgba(255, 255, 255, 0.6);
+    left: 35%;
+}
+
+.close_map_list_icon_right {
+    display: none;
+    background: rgba(255, 255, 255, 0.6);
+    right: 35%;
+}
+
+.QH-defendContent-right {
+    pointer-events: none;
+}
+
+.QH-defendContent-right > section {
+    pointer-events: auto;
+}
+
+.map_list_icon_left {
+    z-index: 5 !important;
+    left: 30% !important;
+    top: 10% !important;
+}
+
+.map_list_icon_right {
+    z-index: 5 !important;
+    right: 30% !important;
+    top: 10% !important;
+}
+
+/*.dialong_Sharing {*/
+    /*top: 104px;*/
+    /*left: 3630px;*/
+/*}*/
+
+/*.dialong_Sharing2 {*/
+    /*top: 104px;*/
+    /*left: 3560px;*/
+/*}*/
+
+/*.dialong_Sharing3 {*/
+    /*top: 104px;*/
+    /*left: 3450px;*/
+/*}*/
+/*.dialong_Sharing4 {*/
+    /*top: 104px;*/
+    /*left: 3380px;*/
+/*}*/
+
+/*.dialong_Sharing5 {*/
+    /*top: 104px;*/
+    /*left: 3380px;*/
+/*}*/
+
+.gs-container-topright {
+    top: -18px;
+    right: 13px;
+}
+
+#legend_all_id {
+    bottom: 90px;
+    right: 75px;
+}
+.dialong_Sharing3_wrap{
+    top: 100px;
+    right: 125px;
+}
+#mapPanel {
+    top: 100px;
+    right: 59px;
+}

@@ -1,0 +1,200 @@
+/*行政区划CSS样式 starts*/
+.administrative-division-size{
+	width: 360px;
+    height: 178px;
+}
+.administrative-division-position{
+	position: absolute;
+    left: 15px;
+    top: 85px;
+}
+.adminis-division-table select,.adminis-division-table input,
+.reliefArea-row input{
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.adminis-division-table select{
+	width: 250px;
+}
+.adminis-division-table select:focus{
+	outline: none;
+}
+.adminis-division-table input{
+	width: 170px;
+	padding-left: 6px;
+}
+.adminis-division-table > tbody > tr > th{
+	text-align: right;
+}
+.adminis-division-table > tbody > tr > td{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.btn-size{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 6px;
+	margin-right: 0;
+}
+/*行政区划CSS样式 ends*/
+
+/*缓冲查询弹窗样式 starts*/
+.reliefArea-box{
+	position: absolute;
+	top: 211px;
+	left: 480px;
+}
+.reliefArea-reminder{
+	position: absolute;
+	left: 56px;
+    width: 170px;
+    height: 34px;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 34px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0,.5);
+    box-shadow: 0px 0px 5px 0px rgba(51, 51, 51, 0.5);
+}
+.reliefArea-reminder:before{
+	position: absolute;
+	left: -16px;
+	top: 50%;
+	margin-top: -8px;
+	content: ' ';
+	width: 0;
+	height: 0;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent ;
+	border-right-color:#808080;
+}
+.reliefArea-dialog{
+	position: absolute;
+	top: 69px;
+	width: 293px;
+    height: 90px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px rgba(51, 51, 51, 0.5);
+}
+.reliefArea-dialog:before,
+.reliefArea-dialog:after{
+	position: absolute;
+	content: '';
+	bottom: -6px;
+	left: 50%;
+	margin-left: -4px;
+	width: 10px;
+	height: 10px;
+	background-color:#fff ;
+	transform: rotate(-45deg);
+}
+.reliefArea-dialog:after{
+	bottom: -4px;
+	width: 11px;
+	height: 11px;
+}
+.reliefArea-dialog:before{
+	-webkit-box-shadow:  0 1px 1px rgba(0,0,0,.5);
+	-moz-box-shadow:  0 1px 1px rgba(0,0,0,.5);
+	box-shadow:  0 1px 1px rgba(0,0,0,.5);
+	border-left: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.reliefArea-row{
+	margin-top: 10px;
+}
+.reliefArea-dialog label{
+	display: inline-block;
+	width: 69px;
+	margin-right: 5px;
+	text-align: right;
+	font-size: 14px;
+}
+.reliefArea-inp-box{
+	display: inline-block;
+	*display: inline-block;
+	*zoom: 1;
+	width: 196px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+.reliefArea-inp-box > .reliefArea-input{
+	width: 161px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 6px;
+	border: 0;
+	background-color: transparent;
+}
+.reliefArea-col-row{
+	display: inline-block;
+	*display: inline-block;
+	*zoom: 1;
+}
+.reliefArea-col-row input{
+	width: 130px;
+	font-size: 14px;
+	padding-left: 6px;
+}
+.reliefArea-btn-size{
+	/*height: 24px;
+	line-height: 24px;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 6px;
+}
+.kilomiter-edit-group{
+	position: absolute;
+	top: 173px;
+	left: 79px;
+	width: 82px;
+	height: 23px;
+	border: 1px solid #666666;
+}
+.kilomiter-edit-zooms{
+	float: left;
+	color: #333333;
+	font-size: 12px;
+	line-height: 23px;
+	text-align: center;
+}
+.kilomiter-edit-zooms-e{
+	width: 23px;
+	color: #1997f5;
+	font-size: 14px;
+	border-left: 1px solid #666666;
+}
+.kilomiter-edit-zooms-k{
+	width: 58px;
+}
+.kilomiter-edit-zooms-e{
+	width: 23px;
+	cursor: pointer;
+}
+.random-drag-box{
+	position: absolute;
+	top: 178px;
+	left: 45px;
+	width: 23px;
+    height: 14px;
+    line-height: 10px;
+    border-radius: 5px;
+	border: 1px solid #8f8f8f;
+}
+
+.random-drag-a{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-width: 4px;
+	border-style: solid;
+	border-color: transparent ;
+}
+.random-drag-l{
+	border-right-color:#1997f5;
+	margin-left: 1px;
+}
+.random-drag-r{
+	border-left-color:#1997f5;
+}

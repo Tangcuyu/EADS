@@ -1,0 +1,708 @@
+/*body, html, p,ul,li, dl, dt, dd {*/
+    /*margin: 0;*/
+    /*padding:0*/
+/*}*/
+
+/*::-webkit-scrollbar {*/
+    /*width: 8px;*/
+    /*height: 8px;*/
+    /*background-color: transparent;*/
+    /*border-radius: 4px;*/
+/*}*/
+
+/*滚动条的轨道*/
+/*::-webkit-scrollbar-track {*/
+    /*background-color: rgba(0, 0, 0, .2);*/
+    /*border-radius: 4px;*/
+/*}*/
+
+/*滚动条的滑块按钮*/
+/*::-webkit-scrollbar-thumb {*/
+    /*width: 8px;*/
+    /*border-radius: 4px;*/
+    /*border-left: 1px solid #011c27;*/
+    /*border-right: 1px solid #011c27;*/
+    /*background-color: #011c27;*/
+    /*outline-offset: -2px;*/
+/*}*/
+
+/*滚动条的上下两端的按钮*/
+/*::-webkit-scrollbar-button {*/
+    /*height: 0;*/
+    /*background-color: #e5edee;*/
+/*}*/
+
+.jc-body-size {
+    /*width: 3840px;*/
+    /*height: 1080px;*/
+    width:100%;
+    height:100%;
+}
+
+.jc-wrap {
+    padding-top: 114px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /*background-color: #011122;*/
+    background: url("../img/normal-bg.png") center top no-repeat;
+}
+
+.jc-wrap .jc-body-size  .jc-header {
+    height: 50px;
+    margin-top: -50px;
+}
+
+.jc-wrap .jc-body {
+    height: 100%;
+    padding-top: 58px;
+    padding-left: 1102px;
+    padding-right: 1097px;
+}
+
+.jc-wrap .js-body_row {
+    box-sizing: border-box;
+    width: 1040px;
+    height: 100%;
+}
+
+.jc-wrap .js-body_col_L {
+    float: left;
+    position: relative;
+    margin-left: -1040px;
+    top: -74px;
+    left: -70px;
+
+}
+
+.jc-wrap .js-body_col_R {
+    float: right;
+    margin-right: -1040px;
+    height: 100%;
+    position: relative;
+    right: -99px;
+    top: -74px;
+}
+
+.jc-wrap .js-body_col_C {
+    width: 100%;
+    padding: 0 20px;
+    height: 100%;
+    position: relative;
+}
+
+.jc-wrap .js-body_col_Left_r .js-body_col:first-child {
+    height: 333px;
+    box-sizing: border-box;
+}
+.jc-wrap .js-body_col_Left_r .js-body_col:nth-child(2) {
+    height: 317px;
+    box-sizing: border-box;
+}
+.jc-wrap .js-body_col_Left_r .js-body_col:nth-child(3){
+    height: 323px;
+    box-sizing: border-box;
+}
+.jc-wrap .js-body_col_R .js-body_col:first-child {
+    height: 318px;
+    box-sizing: border-box;
+}
+.jc-wrap .js-body_col_R .js-body_col:nth-child(2) {
+    height: 330px;
+    box-sizing: border-box;
+}
+.jc-wrap .js-body_col_R .js-body_col:nth-child(3){
+    height: 326px;
+    box-sizing: border-box;
+}
+.jc-wrap .js-body_col_Left {
+    float: left;
+    width: 520px;
+    height: 100%;
+}
+
+.jc-wrap .js-body_col_Left_r {
+    height: 100%;
+    margin-left: 520px;
+}
+
+.jc-wrap .js-body_col_Left_col {
+    height: 50%;
+
+}
+
+.jc-wrap .js-body_row_top_L {
+
+}
+
+.jc-wrap .js-panelBg {
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    box-sizing: border-box;
+    background: url(../img/panel_bg.png) no-repeat -45px -9px;
+    background-size: 100% 100%;
+    position: relative;
+}
+.jc-wrap .js-panelBg--long{
+    background: url(../img/panel_left_long.png) no-repeat -26px -10px;
+    background-size: 111% 100%
+}
+.jc-wrap .js-panelBg--short{
+    background: url(../img/panel_left.png) no-repeat -12px 10px;
+    background-size: 110% 97%;
+    padding-bottom: 21px;
+}
+.jc-wrap .js-panelBg--shortA{
+    background: url(../img/panel_left01.png) no-repeat 8px -15px;
+    background-size: 110% 106%;
+    padding-bottom: 34px;
+}
+.jc-wrap .js-panelBg--shortC{
+    background: url(../img/panel_left01.png) no-repeat 8px -15px;
+    background-size: 110% 110%;
+    padding-bottom: 17px;
+}
+.jc-wrap .js-panelBg--shortB{
+    background: url(../img/panel_left02.png) no-repeat -24px 0px;
+    background-size: 110% 115%;
+    padding-bottom: 21px;
+}
+.jc-wrap .js-panelBg .shine1 {
+    top: 20px;
+}
+
+.jc-wrap .js-panelBg .shine4 {
+    left: 39px;
+}
+
+.jc-wrap .js-panelBg .modulePanel-head {
+    padding-top: 0px;
+    height: 20px;
+}
+
+.jc-wrap .js-panelBg .modulePanel-item-cont {
+    height: 100%;
+}
+
+.jc-wrap .js-panelBg .modulePanel-title {
+    margin-left: 8px
+}
+
+.jc-wrap .js-panelBg .modulePanel-style {
+    padding-left: 35px;
+    height: 100%;
+}
+
+.jc-wrap .js-panelBg .modulePanel-cont {
+    height: calc(100% - 100px);
+    margin-right: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    margin-top: 46px;
+}
+/*分时段事件统计*/
+.jc-wrap .js-panelBg .modulePanel-timeSharing {
+    height: calc(100% - 45px);
+    margin-top: 23px;
+}
+.jc-wrap .myFormatter_box {
+    position: relative;
+    width:100px;
+    height:60px;
+    border:1px solid #55cbd6;
+    font-size: 28px;
+    font-weight: bold;
+    color: #55cbd6;
+    padding:20px 20px;
+    text-align: center;
+}
+.jc-wrap .myFormatter_box::before {
+    content:'';
+    position: absolute;
+    left:20px;
+    top:0;
+    width: 20px;
+    height: 20px;
+    /*background-color: red;*/
+    transform: rotate(90deg);
+    border-top:1px solid blue;
+    border-right:1px solid blue;
+}
+/*今日值班情况 start*/
+.jc-wrap .js-duty {
+    /*padding-top:20px;*/
+    padding-left: 150px;
+    height: 100%;
+    box-sizing:border-box;
+    background: url("../img/duty_icon.png") no-repeat 0 50%;
+}
+
+.jc-wrap .js-duty_dl {
+    width: 100%;
+    cursor:default;
+}
+
+.jc-wrap .js-duty_dl + .js-duty_dl {
+    margin-top: 5px;
+}
+
+.jc-wrap .js-duty_dt, .js-duty_dd {
+    font-size: 28px;
+    line-height: 1;
+    padding: 12px 10px;
+}
+
+.jc-wrap .js-duty_dt {
+    float: left;
+    width: 170px;
+    background-color: rgba(0, 228, 255, .14);
+    color: #7dfffa;
+    text-align: center;
+
+}
+
+.jc-wrap .js-duty_dd {
+    display: block;
+    margin-left: 200px;
+    color: #fff;
+    padding-left: 25px;
+    background-color: rgba(0, 228, 255, .06);
+
+}
+
+.jc-wrap .js-duty_dd span {
+    display: inline-block;
+
+}
+
+.jc-wrap .js-duty_dd.name {
+    width: 180px;
+}
+
+.jc-wrap .js-duty_dd .tel{
+    width: 320px;
+    text-align: center;
+
+}
+.jc-wrap .js-duty_dd .icon{
+    background:url("../img/tel.png") no-repeat;
+    width:28px;
+    height:28px;
+}
+
+/*今日值班情况 end*/
+
+/*实时预警信息 start*/
+.jc-wrap .js-warn{
+    padding:20px 0;
+
+}
+.jc-wrap .js-warn_dl{
+    display:inline-block;
+    width:206px;
+    height:198px;
+    padding:15px;
+    box-sizing:border-box;
+    color:#fff;
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    vertical-align:top;
+    cursor:pointer;
+
+
+}
+.jc-wrap .js-warn_dl--danger{
+    background-image:url("../img/bg_red.png") ;
+}
+
+.jc-wrap .js-warn_dl--warn{
+    background-image:url("../img/bg_yellow.png") ;
+}
+
+.jc-wrap .js-warn_dl--success{
+    background-image:url("../img/bg_green.png") ;
+}
+
+.jc-wrap .js-warn_dl--primary{
+    background-image:url("../img/bg_blue.png") ;
+}
+.jc-wrap .js-warn_dl dt, .js-warn_dl dd{
+    display:block;
+    text-align:center
+}
+.jc-wrap .js-warn_dt{
+    height:55px;
+    font-size:28px;
+}
+.jc-wrap .js-warn_dd{
+    padding:33px 0;
+    font-size:76px;
+    line-height:1
+}
+/*实时预警信息 end*/
+
+/*当日事件数 start*/
+.jc-wrap .js-case{
+    color:#fff;
+    padding:20px 0;
+
+}
+.jc-wrap .js-case_dl{
+    margin-bottom:20px;
+    padding-left:20px;
+    cursor:pointer;
+
+}
+.jc-wrap .js-case_dl dt,.js-case_dl dd{
+    vertical-align:middle;
+
+    display: inline-block;
+}
+.jc-wrap .js-case_dt{
+    font-size:28px;
+    color:#00e3ff;
+    padding-right:20px;
+}
+.jc-wrap .js-case_dt:before{
+    display:inline-block;
+    content:'';
+    width:3px;
+    height:30px;
+    margin-right:15px;
+    vertical-align:middle;
+
+    background-color:#0fc9d5
+}
+.jc-wrap .js-case_dd span{
+    display: inline-block;
+    width:50px;
+    height:72px;
+    background-color:#000001;
+    border-radius: 3px;
+    text-align:center;
+    font-size:72px;
+    line-height:1;
+    margin-left:10px;
+    color:#00e3ff;
+}
+.jc-wrap .js-case_dd.warn span{
+    color:#ffa800
+
+}
+
+/*当日事件数 end*/
+
+/*关注事件 start*/
+
+.jc-wrap #nomFocusEventsId {
+    padding-top:40px;
+}
+.jc-wrap .js-activeCase{
+    padding-top:30px;
+}
+.jc-wrap .js-activeCase_li{
+    list-style:none;
+    position: relative;
+    font-size: 28px;
+    color:#fff;
+}
+.jc-wrap .js-activeCase_dot{
+    position: absolute;
+    left: -7px;
+    top:-8px;
+    width: 84px;
+    height:84px;
+    background: url("../img/dot.png") no-repeat;
+}
+.jc-wrap .js-activeCase_li:first-child .js-activeCase_dot{
+    background:url("../img/star.png") no-repeat 50% 50%;
+    left: -39px;
+    top: -22px;
+}
+.jc-wrap .js-activeCase_cnt{
+    margin-top: 0;
+    border-left: 3px solid #00feff;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.jc-wrap .js-activeCase_li:last-child .js-activeCase_cnt{
+    padding-bottom:0;
+    border-left-color:transparent;
+}
+.jc-wrap .js-activeCase_li:last-child .js-activeCase_cnt:before{
+    position:absolute;
+    display:inline-block;
+    left:0;
+    content:'';
+    width:3px;
+    height:50%;
+    background:linear-gradient(to bottom, #00feff ,transparent)
+}
+.jc-wrap .js-activeCase_cnt_dl{
+    position: relative;
+    padding-bottom: 8px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    border-color:inherit;
+    cursor:pointer;
+}
+.jc-wrap .js-activeCase_cnt_dl:after{
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border:5px solid transparent;
+}
+.jc-wrap .js-activeCase_cnt_dl>dt{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+}
+.jc-wrap .js-activeCase_cnt_dl>dt:last-child{
+    font-weight: normal;
+}
+.jc-wrap .js-activeCase_cnt_dl>dd{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    line-height: 1.5;
+}
+.jc-wrap .js-activeCase_cnt_dl>dt .type{
+    display: inline-block;
+    width:100px;
+    height:40px;
+    padding-left:10px;
+}
+.jc-wrap .typeA{
+    background:url("../img/type01.png") no-repeat 0 0;
+}
+.jc-wrap .typeB{
+    background:url("../img/type02.png") no-repeat 0 0;
+}
+.jc-wrap .typeC{
+    background:url("../img/type03.png") no-repeat 0 0;
+}
+.jc-wrap .typeA{
+    background-position: 0 0;
+}
+.jc-wrap .time{
+    color:#abefff
+}
+
+
+/*关注事件 end*/
+
+/*舆情系统 start*/
+.jc-wrap #nomLinkResultContainer {
+    /*padding: 20px 0;*/
+}
+.jc-wrap .js-module{
+    height: 100%;
+    box-sizing:border-box;
+    vertical-align:top;
+}
+.jc-wrap .js-lyrical{
+    padding-bottom: 20px;
+}
+.jc-wrap .js-lyrical_dl{
+    float:left;
+    width:50%;
+    display:inline-block;
+    color:#fff;;
+    box-sizing:border-box;
+    padding-left:45px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.jc-wrap .js-lyrical_icon{
+    display:inline-block;
+    width:80px;
+    height:80px;
+    background:url(../img/icon.png) no-repeat 0 0;
+}
+.jc-wrap .js-lyrical_icon-A{
+    background-position: -5px -5px;
+}
+.jc-wrap .js-lyrical_icon-B{
+    background-position: -229px -5px;
+}
+.jc-wrap .js-lyrical_icon-C{
+    background-position: -5px -108px;
+}
+.jc-wrap .js-lyrical_icon-D{
+    background-position: -229px -108px;
+}
+.jc-wrap .js-lyrical_dl dt,.js-lyrical_dl dd{
+    display:inline-block;
+    vertical-align: middle;
+}
+.jc-wrap .js-lyrical_dt{
+    margin-left:-45px;
+    margin-right:5px;
+}
+.jc-wrap .js-lyrical_dd{
+    font-size:28px;
+}
+/*舆情系统 start*/
+
+
+/*iframe start*/
+.jc-wrap  .js-body-iframe-container{
+    /*padding-top: 30px;*/
+    position: absolute;
+    top: 0px;
+    left: 19px;
+    right: 18px;
+    bottom: 87px;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    display: none;
+    z-index: 11;
+    background-color: rgba(0, 5, 25, .85);
+}
+.jc-wrap .js-body-iframe-close{
+    position:absolute;
+    right:5px;
+    top:5px;
+    width:36px;
+    height:36px;
+    font-size:36px;
+    color:#369;
+    outline:none;
+
+}
+.jc-wrap .js-body-iframe-close:hover{
+    color:#00e0e0;
+}
+.jc-wrap .js-body-iframe-close:after{
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    content:"\2715";
+    text-align: center;
+    line-height:36px;
+}
+/*iframe end*/
+
+/*本月突发事件累积TOP3 start*/
+.jc-wrap .js-outbreak{
+    margin:-22px 0 0 0;
+    padding:00px 0 0 20px;
+    color: #fff;
+    list-style:none;
+    font-size:0;
+    vertical-align:top;
+    overflow:hidden;
+}
+.jc-wrap .js-outbreak:before{
+    content:'';
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: url(../img/map.png) no-repeat 132px -7px;
+    opacity: .6;
+    z-index:0
+}
+.jc-wrap .js-outbreak_li{
+    display: block;
+    font-size:28px;
+    margin:0 0 5px 0px;
+    background:url("../img/top1.png") no-repeat 0 -2px/100% 100%;
+    box-sizing:border-box;
+    vertical-align:middle;
+    width:170px;
+    height:77px;
+    padding-left:30px;
+    padding-top:25px;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -o-animation-delay: .3s;
+    animation-delay: .3s;
+    white-space:nowrap;
+    cursor:pointer;
+}
+.jc-wrap .js-outbreak_li:nth-of-type(2){
+    background-image:url("../img/top2.png");
+    padding-left:40px;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -o-animation-delay: .5s;
+    animation-delay: .5s;
+}
+.jc-wrap .js-outbreak_li:nth-of-type(3){
+    background-image:url("../img/top3.png");
+    -webkit-animation-delay: .7s;
+    -moz-animation-delay: .7s;
+    -o-animation-delay: .7s;
+    animation-delay: .7s;
+}
+.jc-wrap .js-outbreak_li span{
+    display:inline-block;
+    text-align:center;
+    font-size:28px;
+    vertical-align:middle;
+
+}
+.jc-wrap .js-outbreak_li .num{
+    font-size:32px;
+    font-weight:bold;
+    white-space:nowrap;
+}
+.jc-wrap .js-outbreak_li .name{
+}
+.jc-wrap .js-outbreak_li:nth-of-type(1) .num{
+    color:#ff4f00
+}
+.jc-wrap .js-outbreak_li:nth-of-type(2) .num{
+    color:#ff9000;
+}
+.jc-wrap .js-outbreak_li:nth-of-type(3) .num {
+    color:#0c9eff
+}
+
+
+
+
+/*本月突发事件累积TOP3 end*/
+
+
+
+
+
+/*气象信息 左侧 位置*/
+ .js-lyrical_dd_normal_position{
+    /*width: 998px;*/
+    /*height: 966px;*/
+    /*position: absolute;*/
+    /*background-color: rgba(0, 5, 25, .85);*/
+    /*-webkit-box-shadow: inset 0px 0px 30px 10px #041d47;*/
+    /*-moz-box-shadow: inset 0px 0px 30px 10px #041d47;*/
+    /*box-shadow: inset 0px 0px 30px 10px #041d47;*/
+    /*top: 85px;*/
+    left: 25px;
+
+}
+
+.jc-wrap .js-body-iframe-container-content{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.js-body-iframe-container-closed{
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*color: #ffffff;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*cursor: pointer;*/
+}

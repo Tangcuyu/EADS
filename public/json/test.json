@@ -1,0 +1,24 @@
+ {
+     "m1":{
+         "field1":"bar1",
+         "field2":"line1",
+         "field3":"pie1"
+     },
+     "m2":{
+        "field1":"bar1",
+        "field2":"line1",
+        "field3":"pie1"
+     },
+     "m3":{
+        "field1":{
+            "m4":{
+                "field1":"bar1",
+                "field2":"line1",
+                "field3":"pie1"  
+            }
+        },
+        "field2":"line1",
+        "field3":"pie1"
+     }
+     
+ }

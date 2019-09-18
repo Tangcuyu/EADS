@@ -1,0 +1,59 @@
+.gis-resize {}
+.gis-resize__L,
+.gis-resize__R,
+.gis-resize__T,
+.gis-resize__B,
+.gis-resize__LT,
+.gis-resize__LB,
+.gis-resize__RT,
+.gis-resize__RB {
+    position: absolute;
+    background-color: transparent;
+}
+.gis-resize__L,
+.gis-resize__R {
+    width: 3px;
+    height: 100%;
+    cursor: w-resize;
+}
+.gis-resize__T,
+.gis-resize__B {
+    width: 100%;
+    height: 3px;
+    cursor: n-resize;
+}
+.gis-resize__LT,
+.gis-resize__LB,
+.gis-resize__RT,
+.gis-resize__RB {
+    width: 3px;
+    height: 3px;
+}
+.gis-resize__L, .gis-resize__T {
+    top: 0;
+    left: 0;
+}
+.gis-resize__R, .gis-resize__B {
+    bottom: 0;
+    right: 0;
+}
+.gis-resize__LT {
+    top: 0;
+    left: 0;
+    cursor: nw-resize;
+}
+.gis-resize__LB {
+    bottom: 0;
+    left: 0;
+    cursor: ne-resize;
+}
+.gis-resize__RT {
+    top: 0;
+    right: 0;
+    cursor: ne-resize;
+}
+.gis-resize__RB {
+    right: 0;
+    bottom: 0;
+    cursor: nw-resize;
+}

@@ -1,0 +1,127 @@
+/*快速查询样式弹窗样式 starts*/
+.quick-search-size{
+	width: 360px;
+	height: 138px;
+}
+.quick-search-position{
+	position: absolute;
+  left: 15px;
+  top: 85px;
+}
+select:focus{
+	outline: none;
+}
+.pl-ml{
+	margin-right: 10px;
+	font-size: 16px;
+}
+/*.quick-search-table > tbody > tr > th{
+	text-align: right;
+}
+.quick-search-table > tbody > tr >td{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}*/
+.quick-search-table input,.quick-search-table select{
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.quick-search-table select{
+	width: 250px;
+}
+.quick-search-table input{
+	width: 170px;
+	padding-left: 6px;
+}
+.quick-search-btn-size{
+	padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 6px;
+    margin-right: 0;
+}
+/*快速查询样式弹窗 ends*/
+
+/*快速查询中间大弹窗 starts*/
+.quick-searchBig-size{
+	width: 360px;
+	height: 342px;
+}
+.quick-searchBig-position{
+	position: absolute;
+  left: 540px;
+  top: 295px;
+}
+.quick-search-table .quick-searchBig-inp{
+	width: 250px;
+}
+.datetime-calendr{
+	display: inline-block;
+	*display: inline-block;
+	*zoom: 1;
+	width: 111px;
+	height: 28px;
+	border: 1px solid #CCCCCC;
+}
+.datetime-calendr input{
+	width:86px ;
+	height: 28px;
+	background-color: transparent;
+	border: 0;
+}
+.datetime-calendr input:focus{
+	outline: none;
+}
+.datetime-calendr [class^='iconMap-']{
+	font-size: 18px;
+	color: #1997f5;
+	vertical-align:-3px;
+}
+.datetime-txt{
+   font-size: 14px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+.quick-searchBig-btn{
+	padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 118px;
+}
+.button-row-group{
+	margin-top: 10px;
+}
+.fewer-box{
+	color: #666666;
+	font-size: 12px;
+	margin-left: 36px;
+	cursor: pointer;
+}
+.fewer-box [class^='iconMap-']{
+	display: inline-block;
+    vertical-align: -1px;
+    margin-left: 5px;
+    transition: transform  0.4s ease-out;
+}
+.fewer-box:hover [class^='iconMap-']{
+	transform: rotate(180deg);
+}
+
+.extend-more{
+	display: none;
+	position: absolute;
+	height: 24px;
+	width: 80px;right:0px;
+	font-size:12px;
+	margin-top:3px;
+	color: #666666;
+	cursor: pointer;
+}
+.extend-more:hover{
+	color: #1997f5;
+}
+tbody.quick-search-more-tbody > tr.special> th,
+tbody.quick-search-more-tbody > tr.special> td{
+	padding-bottom: 24px;
+}
+.quick-search-more-tbody .extend-more{
+	display: block;
+}

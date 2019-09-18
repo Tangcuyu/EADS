@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../../node_modules/element-ui/element.css">
+    <script src="../../../node_modules/vue/vue.js"></script>
+    <script src="../../../node_modules/element-ui/element.js"></script>
+    <script src="../../../node_modules/jquery/jquery-1.11.2.js"></script>
+    <script src="../../../node_modules/require/require.js"></script>
+</head>
+<body>
+<div id="tableId">
+
+</div>
+<script type="text/javascript">
+  require(['./table.js'], function (Table) {
+    var opts = {};
+    //容器id
+    opts.containerId = 'tableId';
+    //样式
+    opts.class = 'my-table';
+    //表头
+    opts.columnList = [
+      {'prop': 'name', 'label': '姓名', 'width': '50'},
+      {'prop': 'birth', 'label': '生日', 'width': '100'},
+      {'prop': 'province', 'label': '省份', 'width': '50'},
+      {'prop': 'address', 'label': '地址', 'width': '150'}
+    ]
+    opts.data = {
+      //列表数据
+      tableData: [],
+      //显示加载中样式
+      loading: false,
+      //当前页
+      currentPage: 1,
+      //分页大小
+      pageSize: 10,
+      //总记录数
+      total: 30
+    };
+    opts.methods = {
+      /**
+       * 获取数据
+       * @param pageIndex
+       * @param pageSize
+       * @param cb
+       */
+      getData: function (pageIndex, pageSize, cb) {
+        var data = [
+          {
+            birth: '2016-05-03',
+            name: '王小虎',
+            province: '上海',
+            city: '普陀区',
+            address: '上海市普陀区金沙江路 1518 弄',
+            zip: 200333
+          }, {
+            birth: '2016-05-02',
+            name: '王小虎' + new Date().getTime(),
+            province: '上海',
+            city: '普陀区',
+            address: '上海市普陀区金沙江路 1518 弄',
+            zip: 200333
+          }];
+        cb(data);
+      },
+      rowClick: function (row, event, column) {
+      },
+    };
+    //分页
+    opts.pageSizes = [5, 10, 15];
+    var myTable = new Table(opts);
+  });
+</script>
+</body>
+</html>

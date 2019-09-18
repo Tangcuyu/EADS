@@ -1,0 +1,1707 @@
+{
+  "//": "资源树配置",
+  "resources": {
+    "RescueTeam": {
+      "title": "救援队伍",
+      "//": "李坚强修改安监表",
+      "tableName": "JYXX_TEA_RESCUE",
+      "keyField": "RESCUENAME",
+      "districtField": "RESCOUNTY",
+      "keyWordFields": [
+        "tag.RESCUENAME"
+      ],
+      "fieldMap": {
+        "RESCUENAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "RESCOUNTY":"DISTRICT",
+        "RESCUETYPECODE":"RESCUECODE",
+        "ISHAVAIRPORT":"ISHAVAIRPORT",
+        "LEADER":"LEADER",
+        "LEADERMTEL":"LEADERMTEL",
+        "LEADERTEL":"LEADERTEL"
+      },
+      "//": "排序",
+      "sort": {
+        "tag.NAME": 1
+      },
+      "tableFields": [
+        {
+          "name": "name",
+          "label": "队伍名称",
+          "key": "NAME",
+          "width": "50%"
+        },
+        {
+          "name": "num",
+          "label": "总人数(人)",
+          "key": "TOTALPERNUM",
+          "width": "25%"
+        },
+        {
+          "name": "dis",
+          "label": "距离(km)",
+          "key": "dis",
+          "width": "25%"
+        }
+      ],
+      "//": "主键字段名",
+      "idKey": "_id",
+      "//": "属性信息挂接在查询结果上的key值；默认为空，表示属性直接挂接在结果对象上。用统一查询服务的结果时，此项配置为tag",
+      "attributeKey": "tag",
+      "//": "几何信息",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "districtCodeField": "RESCOUNTY",
+      "//": "视图配置文件",
+      "viewConfig": "rescueteam-view.json",
+      "//": "符号配置文件",
+      "symbolConfig": "rescue_team.json",
+      "children": {
+        "03": {
+          "title": "救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "危化救援队",
+            "layerType": "13"
+          }
+        },
+        "01": {
+          "title": "矿山救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T001"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "矿山救援队",
+            "layerType": "13"
+          }
+        },
+        "02": {
+          "title": "危化救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T002"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "危化救援队",
+            "layerType": "13"
+          }
+        },
+        "09": {
+          "title": "消防救援队",
+          "//": "服务配置",
+          "service": {
+            "//": "服务类型，1或者不配置默认为统一查询服务；2=自定义查询服务",
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T003"
+                  }
+                }
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "消防救援队",
+            "layerType": "13"
+          }
+        },
+        "04": {
+          "title": "森林消防救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T004"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "森林消防救援队",
+            "layerType": "13"
+          }
+        },
+        "05": {
+          "title": "地震救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T005"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "地震救援队",
+            "layerType": "13"
+          }
+        },
+        "06": {
+          "title": "医疗防疫救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T006|T014"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "医疗防疫救援队",
+            "layerType": "13"
+          }
+        },
+        "07": {
+          "title": "安全生产水上",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T007|T008|T009|T010|T022"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "安全生产水上救援队",
+            "layerType": "13"
+          }
+        },
+        "08": {
+          "title": "社会救援队",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JYXX_TEA_RESCUE": {
+                "query": {
+                  "tag.RESCUETYPECODE": {
+                    "$regex": "T011"
+                  }
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "社会救援队",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "JC_FIRETEAMSTA": {
+      "title": "消防队站",
+      "//": "李坚强安监表7月2日新增",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "JC_FIRETEAMSTA",
+      "keyField": "TEAMSTANAME",
+      "districtField": "DISTRICTCODE",
+      "//": "关键字搜索的字段",
+      "keyWordFields": [],
+      "fieldMap": {
+        "TEAMSTANAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "DISTRICTCODE":"DISTRICT"
+      },
+      "tableFields": [
+        {
+          "name": "name",
+          "label": "名称",
+          "width": "40%",
+          "key": "NAME"
+        },
+        {
+          "name": "ADDRESS",
+          "label": "地址",
+          "width": "20%",
+          "key": "ADDRESS"
+        }
+      ],
+      "viewConfig": "fireteamsta-view.json",
+      "symbolConfig": "fireteamsta.json",
+      "children": {
+        "03": {
+          "title": "救援队伍",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_FIRETEAMSTA": {
+                "query": {}
+              }
+            }
+          },
+          "layer": {
+            "layerName": "中队",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "ANJIAN_REPERTORY": {
+      "title": "储备库",
+      "//": "李坚强安监表7月2日新增",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "JC_REPERTORY",
+      "keyField": "REPERTORYNAME",
+      "districtField": "DISTRICTCODE",
+      "//": "关键字搜索的字段",
+      "keyWordFields": [],
+      "fieldMap": {
+        "REPERTORYNAME": "NAME",
+        "CAPACITY": "CAPACITY",
+        "ADDRESS": "ADDRESS",
+        "ORGNAME": "ORGNAME",
+        "CONCATEPER": "CONCATEPER",
+        "CONCATEMOBTEL": "CONCATEMOBTEL",
+        "DISTRICTCODE":"DISTRICT",
+        "LEVELNAME": {
+          "from": "user_safety_CODE_REP_LEVEL",
+          "localField": "tag.LEVELCODE",
+          "foreignField": "tag.LEVELCODE"
+        }
+      },
+      "tableFields": [
+        {
+          "name": "name",
+          "label": "名称",
+          "key": "NAME",
+          "width": "25%"
+        },
+        {
+          "name": "level",
+          "label": "级别",
+          "key": "LEVELNAME",
+          "width": "10%"
+        },
+        {
+          "name": "org",
+          "label": "机构名称",
+          "key": "ORGNAME",
+          "width": "25%"
+        },
+        {
+          "name": "address",
+          "label": "地址",
+          "key": "ADDRESS",
+          "width": "25%"
+        },
+        {
+          "name": "dis",
+          "label": "距离(km)",
+          "key": "dis",
+          "width": "15%"
+        }
+      ],
+      "viewConfig": "repertory-view.json",
+      "symbolConfig": "REPERTORY.json",
+      "children": {
+        "01": {
+          "title": "物资储备库",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_REPERTORY": {
+                "query": {}
+              }
+            },
+            "//": "图层配置",
+            "layer": {
+              "layerName": "储备库",
+              "layerType": "13"
+            }
+          },
+          "layer": {
+            "layerName": "储备库",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "JC_WARBASE": {
+      "//": "战勤保障基地",
+      "title": "战勤保障基地",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "fieldMap": {
+        "WARBASENAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "DISTRICTCODE":"DISTRICT"
+      },
+      "districtField": "DISTRICTCODE",
+      "keyWordFields": [
+        "tag.WARBASENAME"
+      ],
+      "tableFields": [
+        {
+          "name": "name",
+          "label": "名称",
+          "key": "NAME",
+          "width": "40%"
+        },
+        {
+          "name": "ADDRESS",
+          "label": "地址",
+          "width": "20%",
+          "key": "ADDRESS"
+        }
+      ],
+      "viewConfig": "jc_warbase-view.json",
+      "children": {
+        "01": {
+          "title": "战保基地",
+          "tableName": "JC_WARBASE",
+          "keyField": "WARBASENAME",
+          "symbolConfig": "jc_warbase.json",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_WARBASE": {
+                "query": {}
+              }
+            }
+          },
+          "layer": {
+            "layerName": "战勤保障基地",
+            "layerType": "13",
+            "pixelClusterSymbolKey": 1
+          }
+        }
+      }
+    },
+    "ANJIAN_DAGCHEMENT": {
+      "//": "钦佩 危化企业2018年7月7日11:40:36 改为危化企业",
+      "title": "危化企业",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "viewConfig": "danger-view.json",
+      "fieldMap": {
+        "DAGCHEMENTNAME": "NAME",
+        "SUMOUTPUT": "SUMOUTPUT",
+        "PRINCIPAL": "PRINCIPAL",
+        "PRINCIPALTEL": "PRINCIPALTEL",
+        "ADDRESS": "ADDRESS",
+        "CITY":"DISTRICT"
+      },
+      "districtField": "COUNTY",
+      "keyWordFields": [
+        "tag.DAGCHEMENTNAME"
+      ],
+      "tableFields": [
+        {
+          "name": "name",
+          "label": "名称",
+          "width": "50%",
+          "key": "NAME"
+        },
+        {
+          "name": "SUMOUTPUT",
+          "label": "总生产量(万吨)",
+          "width": "25%",
+          "key": "SUMOUTPUT"
+        },
+        {
+          "name": "dis",
+          "label": "距离(km)",
+          "width": "25%",
+          "key": "dis"
+        }
+      ],
+      "children": {
+        "DangerousChemical": {
+          "title": "危化企业",
+          "tableName": "ANJIAN_DAGCHEMENT",
+          "keyField": "DAGCHEMENTNAME",
+          "symbolConfig": "dangerous_chemical.json",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "ANJIAN_DAGCHEMENT": {
+                "query": {}
+              }
+            }
+          },
+          "layer": {
+            "layerName": "危化企业",
+            "layerType": "13",
+            "pixelClusterSymbolKey": 2
+          }
+        }
+      }
+    },
+    "ANJIAN_ENT_WHSMYHBZ": {
+      "//": "钦佩 工贸企业",
+      "title": "工贸企业",
+      "tableName": "ANJIAN_ENT_WHSMYHBZ",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "fieldMap": {
+        "WHSMYHBZNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CITY": "DISTRICT"
+      },
+      "districtField": "COUNTY",
+      "keyWordFields": [
+        "tag.INDUSTRYCODE"
+      ],
+      "tableFields": [],
+      "viewConfig": "anjian_ent_whsmyhbz-view.json",
+      "symbolConfig": "ANJIAN_ENT_WHSMYHBZ.json",
+      "children": {
+        "01": {
+          "title": "工贸企业",
+          "layer": {
+            "layerName": "工贸企业",
+            "layerType": "13"
+          },
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "ANJIAN_ENT_WHSMYHBZ": {
+                "query": {},
+                "select": "geom tag.INDUSTRYCODE",
+                "sort": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "Expert": {
+      "title": "应急专家",
+      "tableName": "JC_EXPERT",
+      "keyField": "EXPERTNAME",
+      "fieldMap": {
+        "EXPERTNAME": "NAME",
+        "PROTITLE": "DESC",
+        "TEL": "TEL",
+        "DISTRICT": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.EXPERTNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "专家",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "JC_EXPERT": {
+                "fieldMap": {
+                  "EXPERTNAME": "EXPERTNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "专家",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Shelter": {
+      "title": "避难场所",
+      "tableName": "BAS_SHELTER",
+      "keyField": "SHELTERNAME",
+      "fieldMap": {
+        "SHELTERNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CHARGEDEPT": "CHARGEDEPT",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.SHELTERNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "避难场所",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_SHELTER": {
+                "fieldMap": {
+                  "SHELTERNAME": "SHELTERNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "避难场所",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "ANJIAN_DANGER": {
+      "title": "重大危险源",
+      "tableName": "ANJIAN_DANGER",
+      "keyField": "SHELTERNAME",
+      "fieldMap": {
+        "DANGERNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "FIRMNAME": "FIRMNAME",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "COUNTY": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.DANGERNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "重大危险源",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "ANJIAN_DANGER": {
+                "fieldMap": {
+                  "DANGERNAME": "DANGERNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "重大危险源",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "BAS_COALMINE": {
+      "title": "煤矿",
+      "//": "李坚强安监表",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "ANJIAN_COAL",
+      "fieldMap": {
+        "COALNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CITY": "DISTRICT"
+      },
+      "districtField": "COUNTY",
+      "//": "关键字搜索的字段",
+      "keyWordFields": [],
+      "viewConfig": "coalmine-view.json",
+      "symbolConfig": "coalmine.json",
+      "children": {
+        "01": {
+          "title": "煤矿企业",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "ANJIAN_COAL": {
+                "query": {
+                  "tag.TEXTFLAG": null
+                },
+                "select": "geom",
+                "sort": ""
+              }
+            },
+            "//": "图层配置",
+            "layer": {
+              "layerName": "煤矿企业",
+              "layerType": "13"
+            }
+          },
+          "layer": {
+            "layerName": "煤矿企业",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "NON_COALMINE":{
+      "title": "非煤矿山",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "ANJIAN_TAILINGPOND",
+      "keyField": "NONCOALENTNAME,ADDRESS",
+      "fieldMap": {"NONCOALENTNAME": "NAME", "ADDRESS": "DESC", "ARTIFICIALPERMTEL":"ARTIFICIALPERMTEL"},
+      "viewConfig": "non_coalmine-view.json",
+      "symbolConfig": "MINE.json",
+      "children": {
+        "01": {
+          "title": "非煤矿山",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "//": "关键字搜索的字段",
+            "keyWordFields": [],
+            "queryParams": {
+              "ANJIAN_TAILINGPOND": {
+                "query": {
+                },
+                "select": "geom",
+                "sort": ""
+              }
+            },
+            "//": "图层配置",
+            "layer": {
+              "layerName": "非煤矿山",
+              "layerType": "12"
+            }
+          },
+
+          "layer": {
+            "layerName": "非煤矿山",
+            "layerType": "11"
+          }
+        }
+      }
+    },
+    "ANJIAN_TAILINGPOND":{
+      "title": "尾矿库",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "ANJIAN_TAILINGPOND",
+      "keyField": "WKKMC,WKKDZMC",
+      "fieldMap": {
+        "WKKMC": "NAME",
+        "WKKDZMC": "ADDRESS",
+        "COUNTY": "DISTRICT"
+      },
+      "viewConfig": "non_coalmine-view.json",
+      "symbolConfig": "MINE.json",
+      "children": {
+        "01": {
+          "title": "尾矿库",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "//": "关键字搜索的字段",
+            "keyWordFields": [],
+            "queryParams": {
+              "ANJIAN_TAILINGPOND": {
+                "query": {
+                },
+                "select": "geom",
+                "sort": ""
+              }
+            },
+            "//": "图层配置",
+            "layer": {
+              "layerName": "尾矿库",
+              "layerType": "12"
+            }
+          },
+
+          "layer": {
+            "layerName": "尾矿库",
+            "layerType": "11"
+          }
+        }
+      }
+    },
+    "ANJIAN_FIREWORKENT": {
+      "//": "钦佩  烟花爆竹",
+      "title": "烟花爆竹",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "ANJIAN_FIREWORKENT",
+      "fieldMap": {
+        "FIREWORKENTNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CITY": "DISTRICT"
+      },
+      "districtField": "COUNTY",
+      "keyWordFields": [],
+      "viewConfig": "firecracker-view.json",
+      "symbolConfig": "FIRECRACKER.json",
+      "children": {
+        "1": {
+          "title": "烟花爆竹",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "ANJIAN_FIREWORKENT": {
+                "query": {
+                },
+                "select": "geom tag.DEPTTYPECODE"
+              }
+            }
+          },
+          "layer": {
+            "layerName": "烟花爆竹",
+            "layerType": "13",
+            "pixelClusterSymbolKey": 1
+          }
+        }
+      }
+    },
+    "BAS_GEOLOGICHAZARD": {
+      "title": "地质灾害风险区",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "BAS_GEOLOGICHAZARD",
+      "fieldMap": {
+        "HAZARDNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "DISTRICTCODE":"DISTRICT"
+      },
+      "districtField": "DISTRICTCODE",
+      "keyWordFields": [],
+      "viewConfig": "geologichazard-view.json",
+      "symbolConfig": "geologichazard.json",
+      "children": {
+        "01": {
+          "title": "地质灾害隐患点",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "BAS_GEOLOGICHAZARD": {
+                "query": {
+                },
+                "select": "geom tag.GEOHAZARDTYPECODE"
+              }
+            }
+          },
+          "layer": {
+            "layerName": "地质灾害",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "JC_CASE_INFO": {
+      "title": "案例",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "tableName": "JC_CASE_INFO",
+      "symbolConfig": "jc_case_info.json",
+      "children": {
+        "t1": {
+          "title": "地震(地质)案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t1"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "地震(地质)案例",
+            "layerType": "13"
+          }
+        },
+        "t2": {
+          "title": "煤矿案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t2"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "煤矿",
+            "layerType": "13"
+          }
+        },
+        "t3": {
+          "title": " 非煤矿山案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t3"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "非煤矿山案例",
+            "layerType": "13"
+          }
+        },
+        "t4": {
+          "title": " 危化品和工贸案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t4"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "洪涝案例",
+            "layerType": "13"
+          }
+        },
+        "t5": {
+          "title": " 火灾事故案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t5"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "火灾事故案例",
+            "layerType": "13"
+          }
+        },
+        "t6": {
+          "title": " 交通案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t6"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "交通案例",
+            "layerType": "13"
+          }
+        },
+        "t7": {
+          "title": " 洪涝案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t7"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "洪涝案例",
+            "layerType": "13"
+          }
+        },
+        "t8": {
+          "title": " 森林火灾案例",
+          "//": "服务配置",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_CASE_INFO": {
+                "query": {
+                  "tag.EVENTTYPE": "t8"
+                },
+                "select": "geom tag.ACCIDENTBIGTYPE",
+                "sort": ""
+              }
+            }
+          },
+          "//": "图层配置",
+          "layer": {
+            "layerName": "森林火灾案例",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "JC_ACTIVE_FAULT": {
+      "title": "活动断层",
+      "tableName": "JC_ACTIVE_FAULT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POLYLINE",
+        "geometryField": "geom"
+      },
+      "fieldMap": {
+        "FAULTNAME": "NAME",
+        "FAULTAGE": "FAULTAGE"
+      },
+      "keyWordFields": [],
+      "viewConfig": "active_fault-view.json",
+      "symbolConfig": "active_fault.json",
+      "children": {
+        "01": {
+          "title": "活动断层",
+          "service": {
+            "type": 1,
+            "queryParams": {
+              "JC_ACTIVE_FAULT": {
+                "query": {}
+              }
+            }
+          },
+          "layer": {
+            "layerName": "活动断层",
+            "layerType": "21"
+          }
+        }
+      }
+    },
+    "School": {
+      "title": "学校",
+      "tableName": "BAS_SCHOOL",
+      "keyField": "SCHOOLNAME",
+      "fieldMap": {
+        "SCHOOLNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.SCHOOLNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "学校",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_SCHOOL": {
+                "fieldMap": {
+                  "SCHOOLNAME": "SCHOOLNAME"
+                },
+                "query": {
+                  "tag.DEFOBJTYPECODE":"31B01"
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "学校",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Hospital": {
+      "title": "医院",
+      "tableName": "BAS_HEALTHORG",
+      "keyField": "ORGNAME",
+      "fieldMap": {
+        "ORGNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.ORGNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "医院",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_HEALTHORG": {
+                "fieldMap": {
+                  "ORGNAME": "ORGNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "医院",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Airport": {
+      "title": "机场",
+      "tableName": "BAS_AIRPORT",
+      "keyField": "AIRPORTNAME",
+      "fieldMap": {
+        "AIRPORTNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.AIRPORTNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "机场",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_AIRPORT": {
+                "fieldMap": {
+                  "AIRPORTNAME": "AIRPORTNAME"
+                },
+                "query": {
+
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "机场",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Station": {
+      "title": "车站",
+      "tableName": "BAS_RAILWAYSTATION",
+      "keyField": "STATIONNAME",
+      "fieldMap": {
+        "STATIONNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.STATIONNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "车站",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_RAILWAYSTATION": {
+                "fieldMap": {
+                  "STATIONNAME": "STATIONNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "车站",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Resrrvoir": {
+      "title": "水库大坝",
+      "tableName": "BAS_RESERVOIR",
+      "keyField": "NAME",
+      "fieldMap": {
+        "NAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "CODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.NAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "水库大坝",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_RESERVOIR": {
+                "fieldMap": {
+                  "NAME": "NAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "水库大坝",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Nuclearinfo": {
+      "title": "核设施",
+      "tableName": "BAS_NUCLEARINFO",
+      "keyField": "NUCLEARNAME",
+      "fieldMap": {
+        "NUCLEARNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.NUCLEARNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "核设施",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_NUCLEARINFO": {
+                "fieldMap": {
+                  "NUCLEARNAME": "NUCLEARNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "核设施",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "Portwharf": {
+      "title": "码头",
+      "tableName": "BAS_PORTWHARF",
+      "keyField": "PORTWHARFNAME",
+      "fieldMap": {
+        "PORTWHARFNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.PORTWHARFNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "码头",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_PORTWHARF": {
+                "fieldMap": {
+                  "PORTWHARFNAME": "PORTWHARFNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "码头",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+
+    "DisasterPer": {
+      "title": "灾情信息员",
+      "tableName": "JC_DISINFOPER",
+      "keyField": "DISINFOPERNAME",
+      "fieldMap": {
+        "DISINFOPERNAME": "NAME",
+        "MOBPHONE": "DUTYTEL",
+        "DISTRICTNAME": "ADDRESS",
+        "POST": "POST",
+        "DISTRICTCODE":"DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.DISINFOPERNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "灾情信息员",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "JC_DISINFOPER": {
+                "fieldMap": {
+                  "DISINFOPERNAME": "DISINFOPERNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "灾情信息员",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "tunnel": {
+      "title": "桥梁",
+      "tableName": "BAS_BRIDGE",
+      "keyField": "BRIDGENAME",
+      "fieldMap": {
+        "BRIDGENAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.BRIDGENAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "桥梁",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_BRIDGE": {
+                "fieldMap": {
+                  "BRIDGENAME": "BRIDGENAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "桥梁",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "powerplant": {
+      "title": "发电站",
+      "tableName": "BAS_HYDSTATION",
+      "keyField": "HYDSTATIONNAME",
+      "fieldMap": {
+        "HYDSTATIONNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.HYDSTATIONNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "发电站",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_HYDSTATION": {
+                "fieldMap": {
+                  "HYDSTATIONNAME": "HYDSTATIONNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "发电站",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "government": {
+      "title": "政府机关",
+      "tableName": "BAS_PARTYGOVT",
+      "keyField": "PARTYGOVTNAME",
+      "fieldMap": {
+        "PARTYGOVTNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.PARTYGOVTNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "政府机关",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_PARTYGOVT": {
+                "fieldMap": {
+                  "PARTYGOVTNAME": "PARTYGOVTNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "政府机关",
+            "layerType": "13"
+          }
+        }
+      }
+    },
+    "development": {
+      "title": "住宅区",
+      "tableName": "BAS_DEVELOPMENT",
+      "keyField": "DEFOBJNAME",
+      "fieldMap": {
+        "DEFOBJNAME": "NAME",
+        "ADDRESS": "ADDRESS",
+        "CONTACTPER": "CONTACTPER",
+        "DUTYTEL": "DUTYTEL",
+        "DISTRICTCODE": "DISTRICT"
+      },
+      "districtField": "DISTRICT",
+      "idKey": "_id",
+      "attributeKey": "tag",
+      "geometry": {
+        "type": "POINT",
+        "geometryField": "geom"
+      },
+      "keyWordFields": [
+        "tag.DEFOBJNAME"
+      ],
+      "service": {
+        "districtField": "UNITCOUNTY"
+      },
+      "viewConfig": "expert-view.json",
+      "symbolConfig": "expert.json",
+      "children": {
+        "01": {
+          "title": "住宅区",
+          "service": {
+            "type": 1,
+            "districtField": "DISTRICT",
+            "queryParams": {
+              "BAS_DEVELOPMENT": {
+                "fieldMap": {
+                  "DEFOBJNAME": "DEFOBJNAME"
+                },
+                "query": {
+                }
+              }
+            }
+          },
+          "layer": {
+            "layerName": "住宅区",
+            "layerType": "13"
+          }
+        }
+      }
+    }
+  }
+}
