@@ -1,6 +1,7 @@
-import { Socket, ISocketData } from '../interface/socket';
+import io from 'socket.io-client';
 
-const path: string = 'ws://10.3.10.35:8080/ws';
-const socket = new Socket(path);
-socket.onopen();
-export default socket;
+const path: string = 'http://localhost:3000';
+const VueScoketConnect = io(path);
+
+
+export default VueScoketConnect;

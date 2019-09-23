@@ -4,6 +4,12 @@
 
 import { w3cwebsocket } from 'websocket';
 
+export enum SocktReceiverId {
+  BigScreen,
+  OperateScreen,
+}
+
+
 export interface ISocket {
   path: string;
   socket: w3cwebsocket;
@@ -50,7 +56,7 @@ export class Socket implements ISocket {
     this.socket.close()
     console.log(`Close connection to websocket: ${this.path}`);
   };
-  public send(receiverIds: string): void {
+  public send(receiverIds: SocktReceiverId): void {
     this.socket.send(receiverIds);
     console.log(`Send ${receiverIds} to websocket server`);
   };

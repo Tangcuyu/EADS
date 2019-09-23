@@ -7,29 +7,20 @@
 
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator';
+import { Socket } from 'vue-socket.io-extended';
 import baseMapComponent from './components/common/gisMethodNew';
 import router from './router/router';
-import socket from './util/socket';
-import SocketLayout from './util/SocketLayout';
+import VueScoketConnect from './util/socket';
 
 @Component({
   router
 })
 export default class App extends Vue {
-  private socket: string = '';
   private layout: string = 'div';
 
-  private created() {
-    /* 切换专题布局 */
-    // SocketLayout.earthquake(() => {
-    //   router.push('/');
-    // });
-    // SocketLayout.typhoon(() => {
-    //   router.push('/typhoon');
-    // });
-    // SocketLayout.flood(() => {
-    //   router.push('/flood');
-    // });
+  @Socket() // --> listens to the event by method name, e.g. `connect`
+  connect() {
+    console.log('connection established');
   }
 
 }
