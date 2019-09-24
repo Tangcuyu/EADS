@@ -1,6 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+
 import Home from '../views/earthquake/Home.vue';
+import Earthquake from '@/views/earthquake/themePrimary/EQthemehome.vue';
+import Flood from '@/views/flood/Flood.vue';
+import Typhoon from '@/views/typhoon/Typhoon.vue';
 // import GsAdmc from '../components/gisdemo/GsAdmc.vue';
 
 Vue.use(Router);

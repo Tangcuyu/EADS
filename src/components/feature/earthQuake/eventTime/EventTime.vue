@@ -14,6 +14,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 })
 export default class EventTime extends Vue {
   @Prop() private date!: string;
+  /* 重置计时标志 */
   private resetEvent = '';
   private time = '';
 

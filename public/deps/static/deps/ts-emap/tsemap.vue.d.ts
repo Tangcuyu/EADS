@@ -16,5 +16,11 @@ export declare class GsMark extends UIComponent {
 }
 export declare class GsEmergencyResources extends UIComponent {
 }
+export declare class GsIntentsityInfluence extends UIComponent {
+}
+export declare class GsPopulationHeat extends UIComponent {
+}
+export declare class GsDistrictInfluence extends UIComponent {
+}
 
 

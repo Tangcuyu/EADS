@@ -6,3 +6,10 @@ declare module 'vue/types/vue' {
         _: typeof _;
     }
 }
+
+declare global {
+    interface Window {
+        G: any,
+        EAMP_MAPCONFIG: any
+    }
+}

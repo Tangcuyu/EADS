@@ -45,6 +45,9 @@ export default class Home extends Vue {
   private get isShowWeather() {
     return this.$store.getters.getShowWeatherPanel;
   }
+  private get isShowProgress() {
+    return this.$store.getters.getShowProgressSituationDetail;
+  }
 
   private closeFn() {
     this.isShow1 = false;
@@ -52,10 +55,6 @@ export default class Home extends Vue {
 
   private openFn() {
     this.isShow1 = true;
-  }
-
-  private get isShowProgress() {
-    return this.$store.getters.getShowProgressSituationDetail;
   }
 }
 </script>

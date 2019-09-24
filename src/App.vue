@@ -8,7 +8,6 @@
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator';
 import { Socket } from 'vue-socket.io-extended';
-import baseMapComponent from './components/common/gisMethodNew';
 import router from './router/router';
 import VueScoketConnect from './util/socket';
 
@@ -22,7 +21,6 @@ export default class App extends Vue {
   connect() {
     console.log('connection established');
   }
-
 }
 </script>
 <style lang='less' scoped>
