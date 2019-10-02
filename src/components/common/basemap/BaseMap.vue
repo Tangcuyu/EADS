@@ -1,4 +1,3 @@
-
 <template>
   <div class="yj-cont-center-map">
     <div class="baseMap-container" id="baseMap2D">
@@ -11,8 +10,8 @@
         :switchMapOptions="switchMapOptions"
         :eagleEyeMapOptions="eagleEyeMapOptions"
       ></e-map>
-     
-      <!-- <div class="map-gis-tools-container">
+
+      <div class="map-gis-tools-container">
         <div class="dialong_Sharing_icon" @click="clearGisMap"></div>
         <div class="dialong_Sharing_btn" @click="showEyeExternal"></div>
         <map-tools
@@ -20,32 +19,32 @@
           @administrativeDivision="administrativeDivision"
           v-show="$store.state.gisMapInt.toolsInt === 'hide' ? false : true"
         ></map-tools>
-      </div> -->
-      <!-- {{$store.state.gisMapInt.mapLegendInt}} -->
-      <!-- <div
+      </div>
+      {{$store.state.gisMapInt.mapLegendInt}}
+      <div
         class="map-gis-legend-container"
         v-show="$store.state.gisMapInt.mapLegendInt === 'hide' ? false : true"
-      > -->
-    </div> 
+      ></div>
+    </div>
   </div>
 </template>
 
 <script lang='ts'>
 import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
-// import baseMapComponent from './gisMethodNew';
-// import MapTools from '@/components/common/baseMap/MapTools.vue';
-// import MapLegendInt from '@/components/common/baseMap/MapLegendInt.vue';
+import baseMapComponent from './gisMethodNew';
+import MapTools from '@/components/common/baseMap/MapTools.vue';
+import MapLegendInt from '@/components/common/baseMap/MapLegendInt.vue';
 // 天眼
-// import ExternalEye from '@/components/common/baseMap/ExternalEye.vue';
+import ExternalEye from '@/components/common/baseMap/ExternalEye.vue';
 import {
   EMap,
-  // GsEventReceive,
-  // GsWarningReceive,
-  // GsEmergencyResources,
-  // GsMark,
-  // GsIntentsityInfluence,
-  // GsPopulationHeat,
-  // GsDistrictInfluence
+  GsEventReceive,
+  GsWarningReceive,
+  GsEmergencyResources,
+  GsMark,
+  GsIntentsityInfluence,
+  GsPopulationHeat,
+  GsDistrictInfluence
 } from '../../../../public/deps/static/deps/ts-emap/tsemap.vue';
 
 Vue.use(EMap);
@@ -77,7 +76,7 @@ declare global {
 
 @Component({
   components: {
-    EMap,
+    EMap
     // GsEventReceive,
     // GsWarningReceive,
     // GsEmergencyResources,
@@ -177,7 +176,7 @@ export default class BaseMap extends Vue {
   }
 
   private affectedClick50Fn() {
-   // baseMapComponent.initDistrictInfluenceCmp();
+    // baseMapComponent.initDistrictInfluenceCmp();
     // baseMapComponent.showDistrictInfluence('County');
   }
 
@@ -192,7 +191,6 @@ export default class BaseMap extends Vue {
 
   private mounted() {
     // 获取ts-gis map对象
-    debugger
     window.map = (this.$children[0] as any).getMap();
     // 事件信息组件对象
     // const eventObj = this.$children[1];

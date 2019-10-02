@@ -13,6 +13,10 @@ declare module 'vue/types/vue' {
 declare global {
     interface Window {
         G: any,
+        demo: any,
+        map: any,
         EAMP_MAPCONFIG: any
+        $alert: any
+        $message: any
     }
 }
